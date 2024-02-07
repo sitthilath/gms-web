@@ -39,7 +39,6 @@
             background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            line-height: 1.5;
         }
 
         h2 {
@@ -61,21 +60,122 @@
             margin-bottom: 8px;
         }
 
-  
-
-        .header-content{
-            font-size: 48px;
-            text-shadow: 3px 3px #000;
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(68, 8, 125, 1);
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
 
-        .conference-img{
-            max-width: 800px;
+        .conference {
+            line-height: 1.5;
         }
 
-        .conference-img-width{
+        .conference-img {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .conference-img-items {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            gap: 20px;
+        }
+
+        .conference-img-items a {
+            width: 100%;
+            height: 100%;
+        }
+
+        .conference-img-items img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            border: 5px solid #e2e2e2;
+        }
+
+        .conference-img-items img:hover {
+            box-shadow: 3px 3px rgb(103, 40, 161);
+        }
+
+        ul li {
+            display: flex;
+            gap: 20px;
+            justify-content: space-evenly;
+            align-items: center;
+
+        }
+
+        ul li span {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+            background-color: #eee;
+            border-radius: 5px;
+            padding: 10px 10px 20px 10px;
+            width: 100%;
             height: auto;
+        }
 
-        max-width: 100%;
+        ul li span a {
+            border: 1px solid lightgrey;
+            border-radius: 10px;
+            padding: 8px 20px;
+            color: blue;
+        }
+
+        ul li span a:hover {
+            border: 1px solid lightblue;
+            background-color: lightblue;
+        }
+
+        ul li span img {
+            width: 5rem;
+            height: 5rem;
+            border-radius: 100%;
+            border: 4px solid lightblue;
+        }
+
+        ul li span div p {
+            font-size: 12px;
+            padding-bottom: 10px;
+        }
+
+        .i-address {
+            color: red;
+            font-size: 20px;
+        }
+
+        .i-website {
+            color: blue;
+            font-size: 20px;
+        }
+
+
+        @media screen and (max-width:768px) {
+            .conference-img-items {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 20px;
+            }
+
+            .conference-img-items img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            ul li {
+                display: flex;
+                flex-direction: column;
+            }
         }
     </style>
 </head>
@@ -88,34 +188,95 @@
         <div class="conference">
             <div class="conference-details">
                 <h2>Conference Hotel Location</h2>
-                <p><b>Date:</b> 	27<sup>th</sup> - 29<sup>th</sup> June, 2024<br>
+                <p><b>Date:</b> 27<sup>th</sup> - 29<sup>th</sup> June, 2024<br>
                     The pre-conference workshop will be on 27<sup>th</sup> June, 2024<br>
                     The conference days will be on 28<sup>th</sup> - 29<sup>th</sup> June, 2024<br><br>
-                <b>Venue:</b> Pullman Hotel, Luangprabang City, Lao PDR<br>
-                <b>Address:</b> Ban Pong Wanh, Luangprabang, Laos.<br>
-                <b>Website:</b> https://www.Pullman-luangprabang.com <br> 
-                <b>Email:</b> h9112@accor.com<br>
-                <b>Language:</b> The official language of the conference is English 
+                    <b>Venue:</b> Pullman Hotel, Luangprabang City, Lao PDR<br>
+                    <b>Address:</b> Ban Pong Wanh, Luangprabang, Laos.<br>
+                    <b>Website:</b> https://www.Pullman-luangprabang.com, <b>Email:</b> h9112@accor.com<br>
+                    <b>Language:</b> The official language of the conference is English
                 </p>
             </div>
             <div class="conference-img">
-                <img class="conference-img-width" src="./assets/img/meeting_room/nam_khong_classroom.jpg">
-                <img class="conference-img-width" src="./assets/img/meeting_room/nam_khong_u_shaped.jpg">
-                <img class="conference-img-width" src="./assets/img/meeting_room/front_meeting_room.jpeg">
-                <img class="conference-img-width" src="./assets/img/meeting_room/front_meeting_room_left.jpeg">
+                <div class="conference-img-items">
+                    <a href="./assets/img/venue/conference_room_1.jpeg" target="_blank">
+                        <img src="./assets/img/venue/conference_room_1.jpeg" alt="room">
+                    </a>
+                    <a href="./assets/img/venue/conference_room_2.jpeg" target="_blank">
+                        <img src="./assets/img/venue/conference_room_2.jpeg" alt="room">
+                    </a>
+                </div>
+                <div class="conference-img-items">
+                    <a href="./assets/img/venue/conference_room_3.jpeg" target="_blank">
+                        <img src="./assets/img/venue/conference_room_3.jpeg" alt="room">
+                    </a>
+                    <a href="./assets/img/venue/conference_room_4.jpeg" target="_blank">
+                        <img src="./assets/img/venue/conference_room_4.jpeg" alt="room">
+                    </a>
+                </div>
             </div>
-        </div>
+        </div><br>
         <hr>
         <h2>Alternative Accommodations</h2>
         <p>Suggestion List Of The Guesthouse/Hotel in Luangprabang:
-            <ul>
-                <li><a href="https://www.booking.com" target="_blank">Booking.com</a></li>
-                <li><a href="https://www.expedia.com" target="_blank">Expedia</a></li>
-                <li><a href="https://www.hotels.com" target="_blank">Hotels.com</a></li>
-            </ul>
+        <ul>
+            <li>
+                <span>
+                    <img src="./assets/img/venue/hotel_guesthouse/the_grand.jpg">
+                    <div>
+                        <div>The Grand Luang Prabang Hotel</div>
+                        <p><i class="i-address fa fa-map-marker" aria-hidden="true"></i>&nbsp;V494+V7J, Ban Xiengkeo,
+                            Luang
+                            Prabang
+                        </p>
+                        <a href="https://www.grandluangprabang.com" target="_blank"><i class="i-website fa fa-globe"
+                                aria-hidden="true"></i>&nbsp;&nbsp;Website</a>
+                    </div>
+                </span>                
+                <span>
+                    <img src="./assets/img/venue/hotel_guesthouse/legend_hotel.jpg">
+                    <div>
+                        <div>Luang Prabang Legend Hotel</div>
+                        <p><i class="i-address fa fa-map-marker" aria-hidden="true"></i>&nbsp;Luang Prabang
+                        </p>
+                        <a href="http://www.luangprabanglegend.com" target="_blank"><i class="i-website fa fa-globe"
+                                aria-hidden="true"></i>&nbsp;&nbsp;Website</a>
+                    </div>
+                </span>
+            </li>
+            <li>
+                <span>
+                    <img src="./assets/img/venue/hotel_guesthouse/the_grand.jpg">
+                    <div>
+                        <div>The Grand Luang Prabang Hotel</div>
+                        <p><i class="i-address fa fa-map-marker" aria-hidden="true"></i>&nbsp;V494+V7J, Ban Xiengkeo,
+                            Luang
+                            Prabang
+                        </p>
+                        <a href="https://www.grandluangprabang.com" target="_blank"><i class="i-website fa fa-globe"
+                                aria-hidden="true"></i>&nbsp;&nbsp;Website</a>
+                    </div>
+                </span>
+                
+                <span>
+                    <img src="./assets/img/venue/hotel_guesthouse/legend_hotel.jpg">
+                    <div>
+                        <div>Luang Prabang Legend Hotel</div>
+                        <p><i class="i-address fa fa-map-marker" aria-hidden="true"></i>&nbsp;Luang Prabang
+                        </p>
+                        <a href="http://www.luangprabanglegend.com" target="_blank"><i class="i-website fa fa-globe"
+                                aria-hidden="true"></i>&nbsp;&nbsp;Website</a>
+                    </div>
+                </span>
+            </li>
+            <li><a href="https://www.hotels.com" target="_blank">Hotels.com</a></li>
+        </ul>
         </p>
     </section>
     <br><br>
-
+    <footer>
+        &copy; 2024 Conference Information
+    </footer>
 </body>
+
 </html>
