@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Call for Abstracts</title>
+  <!-- Add your own CSS styles or link to an external stylesheet here -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <style>
+    /* Reset some default styles */
+
+    html {
+      font-size: calc(60%+0.8vmin);
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(assets/img/call-for-pro-background.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0.8;
+      background-color: rgba(68, 8, 125, 1);
+      color: #ecf0f1;
+      padding: 20px;
+      text-align: center;
+      height: 400px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+ 
+    }
+    .header-title{
+      text-shadow: 3px 3px #000;
+    }
+    .header-content{
+      padding: 0 60px;
+      text-shadow: 3px 3px #000;
+    }
+    .registration-link {
+      color: rgba(255, 199, 0, 1);
+    }
+    #submission-details{
+      padding: 30px 30px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .box-800w{
+   
+      max-width: 800px;
+    }
+
+    .submission-btn {
+      border-radius: 10px;
+      background-color: rgba(255, 199, 0, 1);
+      width: 200px;
+      height: 60px;
+      text-decoration: underline;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .submission-btn:hover {
+      background-color: white;
+      color: black;
+    }
+    .submission-span {
+      font-weight: bold;
+      font-style: italic;
+    }
+    .abstracts-guideline-link{
+      text-decoration: none;
+      color:orangered;
+    }
+    .abstract-template-link{
+      text-decoration: none;
+      color:blue;
+    }
+    p{
+      font-size: 18px;
+    }
+
+    @media screen and (max-width: 962px) {
+      .header-content{
+      padding: 0 30px;
+    }
+    }
+
+    @media screen and (max-width: 600px) {
+      .header-content{
+      padding: 0 10px;
+    }
+    }
+
+    @media screen and (max-width: 480px) {
+      .header-content{
+      padding: 0;
+    }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1 class="header-title">Call for Abstracts</h1><br>
+    <h3 class="header-content">Before submitting your abstracts, please make sure to register using the online registration form available at
+      Registration Page
+    </h3>
+    <br>
+    <div>
+      <button onclick="alert('Hello world!')"
+        class="submission-btn">Submission Abstracts</button>    
+    </div>
+  </header>
+    
+    <section id="submission-details">
+      <div class="box-800w">
+        <!-- Submission Deadline -->
+      <h3>Submission Deadline</h3>
+      <p>• Call and submission of Abstract deadline: <span class="submission-span">15<sup>th</sup> January 2024 to 15<sup>th</sup> May 2024</span>
+        <br>• Early registration for participants: <span class="submission-span">30<sup>th</sup> April 2024 to 31<sup>st</sup> May 2024</span>
+        <br>• Late registration for participants: <span class="submission-span">1<sup>st</sup> May 2024 to 15<sup>th</sup> June 2024</span>
+        <br>• Selection of abstracts to be presented: <span class="submission-span">1<sup>st</sup> June 2024</span>
+        <br>• Announcement of abstracts to be presented: <span class="submission-span">5<sup>th</sup> June 2024</span>
+      </p>
+      <hr>
+      <!-- Abstract Guidelines -->
+      <h3>Abstract Guidelines</h3>
+      <p>Abstract submission should be in English: maximum 300 words, Font: Times New Roman, font size of title is 14
+        (Capital, centered, and bold), font size of contents is 12, including:<br>
+        • Author (with name of organization)<br>
+        • Introduction<br>
+        • Objectives <br>
+        • Methods<br>
+        • Results<br>
+        • Conclusion<br>
+        • Keywords: The authors must provide 3-6 keywords
+      </p>
+      <h6><i><a class="abstracts-guideline-link" >All abstracts will be submitted to
+          14gmsabtract@edu.uhs.la</a></i></h6>
+      <hr>
+      <!-- Abstract Template -->
+      <h3>Abstract Template</h3>
+        <p>
+          • For more <a class="abstract-template-link" href="./assets/pdf/abstracts_template.pdf">detailed information of abstracts template</a>, please refer to the
+          attached PDF file.
+        </p>
+      </div>
+    </section>
+
+  <!-- js_script_here -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

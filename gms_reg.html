@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+  <style>
+    html {
+      font-size: calc(60%+0.8vmin);
+    }
+
+    header {
+
+
+      background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(assets/img/registration-cover.png);
+
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0.8;
+
+
+      color: #ecf0f1;
+      padding: 20px;
+      text-align: center;
+      height: 580px;
+
+      justify-content: center;
+      align-items: center;
+
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    .header-content {
+      color: white;
+      text-shadow: 3px 3px #000;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px;
+      background-color: #fff;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      margin-top: 50px;
+    }
+
+    h1,
+    h2 {
+      color: #333;
+    }
+
+    .section {
+      margin-bottom: 50px;
+    }
+
+    .registration-link {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .registration-link:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 5px;
+    }
+
+    .footer {
+      margin-top: 50px;
+      text-align: center;
+      color: #777;
+    }
+
+
+
+    .submission-btn {
+      border-radius: 10px;
+      background-color: rgba(255, 199, 0, 1);
+      width: 175px;
+      height: 50px;
+      text-decoration: underline;
+      font-size: 18px;
+      color: #000;
+    }
+
+    .submission-btn:hover {
+      background-color: white;
+      color: black;
+    }
+
+
+    .how-to-play-container {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      /* Set height as needed */
+    }
+
+    .block1 {
+
+      /* Take up all available space */
+      display: flex;
+      justify-content: center;
+
+      padding: 30px 0;
+    }
+
+    .block1-desc {
+      text-align: center;
+    }
+
+    .block2-container {
+
+      padding-left: 80px;
+      padding-right: 80px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+    }
+
+
+
+    .block-list {
+      list-style: none;
+    }
+
+
+    .block2 {
+
+      background-color: #F3F3F3;
+      flex: 1;
+      flex-direction: column;
+      justify-content: start;
+    }
+
+    .block2-title,
+    .block3-title {
+      color: #44087D;
+    }
+
+    .block3 {
+      flex: 1;
+      background-color: #F3F3F3;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+
+    }
+
+    .block3-image {
+      padding-top: 30px;
+      width: 18.75rem;
+    }
+
+    ul {
+      list-style-type: disc;
+      /* Change to your preferred bullet style */
+
+    }
+
+    .section-detail-of-free {
+      padding-top: 50px;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+
+      align-items: center;
+    }
+
+    table{
+
+      overflow-x:auto;
+      table-layout: auto;
+      border-collapse: collapse;
+    }
+
+
+
+    table,
+    td,
+    th {
+   
+      border: 1px solid;
+      padding: 5px;
+    }
+    
+
+    .text-center {
+      text-align: center;
+    }
+
+    .text-left {
+      text-align: left;
+    }
+
+    .text-left-custom {
+      text-align: left;
+    
+      word-wrap: break-word; 
+    }
+
+    .group-table-n-italic{
+    
+      margin-left:20px;
+      margin-right:20px;
+    }
+    /* Add your own styles or customize further as needed */
+
+
+
+    @media screen and (max-width: 2560px) {}
+
+    @media screen and (max-width: 1980px) {}
+
+    @media screen and (max-width: 1200px) {}
+
+    @media screen and (max-width: 1024px) {}
+
+    @media screen and (max-width: 900px) {}
+
+    @media screen and (max-width: 768px) {
+      .block2-container {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+
+      .block3-image {
+        width: 200px;
+      }
+    }
+
+    @media screen and (max-width: 600px) {}
+
+    @media screen and (max-width: 480px) {}
+
+    @media screen and (max-width: 380px) {
+      .text-left-custom{
+        font-size: 14px;
+      }
+      .text-left{
+        font-size: 12px;
+      }
+      .text-center{
+        font-size: 14px;
+      }
+      .text-italic{
+        font-size: 14px;
+      }
+    }
+
+    @media screen and (max-width: 320px) {
+      .text-left-custom{
+        font-size: 12px;
+      }
+      .text-left{
+        font-size: 10px;
+      }
+      .text-center{
+        font-size: 12px;
+      }
+      .text-italic{
+        font-size: 12px;
+      }
+    }
+
+    @media screen and (max-width: 260px) {}
+  </style>
+</head>
+
+<body>
+
+
+  <header>
+    <h1 class="header-content">Registration Information</h1>
+    <h4 class="header-content">Click the following link to access the Google form for registration :</h4>
+    <div>
+      <button style="align-items: center; text-decoration: none; color: #000;" onclick="alert('Hello world!')"
+        class="submission-btn">Participant</button>
+      <button style="align-items: center; text-decoration: none;" onclick="alert('Hello world!')"
+        class="submission-btn">Presenter</button>
+      <button style="align-items: center; text-decoration: none;" onclick="alert('Hello world!')"
+        class="submission-btn">Pre-Workshops </button>
+    </div>
+
+  </header>
+
+  <div class="section how-to-play-container">
+    <div class="block1">
+      <h3 class="block1-desc">All Participants must register as attending participants, Presenters
+        participants for pre-conference workshops</h3>
+    </div>
+    <div style="text-align: center;">
+      <h1 style="color: #000;">How to Pay</h1>
+    </div>
+    <div class="block2-container">
+
+      <div class="block2">
+        <ul class="block-list">
+          <li>
+            <h2 class="block2-title">The registration can be paid via bank transfer to:</h2>
+          </li><br>
+          <li><b>Ms. Phanthy Sisana</b></li>
+          <li><b>Tel:</b> +856 (0)21-2213231</li>
+          <li><b>Bank Name:</b> Bank pour Le Commerce Exterieur Du Laos, Vientiane Capital, Lao PDR</li>
+          <li><b>Account name:</b>Phanthy Sisana </li>
+          <li><b>Bank Account:</b> 0161213174433</li>
+          <li><b>SWIFT CODE:</b> COEBLALA</li>
+          <br>
+          <li>Or through the financial officer of the Faculty of Public Health, UHS</li>
+          <li><b>Ms. Manyphone Xayyasane</b></li>
+          <li><b>Account name:</b> MANYPHONE SAYYASAN</li>
+          <li><b>Bank Account:</b> 091120100042411001</li>
+          <li><b>Tel:</b> +856 (0)21-240854</li>
+          <li><b>P.O. Box:</b> 7444</li>
+        </ul>
+
+      </div>
+      <div class="block3">
+        <h2 class="block3-title">Onsite Payment</h2>
+        <img class="block3-image" src="assets/img/onsite_payment.png">
+      </div>
+
+    </div>
+  </div>
+  <div class="section-detail-of-free">
+    <h1 style="color: #0066CC; ">Detail of fees</h1>
+
+
+    <div class="group-table-n-italic" >
+
+      <table>
+        <tr>
+          <td class="text-left-custom">Type of Delegates</td>
+          <th class="text-left">Early Fee <br><br> Up to 30/04/2024</th>
+          <th class="text-left">Late Fee <br><br> 01/05-15/06/2024</th>
+          <th class="text-left">On Site <br><br>28/06/2024</th>
+        </tr>
+        <tr>
+          <td class="text-left-custom">Participant</td>
+          <td class="text-center">80$</td>
+          <td class="text-center">90$</td>
+          <td class="text-center">100$</td>
+        </tr>
+        <tr>
+          <td class="text-left-custom">Accompanying Person</td>
+          <td class="text-center">50$</td>
+          <td class="text-center">60$</td>
+          <td class="text-center">60$</td>
+        </tr>
+
+        <tr>
+          <td class="text-left-custom">UN/INGOs</td>
+          <td class="text-center">80$</td>
+          <td class="text-center">90$</td>
+          <td class="text-center">100$</td>
+        </tr>
+        <tr>
+          <td class="text-left-custom">*Student/Master<br>/PhD/Laos</td>
+          <td class="text-center">30$</td>
+          <td class="text-center">40$</td>
+          <td class="text-center">50$</td>
+        </tr>
+      </table>
+
+      <div class="text-italic">
+        <p><i>Early registration: 30th April 2024</i></p>
+        <p><i>Late registration: Before 31 May, 2024</i></p>
+      </div>
+    </div>
+
+
+   
+
+
+
+  </div>
+
+
+
+</body>
+
+</html>
