@@ -13,7 +13,7 @@
     header {
 
 
-      background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(assets/img/registration-cover.png);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./assets/img/registration-cover.png);
 
       background-repeat: no-repeat;
       background-size: cover;
@@ -227,16 +227,6 @@
 
 
 
-    @media screen and (max-width: 2560px) {}
-
-    @media screen and (max-width: 1980px) {}
-
-    @media screen and (max-width: 1200px) {}
-
-    @media screen and (max-width: 1024px) {}
-
-    @media screen and (max-width: 900px) {}
-
     @media screen and (max-width: 768px) {
       .block2-container {
         padding-left: 30px;
@@ -248,9 +238,6 @@
       }
     }
 
-    @media screen and (max-width: 600px) {}
-
-    @media screen and (max-width: 480px) {}
 
     @media screen and (max-width: 380px) {
       .text-left-custom{
@@ -282,7 +269,6 @@
       }
     }
 
-    @media screen and (max-width: 260px) {}
   </style>
 </head>
 
@@ -293,12 +279,18 @@
     <h1 class="header-content">Registration Information</h1>
     <h4 class="header-content">Click the following link to access the Google form for registration :</h4>
     <div>
-      <button style="align-items: center; text-decoration: none; color: #000;" onclick="alert('Hello world!')"
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScIltzVlgZDgjbz0csvDg6Mvkb1FXK9pzS5083yJOdTp93RPQ/viewform?usp=sharing">
+        <button style="align-items: center; text-decoration: none; color: #000;" 
         class="submission-btn">Participant</button>
-      <button style="align-items: center; text-decoration: none;" onclick="alert('Hello world!')"
+      </a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSeTpqhI1l6y1M1qTwJ3N3kXnj4i1RqnFEGTwDbxecMesrEbLQ/viewform?usp=sharing">
+      <button style="align-items: center; text-decoration: none;" 
         class="submission-btn">Presenter</button>
-      <button style="align-items: center; text-decoration: none;" onclick="alert('Hello world!')"
+      </a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSd0nWRUn4y0iLs6L2yRc9P4JGWk58leNBnoDv2SF7kmL8Bzag/viewform?usp=sharing">
+      <button style="align-items: center; text-decoration: none;"
         class="submission-btn">Pre-Workshops </button>
+        </a>
     </div>
 
   </header>
@@ -336,7 +328,7 @@
       </div>
       <div class="block3">
         <h2 class="block3-title">Onsite Payment</h2>
-        <img class="block3-image" src="assets/img/onsite_payment.png">
+        <img class="block3-image" src="./assets/img/onsite_payment.png">
       </div>
 
     </div>
