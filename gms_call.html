@@ -8,26 +8,58 @@
   <!-- Add your own CSS styles or link to an external stylesheet here -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  <style>
+    <link
+      rel="stylesheet"
+      data-purpose="Layout StyleSheet"
+      title="Web Awesome"
+      href="/css/app-wa-462d1fe84b879d730fe2180b0e0354e0.css?vsn=d"
+    >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css"
+      >
+ <style>
     /* Reset some default styles */
 
     html {
       font-size: calc(60%+0.8vmin);
     }
     body {
-      font-family: 'Arial', sans-serif;
+      font-family: 'Times New Roman', sans-serif;
       margin: 0;
       padding: 0;
       background-color: #f4f4f4;
     }
 
     header {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./assets/img/call-for-pro-background.png);
+      background-image: linear-gradient(rgba(16, 46, 75, 0.95), rgba(10, 29, 46, 0.7)), url(./assets/img/kuang_si_fall.jpeg);
       background-repeat: no-repeat;
       background-size: cover;
+      background-position: 15% 85%;
       opacity: 0.8;
-      background-color: rgba(68, 8, 125, 1);
-      color: #ecf0f1;
+
+      color: #ffffff;
       padding: 20px;
       text-align: center;
       height: 400px;
@@ -39,7 +71,10 @@
  
     }
     .header-title{
+     
+      font-size: 48px;
       text-shadow: 3px 3px #000;
+      font-weight: 900;
     }
     .header-content{
       padding: 0 60px;
@@ -52,20 +87,35 @@
       padding: 30px 30px;
       display: flex;
       justify-content: center;
+      background-color: white;
     }
+
+  
 
     .box-800w{
    
       max-width: 800px;
     }
 
+    .submission-details-icon-header{
+      font-size: 60px;
+      color: #102e4b;
+    }
+
+    .submission-details-title{
+      font-size: 36px;
+    font-weight: 900;
+    line-height: 2em;
+    color: #102e4b;
+    }
+
     .submission-btn {
       border-radius: 10px;
       background-color: rgba(255, 199, 0, 1);
-      width: 200px;
+      width: 250px;
       height: 60px;
       text-decoration: underline;
-      font-size: 16px;
+      font-size: 24px;
       font-weight: bold;
       text-decoration: none;
     }
@@ -75,20 +125,141 @@
       color: black;
     }
     .submission-span {
-      font-weight: bold;
+      font-weight: 900;
       font-style: italic;
+      font-size: 22px;
+      padding-left: 10px;
+    
     }
+
+    .section-abstract-guideline{
+      padding: 30px 30px;
+      display: flex;
+      justify-content: center;
+      background-color: #102e4b;
+    }
+
+    .abstract-guideline-icon-header{
+      font-size: 60px;
+      color: #8dcaff;
+    } 
+
+    .abstract-guideline-title{
+      color: #8dcaff;
+      font-size: 36px;
+    font-weight: 900;
+    line-height: 2em;
+    }
+
+
     .abstracts-guideline-link{
       text-decoration: none;
-      color:orangered;
+      color:#ff3b3b;
+      font-size: 20px;
+      padding-left: 30px;
+     
+      border-style: outset;
+      border-radius: 5px;
+      border-color:  #aed7fc;
+      padding-top: 5px;
+      padding-bottom: 5px;
+
+
     }
+    .abstract-guideline-content{
+      padding-left: 20px;
+      color: white;
+    }
+
     .abstract-template-link{
       text-decoration: none;
-      color:blue;
+      color:#0d6efd;
+      
+    }
+    .abstract-guideline-list{
+      font-size: 20px;
+      padding-left: 60px;
+      padding-bottom: 20px;
+      color: white;
     }
     p{
-      font-size: 18px;
+      font-size: 20px;
     }
+    
+    .tb-submission-deadline{
+      margin-left: 20px;
+    }
+
+ 
+   
+
+    .section-abstract-template{
+      padding: 30px 30px;
+      display: flex;
+      justify-content: center;
+      background-color: white;
+      text-align: center;
+    }
+
+    .abstract-template-icon-header{
+      font-size: 60px;
+    }
+    .abstract-template-title{
+      color: #000;
+      font-size: 36px;
+    font-weight: 900;
+    line-height: 2em;
+    }
+
+    .section-option-presenter{
+      background-color: white;
+    }
+
+    .option-presenter-title{
+      text-align: center;
+      font-size: 36px;
+    font-weight: 900;
+    line-height: 2em;
+    }
+
+   
+
+    .group-card{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap:20px;
+      padding: 20px;
+   
+    }
+
+    .card-header{
+      background-color: #102e4b;
+    }
+
+    .card-icon-header{
+      color: #ffffff;
+      display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  padding: 30px;
+    }
+
+    .card-title{
+      color: #ffffff;
+      display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  font-weight: 900;
+
+    }
+
+    .card-content{
+      padding-top: 20px;
+    }
+
+
 
     @media screen and (max-width: 962px) {
       .header-content{
@@ -118,45 +289,156 @@
       Registration Page
     </h3>
     <br>
-    <div>
-      <button onclick="alert('Hello world!')"
+    <a href="https://forms.gle/wSHVcLn7T34NXi2e8" target="_blank">
+      <button type="submit"
         class="submission-btn">Submission Abstracts</button>    
-    </div>
+    </a>
   </header>
     
     <section id="submission-details">
       <div class="box-800w">
         <!-- Submission Deadline -->
-      <h3>Submission Deadline</h3>
-      <p>• Call and submission of Abstract deadline: <span class="submission-span">15<sup>th</sup> January 2024 to 15<sup>th</sup> May 2024</span>
-        <br>• Early registration for participants: <span class="submission-span">30<sup>th</sup> April 2024 to 31<sup>st</sup> May 2024</span>
-        <br>• Late registration for participants: <span class="submission-span">1<sup>st</sup> May 2024 to 15<sup>th</sup> June 2024</span>
-        <br>• Selection of abstracts to be presented: <span class="submission-span">1<sup>st</sup> June 2024</span>
-        <br>• Announcement of abstracts to be presented: <span class="submission-span">5<sup>th</sup> June 2024</span>
-      </p>
+        <div class="submission-details-icon-header text-center">
+          <i class="fa-regular fa-calendar-days"></i>
+        </div>
+      <h3 class="submission-details-title text-center pb-3">Submission Deadline</h3>
+      <table class="table table-striped">
+        <tr>
+          <td class="fs-5 fw-lighter"><li>Call and submission of Abstract deadline:</li></td>
+          <td><span class="submission-span">15<sup>th</sup> January 2024 to 15<sup>th</sup> May 2024</span></td>
+        </tr> 
+        <tr>
+          <td><li class="fs-5">Early registration for participants:</li> </td>
+          <td><span class="submission-span">30<sup>th</sup> April 2024 to 31<sup>st</sup> May 2024</span></td>
+        </tr>
+        <tr>
+          <td><li class="fs-5">Late registration for participants: </li></td>
+          <td><span class="submission-span">1<sup>st</sup> May 2024 to 15<sup>th</sup> June 2024</span></td>
+        </tr>
+        <tr>
+          <td><li class="fs-5">Selection of abstracts to be presented:</li> </td>
+          <td><span class="submission-span">1<sup>st</sup> June 2024</span></td>
+        </tr>
+        <tr>
+          <td><li class="fs-5">Announcement of abstracts to be presented:</li> </td>
+          <td><span class="submission-span">5<sup>th</sup> June 2024</span></td>
+        </tr>
+      </table>
+    
       <hr>
-      <!-- Abstract Guidelines -->
-      <h3>Abstract Guidelines</h3>
-      <p>Abstract submission should be in English: maximum 300 words, Font: Times New Roman, font size of title is 14
-        (Capital, centered, and bold), font size of contents is 12, including:<br>
-        • Author (with name of organization)<br>
-        • Introduction<br>
-        • Objectives <br>
-        • Methods<br>
-        • Results<br>
-        • Conclusion<br>
-        • Keywords: The authors must provide 3-6 keywords
-      </p>
-      <h6><i><a class="abstracts-guideline-link" >All abstracts will be submitted to
-          14gmsabtract@edu.uhs.la</a></i></h6>
-      <hr>
-      <!-- Abstract Template -->
-      <h3>Abstract Template</h3>
-        <p>
-          • For more <a class="abstract-template-link" href="./assets/pdf/abstracts_template.pdf" download="abstract-template">detailed information of abstracts template</a>, please refer to the
-          attached PDF file.
-        </p>
       </div>
+    </section>
+
+    <section class="section-abstract-guideline ">
+      <!-- Abstract Guidelines -->
+      <div class="box-800w">
+        <div class="abstract-guideline-icon-header text-center"><i class="fa-regular fa-ballot-check"></i></div>
+      <h3 class="abstract-guideline-title text-center pb-3">Abstract Guidelines</h3>
+      <p class="abstract-guideline-content">Abstract submission should be in English: maximum <b><span style="color: rgb(255, 111, 0);">300 words</span></b>, Font: <b><span style="color: rgb(255, 111, 0);">Times New Roman</span></b>, font size of <b><span style="color: rgb(255, 111, 0);">title is 14
+        (Capital, centered, and bold)</span></b>, font size of <b><span style="color: rgb(255, 111, 0);">contents is 12</span></b>, including:<br>
+      </p>
+
+      <ul class="abstract-guideline-list">
+      <li>
+        Author (with name of organization)
+      </li>
+      <li>Introduction</li>
+      <li>Objectives</li>
+      <li>Methods</li>
+      <li>Results</li>
+      <li>Conclusion</li>
+      <li>Keywords: The authors must provide 3-6 keywords</li>
+    </ul>
+        
+        
+      <h6 class="abstracts-guideline-link "><i>All abstracts will be submitted to
+          14gmsabtract@edu.uhs.la</i></h6>
+      <hr>
+     
+      </div>
+
+    </section>
+
+    <section class="section-abstract-template">
+      <div class="box-800w">
+         <!-- Abstract Template -->
+         <div class="abstract-template-icon-header text-center"><i class="fa-light fa-file-lines"></i></div>
+      <h3 class="abstract-template-title text-center">Abstract Template</h3>
+      <br>
+      <ul>
+        <li class="fs-5">For more <a class="abstract-template-link" href="./assets/pdf/abstracts_template.pdf" download="abstract-template">detailed information of abstracts template</a>, please refer to the
+          attached PDF file.</li>
+        </ul>
+        <br>
+        <a class="abstract-template-link" href="./assets/pdf/abstracts_template.pdf" download="abstract-template">
+        <button type="button " class="btn btn-dark btn-lg">Download File</button></a>
+        <br><br><br>
+        <hr>
+      </div>
+    </section>
+
+    <section class="section-option-presenter">
+      <h3 class="option-presenter-title">Presentation Types</h3>
+        <div class="group-card">
+          <div class="card border-primary">
+            <div class="card-header">
+              <div class="card-icon-header"><i class="fa-light fa-display-chart-up"></i></div>
+              <div class="card-title">Oral Presentation</div>
+              
+            </div>
+            <div class="card-content">
+              <ul>
+                <li>Presentation slot (12 Minutes Presentation and 03 Minutes Q&A)</li>
+              
+                <li>Abstract Book (Soft Copy)</li>
+                <li>Copy of Conference Proceedings (Soft Copy)</li>
+                <li>Endorsed Certificate</li>
+                <li>Conference Program Book (Soft Copy)</li>
+                <li>An opportunity to publish in conference proceedings.</li>
+            
+              </ul>
+
+            </div>
+       
+          </div>
+          <div class="card border-primary">
+            <div class="card-header">
+            <div class="card-icon-header"><i class="fa-regular fa-square-kanban fa-flip-vertical" ></i></div>
+            <div class="card-title">   Poster Presentation</div>
+            </div>
+            <div class="card-content">
+              <ul>
+                <li>Presentation slot (05 Mins)</li>
+             
+                <li>Abstract Book (Soft Copy)</li>
+                <li>Copy of Conference Proceedings (Soft Copy)</li>
+                <li>Endorsed Certificate</li>
+                <li>Conference Program Book (Soft Copy)</li>
+                 <li>An opportunity to publish in conference proceedings.</li>
+              
+              </ul>
+            </div>
+         
+          </div>
+          <div class="card border-primary">
+            <div class="card-header">
+            <div class="card-icon-header"><i class="fa-solid fa-bullhorn"></i></div>
+            <div class=" card-title"> Attendee / Non-Presenter</div>
+            </div>
+            <div class="card-content">
+              <ul>
+            
+                <li>Abstract Book (Soft Copy)</li>
+                <li>Certificate for Attendance</li>
+                <li>Conference Program Book (Soft Copy)</li>
+              
+              </ul>
+            </div>
+           
+          </div>
+
+      </div>
+      <br><br><br>
     </section>
 
   <!-- js_script_here -->

@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Venue</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
+   
+   <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Times New Roman', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f5f5f5;
@@ -20,10 +21,10 @@
             color: #fff;
             text-align: center;
             height: 250px;
-            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./assets/img/jumbo.webp);
+            background-image: linear-gradient(rgba(16, 46, 75, 0.95), rgba(10, 29, 46, 0.7)), url(./assets/img/pullman_hotel_lp.jpeg);
             background-repeat: no-repeat;
             background-size: cover;
-            background-position: 20% 80%;
+            background-position: center;
             display: flex;
             flex-direction: column;
             /* Set the flex direction to column for a vertical layout */
@@ -32,6 +33,8 @@
             padding: 50px 0;
             opacity: 0.95;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            font-size: 48px;
+            text-shadow: 3px 3px #000;
         }
 
         section {
@@ -43,9 +46,7 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        h2 {
-            color: rgba(68, 8, 125, 1);
-        }
+      
 
         a {
             color: rgba(68, 8, 125, 1);
@@ -65,7 +66,7 @@
         footer {
             text-align: center;
             padding: 10px;
-            background-color: rgba(68, 8, 125, 1);
+            background-color: rgba(16, 46, 75, 0.95);
             color: #fff;
             position: fixed;
             bottom: 0;
@@ -166,7 +167,17 @@
             font-size: 20px;
         }
 
+        .title{
+            font-size: 36px;
+            font-weight: bolder;
+            color: rgba(16, 46, 75, 0.95);
+        }
 
+        .hotel-title{
+            font-weight: bolder;
+        }
+
+    
         @media screen and (max-width:768px) {
             .conference-img-items {
                 display: flex;
@@ -199,8 +210,8 @@
     <section>
         <div class="conference">
             <div class="conference-details">
-                <h2>Conference Hotel Location</h2>
-                <p><b>Date:</b> 27<sup>th</sup> - 29<sup>th</sup> June, 2024<br>
+                <h2 class="title">Conference Hotel Location</h2>
+                <p style="font-size: 20px;"><b>Date:</b> 27<sup>th</sup> - 29<sup>th</sup> June, 2024<br>
                     The pre-conference workshop will be on 27<sup>th</sup> June, 2024<br>
                     The conference days will be on 28<sup>th</sup> - 29<sup>th</sup> June, 2024<br><br>
                     <b>Venue:</b> Pullman Hotel, Luangprabang City, Lao PDR<br>
@@ -230,14 +241,14 @@
             </div>
         </div><br>
         <hr>
-        <h2>Alternative Accommodations</h2>
-        <p>Suggestion List Of The Guesthouse/Hotel in Luangprabang:
+        <h2 class="title">Alternative Accommodations</h2>
+        <p style="font-size: 20px;">Suggestion List Of The Guesthouse/Hotel in Luangprabang:
         <ul>
             <li>
                 <span>
                     <img src="./assets/img/venue/hotel_guesthouse/the_grand.jpg">
                     <div>
-                        <div>The Grand Luang Prabang Hotel</div>
+                        <div class="hotel-title">The Grand Luang Prabang Hotel</div>
                         <p><i class="i-address fa fa-map-marker" aria-hidden="true"></i>&nbsp;V494+V7J, Ban Xiengkeo,
                             Luang
                             Prabang
@@ -249,7 +260,7 @@
                 <span>
                     <img src="./assets/img/venue/hotel_guesthouse/legend_hotel.jpg">
                     <div>
-                        <div>Luang Prabang Legend Hotel</div>
+                        <div class="hotel-title">Luang Prabang Legend Hotel</div>
                         <p><i class="i-address fa fa-map-marker" aria-hidden="true"></i>&nbsp;Luang Prabang
                         </p>
                         <a href="http://www.luangprabanglegend.com" target="_blank"><i class="i-website fa fa-globe"
@@ -261,7 +272,7 @@
                 <span>
                     <img src="./assets/img/venue/hotel_guesthouse/View_Hotel.png">
                     <div>
-                        <div>Luang Prabang View Hotel</div>
+                        <div class="hotel-title">Luang Prabang View Hotel</div>
                         <p><i class="i-address fa fa-map-marker" aria-hidden="true"></i>&nbsp;V4FJ+292, Luang Prabang
                         </p>
                         <a href="https://luangprabangview.com" target="_blank"><i class="i-website fa fa-globe"
@@ -272,7 +283,7 @@
                 <span>
                     <img src="./assets/img/venue/hotel_guesthouse/Vangsavath_hotel.png">
                     <div>
-                        <div>Vangsavath Hotel</div>
+                        <div class="hotel-title">Vangsavath Hotel</div>
                         <p><i class="i-address fa fa-map-marker" aria-hidden="true"></i>&nbsp;Ban Nongkham, Luang
                             Prabang
                         </p>
@@ -285,7 +296,7 @@
                 <span>
                     <img src="./assets/img/venue/hotel_guesthouse/sasalao_guesthouse.jpg">
                     <div>
-                        <div>Sa Sa Lao Guesthouse</div>
+                        <div class="hotel-title">Sa Sa Lao Guesthouse</div>
                         <p><i class="i-address fa fa-map-marker" aria-hidden="true"></i>&nbsp;Ban Vieng Mai, Luang
                             Prabang
                         </p>
@@ -297,7 +308,7 @@
                 <span>
                     <img src="./assets/img/venue/hotel_guesthouse/vilamaly_hotel.jpg">
                     <div>
-                        <div>Villa Maly Boutique Hotel</div>
+                        <div class="hotel-title">Villa Maly Boutique Hotel</div>
                         <p><i class="i-address fa fa-map-marker" aria-hidden="true"></i>&nbsp;Ban That Luang Village,
                             Luang Prabang
                         </p>
@@ -310,7 +321,7 @@
                 <span>
                     <img src="./assets/img/venue/hotel_guesthouse/madmonkey.jpg">
                     <div>
-                        <div>Mad Monkey Luang Prabang</div>
+                        <div class="hotel-title">Mad Monkey Luang Prabang</div>
                         <p><i class="i-address fa fa-map-marker" aria-hidden="true"></i>&nbsp;Luang Prabang
                         </p>
                         <a href="https://madmonkeyhostels.com/luang-prabang/" target="_blank"><i
@@ -321,7 +332,7 @@
                 <span>
                     <img src="./assets/img/venue/hotel_guesthouse/beauty_season_hotel.jpeg">
                     <div>
-                        <div>Beauty season 1935 Hotel</div>
+                        <div class="hotel-title">Beauty season 1935 Hotel</div>
                         <p><i class="i-address fa fa-map-marker" aria-hidden="true"></i>&nbsp;Phetsarat Road, Luang
                             Prabang, Laos
                         </p>
@@ -331,11 +342,115 @@
                     </div>
                 </span>
             </li>
+            <li>
+                <span>
+                    <img src="./assets/img/venue/hotel_guesthouse/mano_hotel.jpg">
+                    <div>
+                        <div class="hotel-title">Mano Boutique Sun Shine</div>
+                        <p><i class="i-address fa fa-map-marker" aria-hidden="true"></i>&nbsp;Viengxay village, Luangprabang district, Luangprabang Province
+                        </p>
+                        <p style="padding: 0;"><b>Tel&Whatsapp:</b> 020 92841118</p>
+                        
+                    </div>
+                </span>
+
+               
+                <span>
+                    <img src="./assets/img/venue/hotel_guesthouse/downtown_hotel.jpg">
+                    <div>
+                        <div class="hotel-title">Downtown Hotel</div>
+                        <p><i class="i-address fa fa-map-marker" aria-hidden="true"></i>&nbsp;Haoxieng village, Luangprabang district, Luangprabang Province
+                        </p>
+                      
+                        <p style="padding: 0;"><b>Tel:</b> +85620 88774455</p>
+                    
+                    </div>
+                </span>
+            </li>
+
+            <li>
+                <span>
+                    <img src="./assets/img/venue/hotel_guesthouse/tavandang_villa.png">
+                    <div>
+                        <div class="hotel-title">VILLA TAVANDANG</div>
+                        <p><i class="i-address fa fa-map-marker" aria-hidden="true"></i>&nbsp;Viengxay village, Luangprabang district, Luangprabang Province
+                        </p>
+                        <p style="padding: 0;"><b>Email:</b> villatavandang@yahoo.com</p>
+                        <p style="padding: 0;"><b>Tel:</b> 071 254908 / 020 56782307</p>
+                        
+                    </div>
+                </span>
+
+                <span>
+                    <img src="./assets/img/venue/hotel_guesthouse/pavilion_hotel.png">
+                    <div>
+                        <div class="hotel-title">Luangprabang Pavilion Hotel</div>
+                        <p><i class="i-address fa fa-map-marker" aria-hidden="true"></i>&nbsp;Viengxay village, Luangprabang district, Luangprabang Province
+                        </p>
+                        <p style="padding: 0;"><b>Email:</b> hotel-lpb-pavilion@outlook.com</p>
+                        <p style="padding: 0;"><b>Tel:</b> 071-212959 / 020 99978252</p>
+                    
+                    </div>
+                </span>
+            </li>
+
+            <li>
+                <span>
+                    <img src="./assets/img/venue/hotel_guesthouse/bualuang_hotel.jpg">
+                    <div>
+                        <div class="hotel-title">Bua Luang Hotel</div>
+                        <p><i class="i-address fa fa-map-marker" aria-hidden="true"></i>&nbsp;Viengxay village, Luangprabang district, Luangprabang Province
+                        </p>
+                        <p style="padding: 0;"><b>Email:</b> Bualuang Hotel@live.com</p>
+                        <p style="padding: 0;"><b>Tel:</b> 071 213085</p>
+                        
+                    </div>
+                </span>
+
+                
+                <span>
+                    <img src="./assets/img/venue/hotel_guesthouse/ananta_hotel.png">
+                    <div>
+                        <div class="hotel-title">Ananta  Hotel</div>
+                        <p><i class="i-address fa fa-map-marker" aria-hidden="true"></i>&nbsp;Chao Kommavang Road, Town Center, Luang Prabang
+                        </p>
+                        <p style="padding: 0;"><b>Email:</b> Anantahotel22@gmail.com</p>
+                        <p style="padding: 0;"><b>Tel & whatsapp:</b> +8562059495679</p>
+                    
+                    </div>
+                </span>
+            </li>
+
+            <li>
+                <span>
+                    <img src="./assets/img/venue/hotel_guesthouse/houngvilai_hotel.jpg">
+                    <div>
+                        <div class="hotel-title">Houngvilai Hotel</div>
+                        <p><i class="i-address fa fa-map-marker" aria-hidden="true"></i>&nbsp;Kitsalath Rd, Luang Prabang
+                        </p>
+                        <p style="padding: 0;"><b>Email:</b> info@houngvilaihotel.com</p>
+                        <p style="padding: 0;"><b>Tel:</b> 071 212111 / 020 76129555</p>
+                        
+                    </div>
+                </span>
+
+                <span>
+                    <img src="./assets/img/venue/hotel_guesthouse/meseum_inn.jpg">
+                    <div>
+                        <div class="hotel-title">Museum Inn & Travel Luang Prabang</div>
+                        <p><i class="i-address fa fa-map-marker" aria-hidden="true"></i>&nbsp;Viengxay village, Luangprabang district, Luangprabang Province
+                        </p>
+                      
+                        <p style="padding: 0;"><b>Tel:</b> +856 20 98652998</p>
+                    
+                    </div>
+                </span>
+            </li>
         </ul>
         </p>
         <br>
-        <p>Explore other accommodation options on popular platforms:
-        <div clsss="list-link-find-hotel">
+        <p style="font-size: 20px;">Explore other accommodation options on popular platforms:
+        <div clsss="list-link-find-hotel" style="font-size: 20px;">
             <a  href="https://www.booking.com" target="_blank">Booking.com</a> <br>
             <a  href="https://www.expedia.com" target="_blank">Expedia</a> <br>
             <a  href="https://www.hotels.com" target="_blank">Hotels.com</a>

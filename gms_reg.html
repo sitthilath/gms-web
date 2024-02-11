@@ -5,6 +5,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Registration</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      data-purpose="Layout StyleSheet"
+      title="Web Awesome"
+      href="/css/app-wa-462d1fe84b879d730fe2180b0e0354e0.css?vsn=d"
+    >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css"
+      >
   <style>
     html {
       font-size: calc(60%+0.8vmin);
@@ -39,8 +73,8 @@
     }
 
     body {
-      font-family: 'Arial', sans-serif;
-      background-color: #f4f4f4;
+      font-family: 'Times New Roman', sans-serif;
+      background-color: #102e4b;
       margin: 0;
       padding: 0;
     }
@@ -107,6 +141,7 @@
 
 
     .how-to-play-container {
+      background-color: #102e4b;
       display: flex;
       flex-direction: column;
       height: auto;
@@ -139,13 +174,15 @@
 
 
     .block-list {
+      padding: 10px;
+      box-shadow: 12px 12px 2px 1px #000;
       list-style: none;
     }
 
 
     .block2 {
 
-      background-color: #F3F3F3;
+ 
       flex: 1;
       flex-direction: column;
       justify-content: start;
@@ -153,12 +190,12 @@
 
     .block2-title,
     .block3-title {
-      color: #44087D;
+      color: #043193;
     }
 
     .block3 {
       flex: 1;
-      background-color: #F3F3F3;
+
       display: flex;
       flex-direction: column;
       justify-content: start;
@@ -166,9 +203,15 @@
 
     }
 
+  
     .block3-image {
+  
       padding-top: 30px;
       width: 18.75rem;
+    }
+
+    .card-onsite{
+      box-shadow: 12px 12px 2px 1px #000;
     }
 
     ul {
@@ -178,39 +221,19 @@
     }
 
     .section-detail-of-free {
-      padding-top: 50px;
+    
       background-color: white;
-      display: flex;
-      flex-direction: column;
 
-      align-items: center;
-    }
-
-    table{
-
-      overflow-x:auto;
-      table-layout: auto;
-      border-collapse: collapse;
     }
 
 
 
-    table,
-    td,
-    th {
+
+
    
-      border: 1px solid;
-      padding: 5px;
-    }
     
 
-    .text-center {
-      text-align: center;
-    }
 
-    .text-left {
-      text-align: left;
-    }
 
     .text-left-custom {
       text-align: left;
@@ -218,11 +241,7 @@
       word-wrap: break-word; 
     }
 
-    .group-table-n-italic{
-    
-      margin-left:20px;
-      margin-right:20px;
-    }
+ 
     /* Add your own styles or customize further as needed */
 
 
@@ -234,6 +253,7 @@
       }
 
       .block3-image {
+      
         width: 200px;
       }
     }
@@ -294,22 +314,86 @@
     </div>
 
   </header>
+  <div class="block1">
+    <h3 class="block1-desc text-white">All Participants must register as attending participants, Presenters
+      participants for pre-conference workshops</h3>
+  </div>
+  <div class="section-detail-of-free pt-3 pb-3">
+    <h1  class="detail-of-free-title text-center pb-4 fw-bolder">Registration fees</h1>
 
-  <div class="section how-to-play-container">
-    <div class="block1">
-      <h3 class="block1-desc">All Participants must register as attending participants, Presenters
-        participants for pre-conference workshops</h3>
+
+    <div class="group-table-n-italic  row align-items-start align-self-center me-5 ms-5" >
+
+      <table class="table h-100 table-striped table-bordered border-success col ">
+        <thead class="table-success">
+          <tr>
+            <th class="text-left-custom" scope="col">Type of Delegates</th>
+            <th class="text-left" scope="col">Early Fee <br><br> Up to 30/04/2024</th>
+            <th class="text-left" scope="col">Late Fee <br><br> 01/05-15/06/2024</th>
+            <th class="text-left" scope="col">On Site <br><br>28/06/2024</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="text-left-custom">Participant</td>
+            <td class="text-center">80$</td>
+            <td class="text-center">90$</td>
+            <td class="text-center">100$</td>
+          </tr>
+          <tr>
+            <td class="text-left-custom">Accompanying Person</td>
+            <td class="text-center">50$</td>
+            <td class="text-center">60$</td>
+            <td class="text-center">60$</td>
+          </tr>
+  
+          <tr>
+            <td class="text-left-custom">UN/INGOs</td>
+            <td class="text-center">80$</td>
+            <td class="text-center">90$</td>
+            <td class="text-center">100$</td>
+          </tr>
+          <tr>
+            <td class="text-left-custom d-lg-block d-md-block d-sm-none">*Student/Master/PhD/Laos</td>
+            <td class="text-left-custom d-sm-block d-lg-none d-md-none">*Student/Master/<br>PhD/Laos</td>
+            <td class="text-center">30$</td>
+            <td class="text-center">40$</td>
+            <td class="text-center">50$</td>
+          </tr>
+        </tbody>
+       
+      </table>
+
+      <div class="text-italic text-center  col-lg-3 justify-content-start">
+        <div class="border border-3 border-primary mb-2 pt-2">
+          <i class="fa-regular fa-hourglass-clock  fs-3" style="color: #00058a;"></i>
+          <div class="pt-2 ">Early registration</div>
+          <div class="date-regis fs-5 fw-bolder pb-2">30th April 2024</div>
+        </div>
+        <div class="border border-3 border-danger mt-2 pt-2 pe-1">
+          <i class="fa-regular fa-alarm-exclamation  fs-3 " style="color: #ff0000;"></i>
+          <div class="pt-2 ">Late registration</div>
+          <div class="date-regis fs-5 fw-bolder pb-2">Before 31 May, 2024</div>
+        </div>
+
+      </div>
     </div>
-    <div style="text-align: center;">
-      <h1 style="color: #000;">How to Pay</h1>
-    </div>
+
+  </div>
+
+  <div class="section how-to-play-container pt-5 pb-3">
+  
+    <i class="fa-light fa-clipboard-question text-center " style="color: #8dcaff;font-size: 60px;"></i>
+      <h1 class="text-center fw-bolder pb-4" style="color: #8dcaff;">How to Pay</h1>
+
     <div class="block2-container">
 
       <div class="block2">
-        <ul class="block-list">
-          <li>
-            <h2 class="block2-title">The registration can be paid via bank transfer to:</h2>
-          </li><br>
+    
+        
+        <ul class="block-list border border-5 bg-light ">
+          <h2 class="block2-title">The registration can be paid via bank transfer to:</h2>
+          <hr>
           <li><b>Ms. Phanthy Sisana</b></li>
           <li><b>Tel:</b> +856 (0)21-2213231</li>
           <li><b>Bank Name:</b> Bank pour Le Commerce Exterieur Du Laos, Vientiane Capital, Lao PDR</li>
@@ -327,66 +411,22 @@
 
       </div>
       <div class="block3">
-        <h2 class="block3-title">Onsite Payment</h2>
+        <div class="card-onsite border border-5 bg-light">
+          <h2 class="block3-title text-center">Onsite Payment</h2>
+          <hr style="margin-left: 10px;margin-right: 10px;">
         <img class="block3-image" src="./assets/img/onsite_payment.png">
+        </div>
+        
       </div>
 
     </div>
   </div>
-  <div class="section-detail-of-free">
-    <h1 style="color: #0066CC; ">Detail of fees</h1>
+ 
 
-
-    <div class="group-table-n-italic" >
-
-      <table>
-        <tr>
-          <td class="text-left-custom">Type of Delegates</td>
-          <th class="text-left">Early Fee <br><br> Up to 30/04/2024</th>
-          <th class="text-left">Late Fee <br><br> 01/05-15/06/2024</th>
-          <th class="text-left">On Site <br><br>28/06/2024</th>
-        </tr>
-        <tr>
-          <td class="text-left-custom">Participant</td>
-          <td class="text-center">80$</td>
-          <td class="text-center">90$</td>
-          <td class="text-center">100$</td>
-        </tr>
-        <tr>
-          <td class="text-left-custom">Accompanying Person</td>
-          <td class="text-center">50$</td>
-          <td class="text-center">60$</td>
-          <td class="text-center">60$</td>
-        </tr>
-
-        <tr>
-          <td class="text-left-custom">UN/INGOs</td>
-          <td class="text-center">80$</td>
-          <td class="text-center">90$</td>
-          <td class="text-center">100$</td>
-        </tr>
-        <tr>
-          <td class="text-left-custom">*Student/Master<br>/PhD/Laos</td>
-          <td class="text-center">30$</td>
-          <td class="text-center">40$</td>
-          <td class="text-center">50$</td>
-        </tr>
-      </table>
-
-      <div class="text-italic">
-        <p><i>Early registration: 30th April 2024</i></p>
-        <p><i>Late registration: Before 31 May, 2024</i></p>
-      </div>
-    </div>
-
-
-   
-
-
-
-  </div>
-
-
+  <!-- js_script_here -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
 
 </body>
 
