@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" data-purpose="Layout StyleSheet" title="Web Awesome"
+        href="/css/app-wa-462d1fe84b879d730fe2180b0e0354e0.css?vsn=d">
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css">
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css">
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css">
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css">
+    <style>
+        html {
+            font-size: calc(60%+0.8vmin);
+        }
+
+        header {
+
+
+            background-image: linear-gradient(rgba(16, 46, 75, 0.7), rgba(16, 46, 75, 0.7)), url(./assets/img/gms_pro_bg.jpeg);
+
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+
+
+
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            height: 400px;
+
+            justify-content: center;
+            align-items: center;
+
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .header-content {
+
+            color: white;
+            text-shadow: 3px 3px #000;
+            font-size: 80px;
+        }
+
+        body {
+            font-family: 'Times New Roman', sans-serif;
+            /* background-color: rgb(16, 46, 75); */
+            margin: 0;
+            padding: 0;
+        }
+
+        .container{
+            max-width: 1200px;
+        }
+
+        .table-striped-orange>tbody>tr:nth-child(odd)>td,
+        .table-striped-orange>tbody>tr:nth-child(odd)>th {
+            background-color: rgb(252, 226, 214);
+        }
+
+        .thead-orange {
+            background-color: rgb(255, 157, 66);
+        }
+
+        .table-striped-green>tbody>tr:nth-child(odd)>td,
+        .table-striped-green>tbody>tr:nth-child(odd)>th {
+            background-color: rgb(214, 252, 222);
+        }
+
+        .thead-green {
+            background-color: rgb(67, 240, 99);
+        }
+
+        .table-striped-pink>tbody>tr:nth-child(odd)>td,
+        .table-striped-pink>tbody>tr:nth-child(odd)>th {
+            background-color: rgb(208, 250, 255);
+        }
+
+        .thead-pink {
+            background-color: rgb(107, 203, 255);
+        }
+
+        th,
+         td {
+      width: 33.33%; /* Adjust as needed for three columns */
+    }
+
+        .conference-program,
+        .keynote-speaker{
+            height: 300px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+        <div class="header-content">Program</div>
+    </header>
+
+    <section class="pre-conference">
+        <div class="container">
+            <i class="fa-regular fa-calendar-clock w-100 text-center pt-5" style="font-size: 60px;"></i>
+            <div class="fs-1 fw-bolder text-center pt-2 pb-4">Pre-Conference workshops</div>
+            <!-- first table -->
+            <div class="table-responsive">
+                <table class="table table-striped-orange table-bordered border-white">
+                    <thead class="thead-orange">
+                        <tr>
+                            <th></th>
+                            <th>Day 0 – 27th June, 2024</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Room 1</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+
+                        <tr>
+                            <th>8:00-8.45 am</th>
+                            <td>Registration</td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <th>8.45-12.00 am</th>
+                            <th>Tools and methods for assessing food safety </th>
+                            <td>Dr. Leah Thompson 
+                                Purdue University</td>
+                        </tr>
+
+                        <tr>
+                            <th>12.30-13.30 pm</th>
+                            <td>Lunch break</td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <th>13.30-16.00 pm</th>
+                            <th>Understanding and studying food environments</th>
+                            <td>Dr. Ramya Ambikapathi, MHS PhD, Senior Research Associate. Fellow, Cornell Atkinson
+                                Center for Sustainability</td>
+                        </tr>
+
+                        <tr>
+                            <th>Room 2</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+
+                        <tr>
+                            <th>8:00-8.45 am </th>
+                            <td>Registration</td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <th>8.45-12.00 am</th>
+                            <th>Survey Design </th>
+                            <td>-Dr. Kate Eddens, PhD, MPH
+                                Associate Research Scientist
+                                Department of Epidemiology and Biostatistics
+                                Indiana University School of Public Health Bloomington 
+                                -Dr. Susmita Ghosh
+                                Graduate Research Assistant Department of Public Health
+                                Department of Nutrition Science, Purdue University</td>
+                        </tr>
+
+                        <tr>
+                            <th>12.30-13.30 pm</th>
+                            <td>Lunch break</td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <th>13.30-16.00 pm</th>
+                            <th>Applying for Graduate Study in the U.S.A</th>
+                            <td>Prof. Dr. Gerald E. ShivelyAssociate Dean and Director of International Programs in
+                                Agriculture, Purdue University</td>
+                        </tr>
+
+                        <tr>
+                            <th>Room 3</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+
+                        <tr>
+                            <th>8:00-8.45 am </th>
+                            <td>Registration</td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <th>8.45-12.00 am</th>
+                            <th>“Learning Health Public Systems: an example from immunisation program</th>
+                            <td>Prof. Fiona Murdoch, Melbourne University</td>
+                        </tr>
+
+                        <tr>
+                            <th>12.30-13.30 pm</th>
+                            <td>Lunch break</td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <th>13.30-16.00 pm</th>
+                            <th>“Learning Health Public Systems: an example from immunisation program</th>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <th>Room 4</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+
+                        <tr>
+                            <th>8:00-8.45 am </th>
+                            <td>Registration</td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <th>8.45-12.00 am</th>
+                            <th>Introduction to statistical methods for nutrition and health research </th>
+                            <td>Dr. Nilupa Gunaratna
+                                Associate Professor, Department of Public Health, Purdue University.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th>12.30-13.30 pm</th>
+                            <td>Lunch break</td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <th>13.30-16.00 pm</th>
+                            <th>Pitfalls in regression analysis</th>
+                            <td>Dr. Roger S. Zoh Associate Professor, Department of Epidemiology and Biostatistics
+                                / School of Public Health, Indiana University Bloomington
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th></th>
+                            <th>Measurement Error in Nutrition and Public Health Research</th>
+                            <td>Dr. Carmen D. Tekwe
+                                Associate Professor of Biostatistics, Indiana University
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- second table -->
+            <div class="table-responsive">
+                <table class="table table-striped-green table-bordered border-white">
+                    <thead class="thead-green">
+                        <tr>
+                            <th></th>
+                            <th>Day 1 – 28th June, 2024</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>8:00-8.45 am </th>
+                            <td>Registration</td>
+                            <td>Room</td>
+                        </tr>
+
+                        <tr>
+                            <th>8.45-9.15</th>
+                            <td>Opening and Welcome</td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <th>9.15-10.30</th>
+                            <td>Plenary session I
+                                <b>Speaker 1:</b> Food safety and Food Environment- Prof. Dr. Gerald E. Shively
+                                <b>Speaker 2:</b> Nutrition -Prof. Florian Schweigert
+                            </td>
+                            <td>Big Hall</td>
+                        </tr>
+
+                        <tr>
+                            <th>10.30-10.50</th>
+                            <td>Coffee break & Poster View</td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <th>10.50-12.30</th>
+                            <td>Plenary session II
+                                <b>Speaker 3:</b> Climate change and Adaptation- Tentative Regional WHO
+                                <b>Speaker 4:</b> Climate and Nutrition
+                            </td>
+                            <td>Big Hall </td>
+                        </tr>
+
+                        <tr>
+                            <th>12.30-13.30</th>
+                            <td>Lunch and Poster View</td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <th>13.30-15.00</th>
+                            <td>Parallel session I-V</td>
+                            <td>5 meeting rooms</td>
+                        </tr>
+
+                        <tr>
+                            <th>15.00-15.15</th>
+                            <td>Coffee Break</td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <th>15.15-16.45</th>
+                            <td>Parallel Session VI-X</td>
+                            <td>5 meeting rooms</td>
+                        </tr>
+
+                        <tr>
+                            <th></th>
+                            <td>Dean’s Meeting</td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <th>18.30-21.00</th>
+                            <td>Welcome dinner at Lanxang Hall,
+                                Phanluang village, Luanprabang Province</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- third table -->
+            <div class="table-responsive">
+                <table class="table table-striped-pink table-bordered border-white">
+                    <thead class="thead-pink">
+                        <tr>
+                            <th></th>
+                            <th>Day 2 – 29th June, 2024</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>8.30-10.00</th>
+                            <td>Plenary session II
+                                Speaker 5: SDGs linked to Health, Nutrition and Climate Change- WHO
+                                Speaker 6: Health Equity to Health and UHC- Prof. Natasha- from NUS</td>
+                            <td>Big Hall </td>
+                        </tr>
+
+                        <tr>
+                            <th>10.00-10.15</th>
+                            <td>Coffee break & Poster View</td>
+                        </tr>
+
+                        <tr>
+                            <th>10.15-11.00</th>
+                            <td>Panel discussion I
+                                Need to discuss about topic
+                                Panellists will be 6 Deans of FPH among GMS countries
+                                Moderator: </td>
+                            <td>Big Hall</td>
+                        </tr>
+
+                        <tr>
+                            <th>11.00-12.30</th>
+                            <td>Parallel Session XI-XVI</td>
+                            <td>5 meeting rooms</td>
+                        </tr>
+
+                        <tr>
+                            <th>12.30-13.30</th>
+                            <td>Lunch and Poster View</td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <th>13.30-15.10</th>
+                            <td>Parallel session XVII-XXII</td>
+                            <td>5 meeting rooms</td>
+                        </tr>
+
+                        <tr>
+                            <th>15.10-15.30</th>
+                            <td>Coffee Break</td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <th>15.30-16.00</th>
+                            <td>Closing</td>
+                            <td>Big Hall </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+      
+        </div>
+
+    </section>
+
+    <section class="conference-program">
+        <div class="container">
+            <hr>
+            <i class="fa-regular fa-table w-100 text-center pt-5" style="font-size: 60px;"></i>
+            <div class="fs-1 fw-bolder text-center pt-2 pb-4">Conference program</div>
+            <div class="fs-4">Coming soon...</div>
+          
+        </div>
+    
+    </section>
+
+    <section class="keynote-speaker">
+        <div class="container">
+            <hr>
+            <i class="fa-regular fa-keynote w-100 text-center pt-5" style="font-size: 60px;"></i>
+        
+            <div class="fs-1 fw-bolder text-center pt-2 pb-4">Key note speakers</div>
+            <div class="fs-4">Coming soon...</div>
+        
+        </div>
+       
+    </section>
+
+    <section class="gala-dinner">
+        <div class="container">
+            <hr>
+            <i class="fa-regular fa-plate-utensils w-100 text-center pt-5" style="font-size: 60px;"></i>
+            <div class="fs-1 fw-bolder text-center pt-2 pb-4">Gala dinner</div>
+            <div class="d-flex justify-content-center">
+            <img src="./assets/img/gala_dinner.jpeg" class="img-fluid" width="75%">
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <br>
+    <br>
+    <!-- js_script_here -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

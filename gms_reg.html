@@ -8,37 +8,18 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link
-      rel="stylesheet"
-      data-purpose="Layout StyleSheet"
-      title="Web Awesome"
-      href="/css/app-wa-462d1fe84b879d730fe2180b0e0354e0.css?vsn=d"
-    >
+  <link rel="stylesheet" data-purpose="Layout StyleSheet" title="Web Awesome"
+    href="/css/app-wa-462d1fe84b879d730fe2180b0e0354e0.css?vsn=d">
 
-      <link
-        rel="stylesheet"
-        href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css"
-      >
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
 
-      <link
-        rel="stylesheet"
-        href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css"
-      >
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css">
 
-      <link
-        rel="stylesheet"
-        href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css"
-      >
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css">
 
-      <link
-        rel="stylesheet"
-        href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css"
-      >
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css">
 
-      <link
-        rel="stylesheet"
-        href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css"
-      >
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css">
   <style>
     html {
       font-size: calc(60%+0.8vmin);
@@ -47,17 +28,18 @@
     header {
 
 
-      background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./assets/img/registration-cover.png);
-
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(16, 46, 75, 0.9)), url(./assets/img/royal_palace_museum.jpeg);
+      
       background-repeat: no-repeat;
       background-size: cover;
-      opacity: 0.8;
+      background-position: center;
 
 
-      color: #ecf0f1;
+
+      color: #ffffff;
       padding: 20px;
       text-align: center;
-      height: 580px;
+      height: 400px;
 
       justify-content: center;
       align-items: center;
@@ -67,14 +49,21 @@
 
     }
 
+    .panel-header{
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.205);
+          
+        }
+
     .header-content {
+
       color: white;
       text-shadow: 3px 3px #000;
     }
 
     body {
       font-family: 'Times New Roman', sans-serif;
-      background-color: #102e4b;
+      background-color: rgb(17, 48, 77);
       margin: 0;
       padding: 0;
     }
@@ -126,11 +115,11 @@
 
     .submission-btn {
       border-radius: 10px;
-      background-color: rgba(255, 199, 0, 1);
-      width: 175px;
+      background-color: rgb(253, 128, 32);
+      width: 255px;
       height: 50px;
       text-decoration: underline;
-      font-size: 18px;
+      font-size: 24px;
       color: #000;
     }
 
@@ -141,7 +130,7 @@
 
 
     .how-to-play-container {
-      background-color: #102e4b;
+      background-color: #DFFDF8FA;
       display: flex;
       flex-direction: column;
       height: auto;
@@ -163,56 +152,53 @@
 
     .block2-container {
 
-      padding-left: 80px;
+      /* padding-left: 80px;
       padding-right: 80px;
       display: flex;
       justify-content: center;
-      flex-wrap: wrap;
+      flex-wrap: wrap; */
 
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     }
 
 
 
     .block-list {
       padding: 10px;
-      box-shadow: 12px 12px 2px 1px #000;
+
       list-style: none;
     }
 
 
     .block2 {
 
- 
+
       flex: 1;
       flex-direction: column;
       justify-content: start;
     }
 
-    .block2-title,
+    /* .block2-title,
     .block3-title {
+
+      text-align: center;
+      font-weight: bolder;
+      height: 100px;
       color: #043193;
-    }
+    } */
 
-    .block3 {
-      flex: 1;
 
-      display: flex;
-      flex-direction: column;
-      justify-content: start;
-      align-items: center;
 
-    }
 
-  
     .block3-image {
-  
+
       padding-top: 30px;
       width: 18.75rem;
+  
     }
 
-    .card-onsite{
-      box-shadow: 12px 12px 2px 1px #000;
-    }
+
 
     ul {
       list-style-type: disc;
@@ -221,7 +207,7 @@
     }
 
     .section-detail-of-free {
-    
+
       background-color: white;
 
     }
@@ -230,18 +216,37 @@
 
 
 
-   
-    
+
+
 
 
 
     .text-left-custom {
       text-align: left;
-    
-      word-wrap: break-word; 
+
+      word-wrap: break-word;
     }
 
- 
+
+    .td-lg {
+      display: block;
+    }
+
+    .td-sm {
+      display: none;
+    }
+
+
+    .price-table {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 20px;
+    }
+
+    .group-table-n-italic {
+      padding: 20px;
+    }
+
     /* Add your own styles or customize further as needed */
 
 
@@ -253,42 +258,62 @@
       }
 
       .block3-image {
-      
+
         width: 200px;
       }
     }
 
+    @media screen and (max-width: 576px) {
+
+      .td-lg {
+        display: none;
+      }
+
+      .td-sm {
+        display: block;
+      }
+    }
 
     @media screen and (max-width: 380px) {
-      .text-left-custom{
+
+      .group-table-n-italic {
+        padding: 5px;
+      }
+
+      .text-left-custom {
         font-size: 14px;
       }
-      .text-left{
+
+      .text-left {
         font-size: 12px;
       }
-      .text-center{
+
+      .text-center {
         font-size: 14px;
       }
-      .text-italic{
+
+      .text-italic {
         font-size: 14px;
       }
     }
 
     @media screen and (max-width: 320px) {
-      .text-left-custom{
+      .text-left-custom {
         font-size: 12px;
       }
-      .text-left{
+
+      .text-left {
         font-size: 10px;
       }
-      .text-center{
+
+      .text-center {
         font-size: 12px;
       }
-      .text-italic{
+
+      .text-italic {
         font-size: 12px;
       }
     }
-
   </style>
 </head>
 
@@ -296,21 +321,27 @@
 
 
   <header>
-    <h1 class="header-content">Registration Information</h1>
-    <h4 class="header-content">Click the following link to access the Google form for registration :</h4>
-    <div>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLScIltzVlgZDgjbz0csvDg6Mvkb1FXK9pzS5083yJOdTp93RPQ/viewform?usp=sharing">
-        <button style="align-items: center; text-decoration: none; color: #000;" 
-        class="submission-btn">Participant</button>
+    <div class="panel-header">
+      <h1 class="header-content">Registration Information</h1>
+    <h4 class="header-content pt-2">Click the following link to access the Google form for registration :</h4>
+    <div class="pt-2">
+      <a
+      target="_blank"
+        href="https://docs.google.com/forms/d/e/1FAIpQLScIltzVlgZDgjbz0csvDg6Mvkb1FXK9pzS5083yJOdTp93RPQ/viewform?usp=sharing">
+        <button style="align-items: center; text-decoration: none; color: #000;"
+          class="submission-btn">Participants</button>
       </a>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSeTpqhI1l6y1M1qTwJ3N3kXnj4i1RqnFEGTwDbxecMesrEbLQ/viewform?usp=sharing">
-      <button style="align-items: center; text-decoration: none;" 
-        class="submission-btn">Presenter</button>
+      <a
+      target="_blank"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSeTpqhI1l6y1M1qTwJ3N3kXnj4i1RqnFEGTwDbxecMesrEbLQ/viewform?usp=sharing">
+        <button style="align-items: center; text-decoration: none;" class="submission-btn">Presenters</button>
       </a>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSd0nWRUn4y0iLs6L2yRc9P4JGWk58leNBnoDv2SF7kmL8Bzag/viewform?usp=sharing">
-      <button style="align-items: center; text-decoration: none;"
-        class="submission-btn">Pre-Workshops </button>
-        </a>
+      <a
+      target="_blank"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSd0nWRUn4y0iLs6L2yRc9P4JGWk58leNBnoDv2SF7kmL8Bzag/viewform?usp=sharing">
+        <button style="align-items: center; text-decoration: none;" class="submission-btn">Pre-Workshops </button>
+      </a>
+    </div>
     </div>
 
   </header>
@@ -318,59 +349,137 @@
     <h3 class="block1-desc text-white">All Participants must register as attending participants, Presenters
       participants for pre-conference workshops</h3>
   </div>
-  <div class="section-detail-of-free pt-3 pb-3">
-    <h1  class="detail-of-free-title text-center pb-4 fw-bolder">Registration fees</h1>
+  <div class="section-detail-of-free pt-5 pb-3">
+    <i class="fa-solid fa-wallet w-100 text-center" style="font-size:60px;color: #077B81FA;"></i>
+    <h1 class="detail-of-free-title text-center pb-4 fw-bolder fs-1">Registration fees</h1>
 
 
-    <div class="group-table-n-italic  row align-items-start align-self-center me-5 ms-5" >
+    <div class="group-table-n-italic">
 
-      <table class="table h-100 table-striped table-bordered border-success col ">
-        <thead class="table-success">
-          <tr>
-            <th class="text-left-custom" scope="col">Type of Delegates</th>
-            <th class="text-left" scope="col">Early Fee <br><br> Up to 30/04/2024</th>
-            <th class="text-left" scope="col">Late Fee <br><br> 01/05-15/06/2024</th>
-            <th class="text-left" scope="col">On Site <br><br>28/06/2024</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="text-left-custom">Participant</td>
-            <td class="text-center">80$</td>
-            <td class="text-center">90$</td>
-            <td class="text-center">100$</td>
-          </tr>
-          <tr>
-            <td class="text-left-custom">Accompanying Person</td>
-            <td class="text-center">50$</td>
-            <td class="text-center">60$</td>
-            <td class="text-center">60$</td>
-          </tr>
-  
-          <tr>
-            <td class="text-left-custom">UN/INGOs</td>
-            <td class="text-center">80$</td>
-            <td class="text-center">90$</td>
-            <td class="text-center">100$</td>
-          </tr>
-          <tr>
-            <td class="text-left-custom d-lg-block d-md-block d-sm-none">*Student/Master/PhD/Laos</td>
-            <td class="text-left-custom d-sm-block d-lg-none d-md-none">*Student/Master/<br>PhD/Laos</td>
-            <td class="text-center">30$</td>
-            <td class="text-center">40$</td>
-            <td class="text-center">50$</td>
-          </tr>
-        </tbody>
-       
-      </table>
+      <div class="price-table">
+        <div class="card price p-0" style="border: 1px solid #d1e7dd">
+          <div class="card-header " style="background-color: #d1e7dd;">
+            <p class="header text-center fs-4 fw-bolder">Early Fee</p>
+            <div class="grey text-center fs-5 fw-bolder">Up to 30/04/2024</div>
+          </div>
+          <div>
+            <div style="background-color: #f0f0f0;padding:15px 50px;">
 
-      <div class="text-italic text-center  col-lg-3 justify-content-start">
-        <div class="border border-3 border-primary mb-2 pt-2">
+              <div class="d-flex justify-content-between"><span>Participant:</span><span class="fw-bold">80$</span>
+              </div>
+
+            </div>
+            <div style="padding: 15px 50px;">
+            <div class="d-flex justify-content-between"><span>Accompanying Person:</span><span
+                class="fw-bold">50$</span></div>
+            </div>
+            <div style="background-color: #f0f0f0;padding:15px 50px;">
+
+              <div class="d-flex justify-content-between"><span>UN/INGOs:</span><span class="fw-bold">80$</span></div>
+            </div>
+
+            <div style="padding: 15px 50px;">
+            <div class="d-flex justify-content-between"><span>*Student/Master/PhD/Laos:</span><span
+                class="fw-bold">30$</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card price p-0" style="border: 1px solid #d1e7dd">
+          <div class="card-header" style="background-color: #d1e7dd;">
+            <p class="header text-center fs-4 fw-bolder">Late Fee</p>
+            <div class="grey text-center fs-5 fw-bolder">01/05-15/06/2024</div>
+          </div>
+          <div>
+            <div style="background-color: #f0f0f0;padding:15px 50px;">
+            <div class="d-flex justify-content-between"><span>Participant:</span><span class="fw-bold">80$</span></div>
+            </div>
+            <div style="padding:15px 50px;">
+            <div class="d-flex justify-content-between"><span>Accompanying Person:</span><span
+                class="fw-bold">50$</span></div>
+            </div>
+            <div style="background-color: #f0f0f0;padding:15px 50px;">
+            <div class="d-flex justify-content-between"><span>UN/INGOs:</span><span class="fw-bold">80$</span></div>
+            </div>
+            <div style="padding:15px 50px;">
+            <div class="d-flex justify-content-between"><span>*Student/Master/PhD/Laos:</span><span
+                class="fw-bold">30$</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="card price p-0" style="border: 1px solid #d1e7dd">
+          <div class="card-header" style="background-color: #d1e7dd;">
+            <p class="header text-center fs-4 fw-bolder">On Site</p>
+            <div class="grey text-center fs-5 fw-bolder">28/06/2024</div>
+          </div>
+          <div >
+            <div style="background-color: #f0f0f0;padding:15px 50px;">
+            <div class="d-flex justify-content-between"><span>Participant:</span><span class="fw-bold">80$</span></div>
+            </div>
+            <div style="padding:15px 50px;">
+            <div class="d-flex justify-content-between"><span>Accompanying Person:</span><span
+                class="fw-bold">50$</span></div>
+            </div>
+            <div style="background-color: #f0f0f0;padding:15px 50px;">
+            <div class="d-flex justify-content-between"><span>UN/INGOs:</span><span class="fw-bold">80$</span></div>
+            </div>
+            <div style="padding:15px 50px;">
+            <div class="d-flex justify-content-between"><span>*Student/Master/PhD/Laos:</span><span
+                class="fw-bold">30$</span></div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+      <!-- <table class="table h-100 table-striped table-bordered border-success col ">
+    <thead class="table-success">
+      <tr>
+        <th class="text-left-custom" scope="col">Type of Delegates</th>
+        <th class="text-left" scope="col">Early Fee <br><br> Up to 30/04/2024</th>
+        <th class="text-left" scope="col">Late Fee <br><br> 01/05-15/06/2024</th>
+        <th class="text-left" scope="col">On Site <br><br>28/06/2024</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="text-left-custom">Participant</td>
+        <td class="text-center">80$</td>
+        <td class="text-center">90$</td>
+        <td class="text-center">100$</td>
+      </tr>
+      <tr>
+        <td class="text-left-custom">Accompanying Person</td>
+        <td class="text-center">50$</td>
+        <td class="text-center">60$</td>
+        <td class="text-center">60$</td>
+      </tr>
+
+      <tr>
+        <td class="text-left-custom">UN/INGOs</td>
+        <td class="text-center">80$</td>
+        <td class="text-center">90$</td>
+        <td class="text-center">100$</td>
+      </tr>
+      <tr>
+        <td class="text-left-custom td-lg">*Student/Master/PhD/Laos</td>
+        <td class="text-left-custom td-sm">*Student/Master/<br>PhD/Laos</td>
+        <td class="text-center">30$</td>
+        <td class="text-center">40$</td>
+        <td class="text-center">50$</td>
+      </tr>
+    </tbody>
+
+  </table> -->
+
+      <div class="text-italic text-center p-0">
+        <div class="card   pt-2 " style="border: 1px solid #d1e7dd;">
           <i class="fa-regular fa-hourglass-clock  fs-3" style="color: #00058a;"></i>
           <div class="pt-2 ">Early registration</div>
           <div class="date-regis fs-5 fw-bolder pb-2">30th April 2024</div>
         </div>
-        <div class="border border-3 border-danger mt-2 pt-2 pe-1">
+        <div class="card  pt-2 " style="border: 1px solid #d1e7dd;">
           <i class="fa-regular fa-alarm-exclamation  fs-3 " style="color: #ff0000;"></i>
           <div class="pt-2 ">Late registration</div>
           <div class="date-regis fs-5 fw-bolder pb-2">Before 31 May, 2024</div>
@@ -382,46 +491,49 @@
   </div>
 
   <div class="section how-to-play-container pt-5 pb-3">
-  
-    <i class="fa-light fa-clipboard-question text-center " style="color: #8dcaff;font-size: 60px;"></i>
-      <h1 class="text-center fw-bolder pb-4" style="color: #8dcaff;">How to Pay</h1>
 
-    <div class="block2-container">
+
+    <h1 class="text-center fw-bolder pb-4 fs-1" style="color: #077B81FA;">How to Pay</h1>
+
+    <div class="block2-container ms-lg-5 me-lg-5">
 
       <div class="block2">
-    
-        
-        <ul class="block-list border border-5 bg-light ">
-          <h2 class="block2-title">The registration can be paid via bank transfer to:</h2>
-          <hr>
-          <li><b>Ms. Phanthy Sisana</b></li>
-          <li><b>Tel:</b> +856 (0)21-2213231</li>
-          <li><b>Bank Name:</b> Bank pour Le Commerce Exterieur Du Laos, Vientiane Capital, Lao PDR</li>
-          <li><b>Account name:</b>Phanthy Sisana </li>
-          <li><b>Bank Account:</b> 0161213174433</li>
-          <li><b>SWIFT CODE:</b> COEBLALA</li>
-          <br>
-          <li>Or through the financial officer of the Faculty of Public Health, UHS</li>
-          <li><b>Ms. Manyphone Xayyasane</b></li>
-          <li><b>Account name:</b> MANYPHONE SAYYASAN</li>
-          <li><b>Bank Account:</b> 091120100042411001</li>
-          <li><b>Tel:</b> +856 (0)21-240854</li>
-          <li><b>P.O. Box:</b> 7444</li>
-        </ul>
+        <i class="fa-regular fa-globe text-center w-100" style="font-size:60px;color: #077B81FA;"></i>
+        <h3 class="block2-title fw-bolder fs-3 text-center pt-3" style="color: #4C9EA2FA;">The registration can be paid via <br>bank transfer to:</h3>
+        <div class="d-flex justify-content-center">
+          <ul class="block-list ">
+            <li><b>Ms. Phanthy Sisana</b></li>
+            <li><b>Tel:</b> +856 (0)21-2213231</li>
+            <li><b>Bank Name:</b> Bank pour Le Commerce Exterieur Du Laos, Vientiane Capital, Lao PDR</li>
+            <li><b>Account name:</b>Phanthy Sisana </li>
+            <li><b>Bank Account:</b> 0161213174433</li>
+            <li><b>SWIFT CODE:</b> COEBLALA</li>
+            <br>
+            <li>Or through the financial officer of the Faculty of Public Health, UHS</li>
+            <li><b>Ms. Manyphone Xayyasane</b></li>
+            <li><b>Account name:</b> MANYPHONE SAYYASAN</li>
+            <li><b>Bank Account:</b> 091120100042411001</li>
+            <li><b>Tel:</b> +856 (0)21-240854</li>
+            <li><b>P.O. Box:</b> 7444</li>
+          </ul>
+        </div>
 
       </div>
-      <div class="block3">
-        <div class="card-onsite border border-5 bg-light">
-          <h2 class="block3-title text-center">Onsite Payment</h2>
-          <hr style="margin-left: 10px;margin-right: 10px;">
-        <img class="block3-image" src="./assets/img/onsite_payment.png">
+      <div class="block3 ms-2">
+        <div class="card-onsite">
+          <i class="fa-regular fa-bench-tree text-center w-100" style="font-size:60px;color: #077B81FA;"></i>
+          <h3 class="block3-title text-center pt-3 fs-3 fw-bolder" style="color: #4C9EA2FA;">Onsite Payment</h3>
+          <br>
+          <div class="d-flex justify-content-center">
+          <img class="block3-image" src="./assets/img/onsite_payment.png">
         </div>
-        
+        </div>
       </div>
 
     </div>
+
   </div>
- 
+
 
   <!-- js_script_here -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
