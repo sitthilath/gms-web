@@ -1,0 +1,396 @@
+html {
+    font-size: calc(60%+0.8vmin);
+}
+
+body {
+    /* font-family:'Times New Roman', Times, serif, sans-serif; */
+    /* font-family: 'calibri', 'Times New Roman', Times, serif, sans-serif; */
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.nav-logo {
+    width: 50px;
+    height: 50px;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+}
+
+.heder-naviagation {
+    width: 100%;
+    background-color: #e5642d;
+}
+
+.header-background {
+    display: flex;
+    gap: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(112, 112, 112, 0.5)), url(../img/index/index_bg_header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    /* height: 525px; */
+    height: auto;
+    padding: 0 20px;
+}
+
+.header-background-area {
+    background-color: rgba(27, 137, 226, 0.5);
+    padding: 50px 40px;
+    margin: 30px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.conference-info {
+    margin: 0 auto;
+}
+
+
+/* venue zone */
+.line {
+    border-width: 3px;
+    border-style: solid;
+    color: rgba(217, 217, 217, 1);
+}
+
+.venue {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    flex-wrap: wrap;
+    text-align: center;
+    border-style: solid;
+    border-color: none;
+    border-width: 3px;
+    background-color: #fff;
+    box-shadow: 5px 5px #333;
+    width: 32vw;
+}
+
+.venue-container {
+    max-width: 600px;
+}
+
+.section-venue {
+    justify-content: center;
+
+    display: flex;
+}
+
+
+/* title and content zone */
+.paragraph {
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    line-height: 1.5;
+}
+
+.paragraph p{
+    font-size: 20px;
+}
+
+.title-conference {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.title-conference h2{
+    font-size: 40px;
+    color: blue;
+    font-weight: bold;
+}
+.title-conference h3{
+    font-size: 30px;
+    color: #e5642d;;
+    font-weight: bold;
+}
+
+.icon-with-text {
+    font-weight: bolder;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.icon-with-text img {
+    width: 26px;
+    height: 26px;
+}
+
+
+
+/* title in header */
+.full-org-name {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.full-org-name h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    /* text-shadow: 1px 1px #333; */
+    padding-top: 30px;
+}
+
+.full-org-name h1 p {
+    font-size: 50px;
+    font-weight: bolder;
+    /* color: #3dc5ff; */
+    color: #fff;
+
+}
+
+/* organizing committee zone here !!! */
+.section-committee-bg {
+    background-color: #FFE4C9;
+}
+.section-committee-header {
+    text-align: center;
+    font-size: 40px;
+    font-weight:bolder ;
+    color: #FF0800;
+    padding: 50px 0;
+}
+
+/* speech of rector here !!! */
+.section-speech-rector-bg {
+    background-color: #0D9276;
+}
+.section-speech-rector-header {
+    text-align: center;
+    font-size: 40px;
+    font-weight:bolder ;
+    color: #fff;
+    padding: 50px 0;
+}
+
+/* speech of deans here !!! */
+.section-speech-deans-bg {
+    background-color: #B67352;
+    padding: 50px 0;
+}
+.section-speech-deans-header {
+    text-align: center;
+    font-size: 40px;
+    font-weight:bolder ;
+    color: #00008B;
+}
+.section-speech-deans-body {
+    height: auto;
+}
+
+/* partners zone here !!! */
+.section-partner-bg {
+    /* background-color: #0A1D56; */
+    background-color: #fff;
+}
+.section-partner-header {
+    text-align: center;
+    font-size: 40px;
+    font-weight:bolder ;
+    color: #0A1D56; ;
+    padding: 50px 0;
+}
+.card {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+/* sponsor logo zone*/
+.supported-text h2 {
+    color: #e5642d;
+    text-align: center;
+    font-style: italic;
+    padding-top: 20px;
+    font-size: 45px;
+}
+
+.sponsor-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 20px;
+    padding: 30px 0;
+}
+
+.sponsor-logo-one {
+    width: 50px;
+}
+
+.sponsor-logo-two {
+    width: 150px;
+}
+
+.sponsor-logo-three {
+    width: 80px;
+}
+
+.sponsor-logo-four {
+    width: 120px;
+}
+
+.sponsor-logo-five {
+    width: 150px;
+}
+
+.sponsor-logo-six {
+    width: 60px;
+}
+
+.sponsor-logo-seven {
+    width: 80px;
+}
+
+
+/* top logo zone*/
+.situation-logos {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.top-logo-one {
+    width: 8.125rem;
+}
+
+.top-logo-two {
+    width: 7.813rem;
+}
+
+.top-logo-three {
+    width: 7.700rem;
+    padding-bottom: 3px;
+}
+
+/* media screen zone*/
+
+
+@media screen and (max-width: 600px) {
+
+    /* top logo zone*/
+    .situation-logos {
+
+        gap: 50px;
+
+    }
+
+    .header-background {
+        gap: 15%;
+    }
+
+    .full-org-name {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    /* top logo zone*/
+    .situation-logos {
+
+        gap: 0px;
+
+    }
+
+    .header-background {
+        gap: 5%;
+    }
+
+    .top-logo-one {
+        width: 115px;
+    }
+
+    .top-logo-two {
+        width: 110px;
+    }
+
+    .top-logo-three {
+        width: 100px;
+        padding-bottom: 3px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .top-logo-one {
+        width: 95px;
+
+    }
+
+    .top-logo-two {
+        width: 90px;
+    }
+
+    .top-logo-three {
+        width: 80px;
+        padding-bottom: 3px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 260px) {
+    .top-logo-one {
+        width: 75px;
+
+    }
+
+    .top-logo-two {
+        width: 70px;
+
+    }
+
+    .top-logo-three {
+
+        width: 60px;
+        padding-bottom: 3px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
