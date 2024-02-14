@@ -41,7 +41,7 @@ header {
 }
 
 .header-background-area {
-    background-color: rgba(27, 137, 226, 0.5);
+    background-color: rgb(222 223 224 / 70%);
     padding: 50px 40px;
     margin: 30px;
     width: 100%;
@@ -139,7 +139,7 @@ header {
     font-size: 40px;
     font-weight: bold;
     text-align: center;
-    color: #fff;
+    color: #7e00b2;
     /* text-shadow: 1px 1px #333; */
     padding-top: 30px;
 }
@@ -148,7 +148,7 @@ header {
     font-size: 50px;
     font-weight: bolder;
     /* color: #3dc5ff; */
-    color: #fff;
+    color: #7e00b2;
 
 }
 
@@ -203,6 +203,7 @@ header {
     color: #0A1D56; ;
     padding: 50px 0;
 }
+
 .card {
     display: flex;
     text-align: center;

@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css">
 
   <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css">
+  <link href="./assets/css/index.css" rel="stylesheet">
   <style>
     html {
       font-size: calc(60%+0.8vmin);
@@ -321,7 +322,11 @@
 
 
   <header>
+    <div id="heder-naviagation">
+      <?php include_once("./components/navbar.html")?>
+    </div><br><br>
     <div class="panel-header">
+
       <div class="header-content fs-1 fw-bolder">Registration Information</div>
     <h4 class="header-content pt-2 fw-bold">Click the following link to access the Google form for registration :</h4>
     <div class="pt-2">
@@ -332,12 +337,12 @@
         <button style="align-items: center; text-decoration: none; color: #000;"
           class="submission-btn mb-2">Participants</button>
       </a>
-      <a
+      <!-- <a
   
       target="_blank"
         href="https://docs.google.com/forms/d/e/1FAIpQLSeTpqhI1l6y1M1qTwJ3N3kXnj4i1RqnFEGTwDbxecMesrEbLQ/viewform?usp=sharing">
         <button style="align-items: center; text-decoration: none;" class="submission-btn mb-2">Presenters</button>
-      </a>
+      </a> -->
       <a
 
       target="_blank"
@@ -360,7 +365,7 @@
     <div class="group-table-n-italic">
 
       <div class="price-table">
-        <div class="card price p-0" style="border: 1px solid #d1e7dd">
+        <div class="card-early price p-0 rounded-2" style="border: 1px solid #d1e7dd">
           <div class="card-header " style="background-color: #d1e7dd;">
             <p class="header text-center fs-4 fw-bolder">Early Fee</p>
             <div class="grey text-center fs-5 fw-bolder">Up to 30/04/2024</div>
@@ -388,7 +393,7 @@
           </div>
         </div>
 
-        <div class="card price p-0" style="border: 1px solid #d1e7dd">
+        <div class="card-late price p-0 rounded-2" style="border: 1px solid #d1e7dd">
           <div class="card-header" style="background-color: #d1e7dd;">
             <p class="header text-center fs-4 fw-bolder">Late Fee</p>
             <div class="grey text-center fs-5 fw-bolder">01/05-15/06/2024</div>
@@ -410,7 +415,7 @@
             </div>
           </div>
         </div>
-        <div class="card price p-0" style="border: 1px solid #d1e7dd">
+        <div class="card-onsite price p-0 rounded-2" style="border: 1px solid #d1e7dd">
           <div class="card-header" style="background-color: #d1e7dd;">
             <p class="header text-center fs-4 fw-bolder">On Site</p>
             <div class="grey text-center fs-5 fw-bolder">28/06/2024</div>
@@ -436,45 +441,6 @@
 
       </div>
 
-      <!-- <table class="table h-100 table-striped table-bordered border-success col ">
-    <thead class="table-success">
-      <tr>
-        <th class="text-left-custom" scope="col">Type of Delegates</th>
-        <th class="text-left" scope="col">Early Fee <br><br> Up to 30/04/2024</th>
-        <th class="text-left" scope="col">Late Fee <br><br> 01/05-15/06/2024</th>
-        <th class="text-left" scope="col">On Site <br><br>28/06/2024</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="text-left-custom">Participant</td>
-        <td class="text-center">80$</td>
-        <td class="text-center">90$</td>
-        <td class="text-center">100$</td>
-      </tr>
-      <tr>
-        <td class="text-left-custom">Accompanying Person</td>
-        <td class="text-center">50$</td>
-        <td class="text-center">60$</td>
-        <td class="text-center">60$</td>
-      </tr>
-
-      <tr>
-        <td class="text-left-custom">UN/INGOs</td>
-        <td class="text-center">80$</td>
-        <td class="text-center">90$</td>
-        <td class="text-center">100$</td>
-      </tr>
-      <tr>
-        <td class="text-left-custom td-lg">*Student/Master/PhD/Laos</td>
-        <td class="text-left-custom td-sm">*Student/Master/<br>PhD/Laos</td>
-        <td class="text-center">30$</td>
-        <td class="text-center">40$</td>
-        <td class="text-center">50$</td>
-      </tr>
-    </tbody>
-
-  </table> -->
 
       <div class="text-italic text-center p-0">
         <div class="card   pt-2 " style="border: 1px solid #d1e7dd;">
@@ -542,7 +508,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
-
+  <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

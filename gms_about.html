@@ -20,6 +20,7 @@
 
 <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css">
 
+    <link href="./assets/css/index.css" rel="stylesheet">
     <style>
           html {
       font-size: calc(60%+0.8vmin);
@@ -32,7 +33,7 @@
         }
 
         header {
-            color: #fff;
+            color: #ffffff;
             text-align: center;
             height: 400px;
             background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/img/temple.jpeg);
@@ -45,7 +46,7 @@
             justify-content: center;
             align-items: center;
             padding: 50px 0;
-           
+            text-shadow: 3px 3px #000;
         }
         .panel-header{
             padding: 10px;
@@ -67,7 +68,7 @@
 
         .history-section {
             height: 500px;
-            background-color: white;
+            background-color: #d6c6ec;
         }
 
         .history-title {
@@ -81,8 +82,9 @@
         }
 
         .vision-section {
+           
             height: 450px;
-            background-color: rgba(243, 243, 243, 1);
+            background-color: #c9ace4;
         }
 
         .vision-title {
@@ -166,6 +168,9 @@
 
 <body>
     <header>
+        <div id="heder-naviagation">
+            <?php include_once("./components/navbar.html")?>
+        </div><br><br>
             <div class="panel-header">
                 <div class="fs-1 fw-bolder ">About GMS</div>
             <h2 class="header-content">
@@ -183,7 +188,7 @@
         <section class="history-section">
             <div class="box-800w">
                 <i class="fa-solid fa-clock-rotate-left w-100 text-center pt-4 pb-2" style="font-size: 60px;"></i>
-                <div class="history-title fs-1 fw-bolder pb-4">History</div>
+                <div class="history-title fs-1 fw-bolder pb-4">Background</div>
                 <p class="history-paragraph fs-5">
                     The Greater Mekong Subregion (GMS) Public Health Academic Network has started in 2008. It comprises
                     members from public health academic institutions of 6 countries in the GMS namely Thailand, Vietnam,
@@ -231,7 +236,7 @@
         <section class="objective-section">
             <div class="box-800w">
                 <i class="fa-regular fa-rectangle-history w-100 text-center pt-4 pb-2" style="font-size: 60px;"></i>
-                <div class="objective-title fs-1 fw-bolder pb-4">Objectives of the 14<sup>th</sup> ICPHH among GMS Country</div>
+                <div class="objective-title fs-1 fw-bolder pb-4">Objectives of the 14<sup>th</sup> ICPH among GMS Countries</div>
                 <ul class="objective-paragraph fs-5">
                     <li>To enhance the quality and relevance of educational and training programs as well as research in
                     public health among greater Mekong Sub-Region countries.</li>
@@ -249,6 +254,7 @@
         </section>
 
     </div>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
