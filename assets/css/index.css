@@ -152,6 +152,19 @@ header {
 
 }
 
+
+/* steering committee zone here !!! */
+.section-steering-committee-bg {
+    background-color: #f1e8e6;
+}
+.section-steering-committee-header {
+    text-align: center;
+    font-size: 40px;
+    font-weight:bolder ;
+    color: #ad4616;
+    padding: 50px 0;
+}
+
 /* organizing committee zone here !!! */
 .section-committee-bg {
     background-color: #FFE4C9;
@@ -161,6 +174,18 @@ header {
     font-size: 40px;
     font-weight:bolder ;
     color: #FF0800;
+    padding: 50px 0;
+}
+
+/* scientific committee zone here !!! */
+.section-scientific-committee-bg {
+    background-color: #edd2cb;
+}
+.section-scientific-committee-header {
+    text-align: center;
+    font-size: 40px;
+    font-weight:bolder ;
+    color: #74346e;
     padding: 50px 0;
 }
 
