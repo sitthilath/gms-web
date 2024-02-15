@@ -1,5 +1,5 @@
 html {
-    font-size: calc(60%+0.8vmin);
+    font-size: calc(60% + 0.8vmin);
 }
 
 body {
@@ -70,7 +70,7 @@ header {
     flex-wrap: wrap;
     text-align: center;
     border-style: solid;
-    border-color: none;
+
     border-width: 3px;
     background-color: #fff;
     box-shadow: 5px 5px #333;
@@ -107,7 +107,7 @@ header {
 
 .title-conference h2{
     font-size: 40px;
-    color: blue;
+    color: black;
     font-weight: bold;
 }
 .title-conference h3{
