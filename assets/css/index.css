@@ -31,17 +31,16 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(112, 112, 112, 0.5)), url(../img/index/index_bg_header.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgb(255, 255, 255), rgba(255, 255, 255, 0.3)), url(../img/index/index_bg_header.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-    /* height: 525px; */
     height: auto;
     padding: 0 20px;
 }
 
 .header-background-area {
-    background-color: rgb(222 223 224 / 70%);
+    /* background-color: rgb(222 223 224 / 70%); */
     padding: 50px 40px;
     margin: 30px;
     width: 100%;
@@ -96,7 +95,7 @@ header {
     line-height: 1.5;
 }
 
-.paragraph p{
+.paragraph p {
     font-size: 20px;
 }
 
@@ -105,14 +104,16 @@ header {
     padding-top: 50px;
 }
 
-.title-conference h2{
-    font-size: 40px;
-    color: black;
+.title-conference h2 {
+    font-size: 35px;
+    color: #7e00b2;
     font-weight: bold;
 }
-.title-conference h3{
+
+.title-conference h3 {
     font-size: 30px;
-    color: #e5642d;;
+    color: #e5642d;
+    ;
     font-weight: bold;
 }
 
@@ -157,11 +158,12 @@ header {
 .section-steering-committee-bg {
     background-color: #f1e8e6;
 }
+
 .section-steering-committee-header {
     text-align: center;
     font-size: 40px;
-    font-weight:bolder ;
-    color: #ad4616;
+    font-weight: bolder;
+    color: #cc4609;;
     padding: 50px 0;
 }
 
@@ -169,10 +171,11 @@ header {
 .section-committee-bg {
     background-color: #FFE4C9;
 }
+
 .section-committee-header {
     text-align: center;
     font-size: 40px;
-    font-weight:bolder ;
+    font-weight: bolder;
     color: #FF0800;
     padding: 50px 0;
 }
@@ -181,11 +184,12 @@ header {
 .section-scientific-committee-bg {
     background-color: #edd2cb;
 }
+
 .section-scientific-committee-header {
     text-align: center;
     font-size: 40px;
-    font-weight:bolder ;
-    color: #74346e;
+    font-weight: bolder;
+    color: #910583;
     padding: 50px 0;
 }
 
@@ -193,10 +197,11 @@ header {
 .section-speech-rector-bg {
     background-color: #0D9276;
 }
+
 .section-speech-rector-header {
     text-align: center;
     font-size: 40px;
-    font-weight:bolder ;
+    font-weight: bolder;
     color: #fff;
     padding: 50px 0;
 }
@@ -206,12 +211,14 @@ header {
     background-color: #B67352;
     padding: 50px 0;
 }
+
 .section-speech-deans-header {
     text-align: center;
     font-size: 40px;
-    font-weight:bolder ;
+    font-weight: bolder;
     color: #00008B;
 }
+
 .section-speech-deans-body {
     height: auto;
 }
@@ -221,11 +228,13 @@ header {
     /* background-color: #0A1D56; */
     background-color: #fff;
 }
+
 .section-partner-header {
     text-align: center;
     font-size: 40px;
-    font-weight:bolder ;
-    color: #0A1D56; ;
+    font-weight: bolder;
+    color: #0A1D56;
+    ;
     padding: 50px 0;
 }
 
