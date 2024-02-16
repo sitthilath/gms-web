@@ -185,14 +185,23 @@
         .title {
             font-size: 36px;
             font-weight: bolder;
-            color: rgba(16, 46, 75, 0.95);
+            /* color: rgba(16, 46, 75, 0.95); */
+            color: darkblue;
         }
 
         .hotel-title {
             font-weight: bolder;
         }
-
-
+        .conference-title{
+            list-style: none;
+            font-weight: bold;
+            font-size: 20px;
+            color: #000000;
+        }
+        .conference-span{
+            font-size: 20px;
+            color: #333;
+        }
         @media screen and (max-width:768px) {
             .conference-img-items {
                 display: flex;
@@ -234,7 +243,35 @@
         <div class="conference">
             <div class="conference-details">
                 <h2 class="title">Conference Hotel Location</h2>
-                <p style="font-size: 20px;"><b>Date:</b> 27<sup>th</sup> - 29<sup>th</sup> June, 2024<br>
+                <table class="table table-striped">
+                    <tr>
+                      <td><li class="conference-title">Date:</li></td>
+                      <td><span class="conference-span">27<sup>th</sup> - 29<sup>th</sup> June, 2024<br>
+                        The pre-conference workshop will be on 27<sup>th</sup> June, 2024<br>
+                        The conference days will be on 28<sup>th</sup> - 29<sup>th</sup> June, 2024<br><br></span></td>
+                    </tr> 
+                    <tr>
+                      <td><li class="conference-title">Venue:</li> </td>
+                      <td><span class="conference-span">Pullman Hotel, Luangprabang City, Lao PDR</span></td>
+                    </tr>
+                    <tr>
+                      <td><li class="conference-title">Address:</li></td>
+                      <td><span class="conference-span">Ban Pong Wanh, Luangprabang, Laos.</span></td>
+                    </tr>
+                    <tr>
+                      <td><li class="conference-title">Website:</li> </td>
+                      <td><span class="conference-span">https://www.Pullman-luangprabang.com</span></td>
+                    </tr>
+                    <tr>
+                      <td><li class="conference-title">Email:</li></td>
+                      <td><span class="conference-span">h9112@accor.com</span></td>
+                    </tr>
+                    <tr>
+                        <td><li class="conference-title">Language:</li> </td>
+                        <td><span class="conference-span">The official language of the conference is English</span></td>
+                      </tr>
+                  </table>
+                <!-- <p style="font-size: 20px;"><b>Date:</b> 27<sup>th</sup> - 29<sup>th</sup> June, 2024<br>
                     The pre-conference workshop will be on 27<sup>th</sup> June, 2024<br>
                     The conference days will be on 28<sup>th</sup> - 29<sup>th</sup> June, 2024<br><br>
                     <b>Venue:</b> Pullman Hotel, Luangprabang City, Lao PDR<br>
@@ -242,7 +279,7 @@
                     <b>Website:</b> https://www.Pullman-luangprabang.com<br>
                     <b>Email:</b> h9112@accor.com<br>
                     <b>Language:</b> The official language of the conference is English
-                </p>
+                </p> -->
             </div>
             <div class="conference-img">
                 <div class="conference-img-items">
