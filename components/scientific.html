@@ -18,6 +18,9 @@
     }
 
     .committee-box-scientific {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
         text-align: center;
         width: 30%;
         height: auto;
@@ -43,6 +46,20 @@
     .committee-box-scientific p {
         padding: 0 0;
         height: auto;
+    }
+
+    @media screen and (max-width:495px) {
+        .committee-box-area {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 20px;
+        padding: 0 10px;
+    }
+
+    .committee-box-scientific {
+        width: 100%;
+    }
     }
 </style>
 <div class="committee-scientific">
@@ -225,11 +242,15 @@
             <p>Dean, Faculty of Public Health, Kasetsart University, Thailand</p>
         </div>
     </div>
-    <!-- Asst. Prof. Dr. Kitti Laosupap -->
-    <div class="committee-box-scientific">
-        <!-- <img src="./assets/img/avatar/avatar-person.svg" style="border-radius: 50%; padding: 20px;"> -->
-        <h5>Asst. Prof. Dr. Kitti Laosupap</h5>
-        <p>College of Medicine and Public Health, UbonRachathani University, Thailand</p>
+
+    <div class="committee-box-area">
+         <!-- Asst. Prof. Dr. Kitti Laosupap -->
+        <div class="committee-box-scientific">
+            <!-- <img src="./assets/img/avatar/avatar-person.svg" style="border-radius: 50%; padding: 20px;"> -->
+            <h5>Asst. Prof. Dr. Kitti Laosupap</h5>
+            <p>College of Medicine and Public Health, UbonRachathani University, Thailand</p>
+        </div>
     </div>
+   
 
 </div>

@@ -64,12 +64,12 @@
             padding: 0;
         }
 
-        .container{
+        .container {
             max-width: 1200px;
         }
 
         tr:nth-child(even)>td,
-        tr:nth-child(even)>th{
+        tr:nth-child(even)>th {
             background-color: #f4f4f4;
         }
 
@@ -101,21 +101,22 @@
         }
 
         th,
-         td {
-      width: 33.33%; /* Adjust as needed for three columns */
-    }
+        td {
+            width: 33.33%;
+            /* Adjust as needed for three columns */
+        }
 
         .conference-program,
-        .keynote-speaker{
+        .keynote-speaker {
             height: 300px;
         }
 
-        .gala-dinner{
+        .gala-dinner {
             background-color: rgb(17, 48, 77);
             padding-bottom: 50px;
         }
 
-        .gala-dinner-divier{
+        .gala-dinner-divier {
             color: #ffffff;
             margin-left: 250px;
             margin-right: 250px;
@@ -125,27 +126,49 @@
             font-size: x-large;
             font-weight: bold;
         }
+
         /* .room-title {
             font-size: larger;
             font-weight: bold;
         } */
-        .table-responsive{
+        .table-responsive {
             font-size: larger;
         }
+
         @media screen and (max-width: 768px) {
-            .gala-dinner-divier{
-        
-            margin-left: 100px;
-            margin-right: 100px;
-        }
+            .gala-dinner-divier {
+                margin-left: 100px;
+                margin-right: 100px;
+            }
+
+            .workshop-professor {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .card {
+                width: 100%;
+            }
         }
 
         @media screen and (max-width: 400px) {
-            .gala-dinner-divier{
-        
-            margin-left: 60px;
-            margin-right: 60px;
-        }
+            .gala-dinner-divier {
+                margin-left: 60px;
+                margin-right: 60px;
+            }
+
+            .workshop-professor {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                padding: 10px;
+                width: 100%;
+                flex-wrap: wrap;
+            }
+
+            .card {
+                width: 100%;
+            }
         }
     </style>
 </head>
@@ -189,7 +212,7 @@
 
                         <tr>
                             <th>8:45-12:00 am</th>
-                            <th>Workshop I:<br><span >Tools and methods for assessing food safety </span></th>
+                            <th>Workshop I:<br><span>Tools and methods for assessing food safety </span></th>
                             <td>Dr. Leah Thompson 
                                 Purdue University</td>
                         </tr>
@@ -202,7 +225,7 @@
 
                         <tr>
                             <th>13:30-16:00 pm</th>
-                            <th>Workshop II:<br><span >Understanding and studying food environments</span></th>
+                            <th>Workshop II:<br><span>Understanding and studying food environments</span></th>
                             <td>Dr. Ramya Ambikapathi, MHS PhD, Senior Research Associate. Fellow, Cornell Atkinson
                                 Center for Sustainability</td>
                         </tr>
@@ -221,7 +244,7 @@
 
                         <tr>
                             <th>8:45-12:00 am</th>
-                            <th>Workshop III:<br><span >Survey Design</span> </th>
+                            <th>Workshop III:<br><span>Survey Design</span> </th>
                             <td>- Dr. Kate Eddens, PhD, MPH
                                 Associate Research Scientist
                                 Department of Epidemiology and Biostatistics
@@ -238,7 +261,7 @@
 
                         <tr>
                             <th>13:30-16:00 pm</th>
-                            <th>Workshop IV:<br><span >Applying for Graduate Study in the U.S.A</span></th>
+                            <th>Workshop IV:<br><span>Applying for Graduate Study in the U.S.A</span></th>
                             <td>Prof. Dr. Gerald E. ShivelyAssociate Dean and Director of International Programs in
                                 Agriculture, Purdue University</td>
                         </tr>
@@ -257,7 +280,8 @@
 
                         <tr>
                             <th>8:45-12:00 am</th>
-                            <th>Workshop IV:<br><span >Learning Health Public Systems: an example of Laos immunization program</span></th>
+                            <th>Workshop IV:<br><span>Learning Health Public Systems: an example of Laos immunization
+                                    program</span></th>
                             <td>Professor Fiona Russell, Professor Nigel Crawford</td>
                         </tr>
 
@@ -269,7 +293,8 @@
 
                         <tr>
                             <th>13:30-16:00 pm</th>
-                            <th>Workshop V:<br><span >Learning Health Public Systems: an example of Laos immunization program</span></th>
+                            <th>Workshop V:<br><span>Learning Health Public Systems: an example of Laos immunization
+                                    program</span></th>
                             <td>Professor Fiona Russell, Professor Nigel Crawford</td>
                         </tr>
 
@@ -287,7 +312,8 @@
 
                         <tr>
                             <th>8:45-12:00 am</th>
-                            <th>Workshop VI:<br><span >Introduction to statistical methods for nutrition and health research</span> </th>
+                            <th>Workshop VI:<br><span>Introduction to statistical methods for nutrition and health
+                                    research</span> </th>
                             <td>Dr. Nilupa Gunaratna
                                 Associate Professor, Department of Public Health, Purdue University.
                             </td>
@@ -301,23 +327,24 @@
 
                         <tr>
                             <th>13:30-16:00 pm</th>
-                            <th>Workshop VI:<br><span >Pitfalls in regression analysis</span> <br>
-                                <br><br><span >Measurement Error in Nutrition and Public Health Research</span></th>
+                            <th>Workshop VI:<br><span>Pitfalls in regression analysis</span> <br>
+                                <br><br><span>Measurement Error in Nutrition and Public Health Research</span>
+                            </th>
                             <td>
                                 <span>
                                     Dr. Roger S. Zoh Associate Professor, Department of Epidemiology and Biostatistics
-                                / School of Public Health, Indiana University Bloomington
+                                    / School of Public Health, Indiana University Bloomington
                                 </span>
                                 <br>
                                 <br>
                                 <span>
                                     Dr. Carmen D. Tekwe
-                                Associate Professor of Biostatistics, Indiana University
+                                    Associate Professor of Biostatistics, Indiana University
                                 </span>
                             </td>
                         </tr>
 
-                     
+
                     </tbody>
                 </table>
             </div>
@@ -424,7 +451,8 @@
                             <th>8:30-10:00</th>
                             <td><b>Plenary session II:</b><br>
                                 <b>Speaker 5:</b> SDGs linked to Health, Nutrition and Climate Change- WHO<br>
-                                <b>Speaker 6:</b> Health Equity to Health and UHC- Prof. Natasha- from NUS</td>
+                                <b>Speaker 6:</b> Health Equity to Health and UHC- Prof. Natasha- from NUS
+                            </td>
                             <td class="fw-bolder">Namkhong Hall </td>
                         </tr>
 
@@ -483,28 +511,35 @@
             <hr>
             <i class="fa-duotone fa-bookmark w-100 text-center pt-5" style="font-size: 60px;color: #2ae4c5;"></i>
             <div class="fs-1 fw-bolder text-center pt-2 pb-4" style="color: #10bc9f;">Workshop 3 :</div>
-            <div class="fs-2 fw-bolder text-center pt-2 pb-4 fst-italic" >“Learning Health Public Systems: an example of Laos immunization program”</div>
-            <div class="row justify-content-center">
+            <div class="fs-2 fw-bolder text-center pt-2 pb-4 fst-italic">“Learning Health Public Systems: an example of
+                Laos immunization program”</div>
+            <div class="workshop-professor row justify-content-center">
                 <div class="card col-3 shadow">
                     <div class="card-header-img pt-4">
-                        <img src="./assets/img/program/woman.png" alt="" class="img-thumbnail" style="border-radius: 50%;">
+                        <img src="./assets/img/program/woman.png" alt="woman" class="img-thumbnail"
+                            style="border-radius: 50%;">
                     </div>
                     <br>
                     <div class="card-content" style="text-align: justify;">
                         <div class="text-center fs-4 pb-3"><b>Professor Fiona Russell</b></div>
-                        <div class="text-secondary"> is a paediatrician, epidemiologist and vaccine researcher, Director of the Child and Adolescent Health PhD Program, University of Melbourne; and Group Leader for Asia-Pacific Health research, MCRI.</div>
-                    <br>
+                        <div class="text-secondary"> is a paediatrician, epidemiologist and vaccine researcher, Director
+                            of the Child and Adolescent Health PhD Program, University of Melbourne; and Group Leader
+                            for Asia-Pacific Health research, MCRI.</div>
+                        <br>
                     </div>
                 </div>
                 <div class="col-1"></div>
                 <div class="card col-3 shadow">
                     <div class="card-header-img pt-4">
-                        <img src="./assets/img/program/man.png" alt="" class="img-thumbnail" style="border-radius: 50%;">
+                        <img src="./assets/img/program/man.png" alt="man" class="img-thumbnail"
+                            style="border-radius: 50%;">
                     </div>
                     <br>
                     <div class="card-content" style="text-align: justify;">
                         <div class="text-center fs-4 pb-3"><b>Professor Nigel Crawford</b></div>
-                        <div class="text-secondary">, BMBS, FRACP (Paediatrics), MPH (Distinction), PhD, Head of the immunization service at the Royal Children’s Hospital; Chair of he Australian Technical Advisory Group on immunization (ATAGI)</div>
+                        <div class="text-secondary">, BMBS, FRACP (Paediatrics), MPH (Distinction), PhD, Head of the
+                            immunization service at the Royal Children’s Hospital; Chair of he Australian Technical
+                            Advisory Group on immunization (ATAGI)</div>
                         <br>
                     </div>
                 </div>
@@ -513,7 +548,14 @@
             <br>
             <br>
             <div style="text-align: justify;font-size: larger;">
-                <b class="fst-italic">“Learning Health Public Systems: an example of Laos immunization program”</b> This workshop will focus on the importance of learning public health systems using immunization policy as an example. We will provide an overview of the WHO Global NITAG Network resources for evidence-based immunization policy recommendations, and discuss how to translate immunization research to help inform immunization policy and practice. We will provide a practical session on how to write policy briefs and discuss other advocacy materials.<br><br>To whom: Senior Academics, PhD Students, Post Graduate Students, Freelance Researchers, Individuals involved or interested in public health research, public health and immunization policy makers, those interested in immunization research for policy making.
+                <b class="fst-italic">“Learning Health Public Systems: an example of Laos immunization program”</b> This
+                workshop will focus on the importance of learning public health systems using immunization policy as an
+                example. We will provide an overview of the WHO Global NITAG Network resources for evidence-based
+                immunization policy recommendations, and discuss how to translate immunization research to help inform
+                immunization policy and practice. We will provide a practical session on how to write policy briefs and
+                discuss other advocacy materials.<br><br>To whom: Senior Academics, PhD Students, Post Graduate
+                Students, Freelance Researchers, Individuals involved or interested in public health research, public
+                health and immunization policy makers, those interested in immunization research for policy making.
             </div>
         </div>
         <br>
@@ -525,41 +567,41 @@
             <i class="fa-regular fa-table w-100 text-center pt-5" style="font-size: 60px;color: rgb(60, 0, 255);"></i>
             <div class="fs-1 fw-bolder text-center pt-2 pb-4" style="color: rgb(49, 5, 195);">Conference program</div>
             <div class="fs-4">Coming soon...</div>
-          
+
         </div>
-    
+
     </section>
 
     <section class="keynote-speaker">
         <div class="container">
             <hr>
             <i class="fa-regular fa-keynote w-100 text-center pt-5" style="font-size: 60px;color: #2ebbef;;"></i>
-        
+
             <div class="fs-1 fw-bolder text-center pt-2 pb-4" style="color: #2ab0e1;">Key note speakers</div>
             <div class="fs-4">Coming soon...</div>
-        
+
         </div>
-       
+
     </section>
 
     <section class="gala-dinner">
         <div class="container">
-          
+
             <i class="fa-regular fa-plate-utensils w-100 text-center pt-5 text-white" style="font-size: 60px;"></i>
             <div class="fs-1 fw-bolder text-center pt-2 text-white">Welcome Dinner</div>
-            <div class="fs-4 text-white text-center">All Participants are invited to attend The Welcome Dinner of  
-                 <br>The 14<sup>th</sup> International Conference on Public Health among Greater Mekong Sub-Regional
+            <div class="fs-4 text-white text-center">All Participants are invited to attend The Welcome Dinner of
+                <br>The 14<sup>th</sup> International Conference on Public Health among Greater Mekong Sub-Regional
                 countries
             </div>
-                <hr class="gala-dinner-divier pb-4">
-             
+            <hr class="gala-dinner-divier pb-4">
+
             <div class="d-flex justify-content-center">
-            <img src="./assets/img/gala_dinner.jpeg" class="img-fluid" width="75%">
+                <img src="./assets/img/gala_dinner.jpeg" alt="gala_dinner" class="img-fluid" width="75%">
             </div>
         </div>
     </section>
 
-   
+
     <!-- js_script_here -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"

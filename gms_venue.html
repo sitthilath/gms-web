@@ -224,6 +224,14 @@
 
         }
 
+        @media screen and (max-width:320px) {
+            ul li span {
+            display: flex;
+            flex-direction: column;
+        }
+            
+        }
+
         .header-content {
             font-size: 48px;
             font-weight: bolder;
@@ -235,7 +243,8 @@
     <header>
         <div id="heder-naviagation">
             <?php include_once("./components/navbar.html")?>
-        </div><br><br>
+        </div>
+        <br><br>
         <div class="header-content">Venue</div>
     </header>
 

@@ -62,6 +62,13 @@
       text-shadow: 3px 3px #000;
     }
 
+    .header-btn-reg {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 20px;
+    }
+
     .header-sub-content {
       font-size: 26px;
       color: white;
@@ -137,7 +144,7 @@
 
     .submission-btn:hover {
       background-color: white;
-      text-shadow:none;
+      text-shadow: none;
       color: black;
     }
 
@@ -289,6 +296,23 @@
       .td-sm {
         display: block;
       }
+
+      .header-content {
+        font-size: x-large;
+      }
+
+      .header-btn-reg {
+        flex-direction: column;
+      }
+
+      .block2-container {
+        display: grid;
+        grid-template-columns: none;
+      }
+
+      .panel-header {
+        padding-top: 30px;
+      }
     }
 
     @media screen and (max-width: 380px) {
@@ -312,6 +336,18 @@
       .text-italic {
         font-size: 14px;
       }
+
+      .header-btn-reg {
+        flex-direction: column;
+      }
+      .block2-container {
+        display: grid;
+        grid-template-columns: none;
+      }
+      .price-table {
+      display: grid;
+      grid-template-columns: none;
+    }
     }
 
     @media screen and (max-width: 320px) {
@@ -330,6 +366,18 @@
       .text-italic {
         font-size: 12px;
       }
+
+      .header-btn-reg {
+        flex-direction: column;
+      }
+      .block2-container {
+        display: grid;
+        grid-template-columns: none;
+      }
+      .price-table {
+      display: grid;
+      grid-template-columns: none;
+    }
     }
   </style>
 </head>
@@ -342,22 +390,19 @@
       <?php include_once("./components/navbar.html")?>
     </div><br><br>
     <div class="panel-header">
-
       <div class="header-content fw-bolder">Registration Information</div><br>
       <div class="border border-secondary p-4 rounded">
         <h4 class="header-sub-content pb-2">Click the following link to access the Google form for registration :</h4>
-        <div class="pt-2">
+        <div class="header-btn-reg">
           <a target="_blank" href="https://forms.gle/jjuAxDEMu6R93mC16">
             <button class="submission-btn">Participants</button>
           </a>
-          &nbsp;&nbsp;&nbsp;&nbsp;
           <a target="_blank" href="https://forms.gle/6nKURiBbp4UAHp5YA">
             <button class="submission-btn">Pre-Workshops</button>
           </a>
         </div>
       </div>
     </div>
-
   </header>
   <div class="block1">
     <h3 class="block1-desc text-white">All Participants must register as attending participants, presenters
@@ -371,12 +416,12 @@
     <div class="group-table-n-italic">
 
       <div class="price-table">
-        <div class="card-early price p-0 rounded-2" style="border: 1px solid #d1e7dd">
-          <div class="card-header " style="background-color: #d1e7dd;">
+        <div class="card-early price p-0 rounded-2" style="border: 1px solid #d1e7dd;">
+          <div class="card-header" style="background-color: #d1e7dd;">
             <p class="header text-center fs-4 fw-bolder">Early Fee</p>
             <div class="grey text-center fs-5 fw-bolder">Up to 30/04/2024</div>
           </div>
-          <div>
+          <div style="width: auto;">
             <div style="background-color: #f0f0f0;padding:15px 50px;">
 
               <div class="d-flex justify-content-between fs-5"><span>Participant:</span><span class="fw-bold">80$</span>
@@ -389,7 +434,8 @@
             </div>
             <div style="background-color: #f0f0f0;padding:15px 50px;">
 
-              <div class="d-flex justify-content-between fs-5"><span>UN/INGOs:</span><span class="fw-bold">80$</span></div>
+              <div class="d-flex justify-content-between fs-5"><span>UN/INGOs:</span><span class="fw-bold">80$</span>
+              </div>
             </div>
 
             <div style="padding: 15px 50px;">
@@ -414,7 +460,8 @@
                   class="fw-bold">50$</span></div>
             </div>
             <div style="background-color: #f0f0f0;padding:15px 50px;">
-              <div class="d-flex justify-content-between fs-5"><span>UN/INGOs:</span><span class="fw-bold">80$</span></div>
+              <div class="d-flex justify-content-between fs-5"><span>UN/INGOs:</span><span class="fw-bold">80$</span>
+              </div>
             </div>
             <div style="padding:15px 50px;">
               <div class="d-flex justify-content-between fs-5"><span>*Student/Master/PhD/Laos:</span><span
@@ -437,7 +484,8 @@
                   class="fw-bold">50$</span></div>
             </div>
             <div style="background-color: #f0f0f0;padding:15px 50px;">
-              <div class="d-flex justify-content-between fs-5"><span>UN/INGOs:</span><span class="fw-bold">80$</span></div>
+              <div class="d-flex justify-content-between fs-5"><span>UN/INGOs:</span><span class="fw-bold">80$</span>
+              </div>
             </div>
             <div style="padding:15px 50px;">
               <div class="d-flex justify-content-between fs-5"><span>*Student/Master/PhD/Laos:</span><span
@@ -445,8 +493,6 @@
             </div>
           </div>
         </div>
-
-
       </div>
 
 
@@ -489,7 +535,8 @@
             </tr>
             <tr>
               <td class="fs-5"><b>Bank Name:</b></td>
-              <td style="padding-left: 20px;">Bank pour Le Commerce Exterieur Du Laos,<br>Vientiane Capital, Lao PDR</td>
+              <td style="padding-left: 20px;">Bank pour Le Commerce Exterieur Du Laos,<br>Vientiane Capital, Lao PDR
+              </td>
             </tr>
             <tr>
               <td class="fs-5"><b>Account name:</b></td>
@@ -504,10 +551,13 @@
               <td style="padding-left: 20px;">COEBLALA</td>
             </tr>
             <tr>
-              <td colspan="2"><hr></td>
+              <td colspan="2">
+                <hr>
+              </td>
             </tr>
             <tr>
-              <td colspan="2" style="padding-top: 20px;"><b>Or through the financial officer of the Faculty of Public Health, UHS</b></td>
+              <td colspan="2" style="padding-top: 20px;"><b>Or through the financial officer of the Faculty of Public
+                  Health, UHS</b></td>
             </tr>
             <tr>
               <td colspan="2" style="font-weight: bold; font-size: 20px;">Ms. Manyphone Xayyasane</td>

@@ -68,6 +68,13 @@
       font-weight: 900;
     }
 
+    .header-border{
+      border: 1px solid #e2e2e2;
+      border-radius: 5px;
+      padding: 20px 0;
+      height: auto;
+    }
+
     .header-content {
       padding: 0 60px;
       text-shadow: 3px 3px #000;
@@ -107,7 +114,7 @@
       border-radius: 10px;
       background-color: rgb(255, 111, 0);
       width: 310px;
-      height: 70px;
+      height: auto;
       font-size: 28px;
       font-weight: bold;
       text-decoration: none;
@@ -153,13 +160,14 @@
       text-decoration: none;
       color: red;
       font-size: 24px;
-      padding-left: 30px;
+      font-style: italic;
+      text-align: center;
+      padding: 10px;
       background-color: #fff;
-      /* border-style: outset; */
       border-radius: 5px;
       box-shadow: 5px 5px #333;
-      padding-top: 5px;
-      padding-bottom: 5px;
+      width: 100%;
+      height: auto;
 
 
     }
@@ -237,6 +245,7 @@
 
     .card-header {
       background-color: #102e4b;
+      text-align: center;
     }
 
     .card-icon-header {
@@ -270,18 +279,45 @@
       .header-content {
         padding: 0 30px;
       }
+      .header-title {
+        font-size: 30px;
+      }
     }
 
     @media screen and (max-width: 600px) {
       .header-content {
         padding: 0 10px;
       }
+      .header-title {
+        font-size: 30px;
+      }
+      .submission-btn {
+      width: auto;
+      height: auto;
+      font-size: 25px;
+    }
+    .group-card {
+      display: grid;
+      grid-template-columns: none;
+    }
     }
 
     @media screen and (max-width: 480px) {
       .header-content {
         padding: 0;
       }
+      .header-title {
+        font-size: 30px;
+      }
+      .submission-btn {
+      width: auto;
+      height: auto;
+      font-size: 25px;
+    }
+    .group-card {
+      display: grid;
+      grid-template-columns: none;
+    }
     }
   </style>
 </head>
@@ -294,7 +330,7 @@
     </div><br><br>
     <div class="panel-header">
       <h1 class="header-title">Call for Abstracts</h1><br>
-      <div class="border border-secondary rounded p-3">
+      <div class="header-border">
         <h3 class="header-content">Before submitting your abstracts, please make sure to register <br>using the online
           registration form available at
           Registration Page
@@ -377,9 +413,8 @@
         <li>Keywords: The authors must provide 3-6 keywords</li>
       </ul>
 
-
-      <h5 class="abstracts-guideline-link"><i>All abstracts will be submitted to
-          <b>"abstractgms14@gmail.com"</b></i></h5>
+      <div class="abstracts-guideline-link">All abstracts will be submitted to
+          <b>"abstractgms14@gmail.com"</b></div>
       <hr>
 
     </div>
@@ -413,12 +448,11 @@
       part in one of the most dynamic conference experiences in the field, with many opportunities specially designed by
       the Conference Committee Members. All conference sessions are designed to deliver the high quality service to
       participants while ensuring their objectives are met with the higher level of academic praxis.</p>
-    <div class="group-card">
-      <div class="card-oral rounded-2" style="border: solid #102e4b;background-color: #e2e2e2;">
+    <div class="group-card" style="width: auto;">
+      <div class="card-oral rounded-2" style="width: auto; border: solid #102e4b;background-color: #e2e2e2;">
         <div class="card-header">
           <div class="card-icon-header"><i class="fa-light fa-display-chart-up"></i></div>
           <div class="card-title">Oral Presentation</div>
-
         </div>
         <div class="card-content">
           <ul>
@@ -466,7 +500,6 @@
           </ul>
         </div>
       </div>
-
     </div>
     <br><br><br>
   </section>
