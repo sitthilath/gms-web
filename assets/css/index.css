@@ -381,6 +381,11 @@ header {
     .venue {
         width: 100%;
     }
+
+    /* Header-Topic-Here!!! */
+    .full-org-name h1 {
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -408,6 +413,10 @@ header {
     .venue {
         width: 100%;
     }
+        /* Header-Topic-Here!!! */
+        .full-org-name h1 {
+            font-size: 25px;
+        }
 }
 
 @media screen and (max-width: 260px) {
