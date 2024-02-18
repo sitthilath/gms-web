@@ -28,41 +28,32 @@
     }
 
     header {
-
-
-      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(9, 28, 45, 0.9)), url(./assets/img/royal_palace_museum.jpeg);
-
+      background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(9, 28, 45, 0.2)), url(./assets/img/venue/conference_room_3.jpeg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
-
-
-
       color: #ffffff;
       padding: 20px;
       text-align: center;
-      height: 400px;
-
+      height: 100vh;
       justify-content: center;
       align-items: center;
-
       display: flex;
       flex-direction: column;
-
     }
-
-    /*.panel-header{*/
-    /*        padding: 30px;*/
-    /*        background-color: rgba(255, 255, 255, 0.205);*/
-    /*      */
-    /*    }*/
 
     .header-content {
       font-size: 48px;
       color: white;
-      text-shadow: 3px 3px #000;
+      /* color:#1df5cd; */
+      text-shadow: 2px 2px 2px #000;
     }
 
+    .header-box {
+      border-radius: 5px;
+      padding: 20px;
+      background-image: linear-gradient(rgba(0,204,204, 1.0),rgba(0,204,204, 1.0));
+    }
     .header-btn-reg {
       display: flex;
       flex-direction: row;
@@ -73,7 +64,7 @@
     .header-sub-content {
       font-size: 26px;
       color: white;
-      text-shadow: 3px 3px #000;
+      text-shadow: none;
     }
 
     body {
@@ -159,12 +150,13 @@
     }
 
     .block1 {
-
       /* Take up all available space */
       display: flex;
       justify-content: center;
-
-      padding: 30px 0;
+      padding: 15px 0;
+      background-color: #414141;
+      font-style: italic;
+      /* background-image: linear-gradient(rgba(3, 3, 3, 0.1),rgba(58, 51, 51, 0.9)); */
     }
 
     .block1-desc {
@@ -223,35 +215,19 @@
 
     }
 
-
-
     ul {
       list-style-type: disc;
       /* Change to your preferred bullet style */
-
     }
 
     .section-detail-of-free {
-
       background-color: white;
-
     }
-
-
-
-
-
-
-
-
-
 
     .text-left-custom {
       text-align: left;
-
       word-wrap: break-word;
     }
-
 
     .td-lg {
       display: block;
@@ -260,7 +236,6 @@
     .td-sm {
       display: none;
     }
-
 
     .price-table {
       display: grid;
@@ -274,6 +249,9 @@
 
     /* Add your own styles or customize further as needed */
 
+    .detail-of-free-title {
+      color: #077B81FA;;
+    }
 
 
     @media screen and (max-width: 768px) {
@@ -313,6 +291,9 @@
 
       .panel-header {
         padding-top: 30px;
+      }
+      .header-sub-content{
+        font-size: 20px;
       }
     }
 
@@ -391,100 +372,99 @@
     </div><br><br>
     <div class="panel-header">
       <div class="header-content fw-bolder">Registration Information</div><br>
-      <div class="border border-secondary p-4 rounded">
+      <div class="header-box">
         <h4 class="header-sub-content pb-2">Click the following link to access the Google form for registration :</h4>
         <div class="header-btn-reg">
           <a target="_blank" href="https://forms.gle/jjuAxDEMu6R93mC16">
-            <button class="submission-btn">Participants</button>
+            <button class="submission-btn" title="participants">Participants</button>
           </a>
           <a target="_blank" href="https://forms.gle/6nKURiBbp4UAHp5YA">
-            <button class="submission-btn">Pre-Workshops</button>
+            <button class="submission-btn" title="Pre-Workshops">Pre-Workshops</button>
           </a>
         </div>
       </div>
     </div>
   </header>
   <div class="block1">
-    <h3 class="block1-desc text-white">All Participants must register as attending participants, presenters
+    <h3 class="block1-desc text-white">All participants must register as attending participants, presenters
       participants for pre-conference workshops</h3>
   </div>
-  <div class="section-detail-of-free pt-5 pb-3">
+  <div class="section-detail-of-free pt-5 pb-3" style="background-color: #ffedd8;">
     <i class="fa-solid fa-wallet w-100 text-center" style="font-size:60px;color: #077B81FA;"></i>
     <h1 class="detail-of-free-title text-center pb-4 fw-bolder fs-1">Registration fees</h1>
 
 
     <div class="group-table-n-italic">
-
       <div class="price-table">
-        <div class="card-early price p-0 rounded-2" style="border: 1px solid #d1e7dd;">
-          <div class="card-header" style="background-color: #d1e7dd;">
-            <p class="header text-center fs-4 fw-bolder">Early Fee</p>
-            <div class="grey text-center fs-5 fw-bolder">Up to 30/04/2024</div>
+        <div class="card-early price p-0 rounded-2" style="border: 3px solid #00ADB5;">
+          <div class="card-header" style="background-color: #00ADB5;">
+            <p class="header text-center fs-3 fw-bolder text-white">Early Fee</p>
+            <div class="grey text-center fs-4 fw-bolder text-white">Up to 30/04/2024</div>
           </div>
           <div style="width: auto;">
             <div style="background-color: #f0f0f0;padding:15px 50px;">
 
-              <div class="d-flex justify-content-between fs-5"><span>Participant:</span><span class="fw-bold">80$</span>
+              <div class="d-flex justify-content-between fs-4"><span>Participant:</span><span class="fw-bold">80$</span>
               </div>
 
             </div>
             <div style="padding: 15px 50px;">
-              <div class="d-flex justify-content-between fs-5"><span>Accompanying Person:</span><span
+              <div class="d-flex justify-content-between fs-4"><span>Accompanying Person:</span><span
                   class="fw-bold">50$</span></div>
             </div>
             <div style="background-color: #f0f0f0;padding:15px 50px;">
 
-              <div class="d-flex justify-content-between fs-5"><span>UN/INGOs:</span><span class="fw-bold">80$</span>
+              <div class="d-flex justify-content-between fs-4"><span>UN/INGOs:</span><span class="fw-bold">80$</span>
               </div>
             </div>
 
             <div style="padding: 15px 50px;">
-              <div class="d-flex justify-content-between fs-5"><span>*Student/Master/PhD/Laos:</span><span
+              <div class="d-flex justify-content-between fs-4"><span>*Student/Master/PhD/Laos:</span><span
                   class="fw-bold">30$</span></div>
             </div>
           </div>
         </div>
 
-        <div class="card-late price p-0 rounded-2" style="border: 1px solid #d1e7dd">
-          <div class="card-header" style="background-color: #d1e7dd;">
-            <p class="header text-center fs-4 fw-bolder">Late Fee</p>
-            <div class="grey text-center fs-5 fw-bolder">01/05-15/06/2024</div>
+        <div class="card-late price p-0 rounded-2" style="border: 3px solid #00ADB5">
+          <div class="card-header" style="background-color: #00ADB5;">
+            <p class="header text-center fs-3 fw-bolder text-white">Late Fee</p>
+            <div class="grey text-center fs-4 fw-bolder text-white">01/05-15/06/2024</div>
           </div>
           <div>
             <div style="background-color: #f0f0f0;padding:15px 50px;">
-              <div class="d-flex justify-content-between fs-5"><span>Participant:</span><span class="fw-bold">80$</span>
+              <div class="d-flex justify-content-between fs-4"><span>Participant:</span><span class="fw-bold">80$</span>
               </div>
             </div>
             <div style="padding:15px 50px;">
-              <div class="d-flex justify-content-between fs-5"><span>Accompanying Person:</span><span
+              <div class="d-flex justify-content-between fs-4"><span>Accompanying Person:</span><span
                   class="fw-bold">50$</span></div>
             </div>
             <div style="background-color: #f0f0f0;padding:15px 50px;">
-              <div class="d-flex justify-content-between fs-5"><span>UN/INGOs:</span><span class="fw-bold">80$</span>
+              <div class="d-flex justify-content-between fs-4"><span>UN/INGOs:</span><span class="fw-bold">80$</span>
               </div>
             </div>
             <div style="padding:15px 50px;">
-              <div class="d-flex justify-content-between fs-5"><span>*Student/Master/PhD/Laos:</span><span
+              <div class="d-flex justify-content-between fs-4"><span>*Student/Master/PhD/Laos:</span><span
                   class="fw-bold">30$</span></div>
             </div>
           </div>
         </div>
-        <div class="card-onsite price p-0 rounded-2" style="border: 1px solid #d1e7dd">
-          <div class="card-header" style="background-color: #d1e7dd;">
-            <p class="header text-center fs-4 fw-bolder">On Site</p>
-            <div class="grey text-center fs-5 fw-bolder">28/06/2024</div>
+        <div class="card-onsite price p-0 rounded-2" style="border: 3px solid #00ADB5">
+          <div class="card-header" style="background-color: #00ADB5;">
+            <p class="header text-center fs-3 fw-bolder text-white">On Site</p>
+            <div class="grey text-center fs-4 fw-bolder text-white">28/06/2024</div>
           </div>
           <div>
             <div style="background-color: #f0f0f0;padding:15px 50px;">
-              <div class="d-flex justify-content-between fs-5"><span>Participant:</span><span class="fw-bold">80$</span>
+              <div class="d-flex justify-content-between fs-4"><span>Participant:</span><span class="fw-bold">80$</span>
               </div>
             </div>
             <div style="padding:15px 50px;">
-              <div class="d-flex justify-content-between fs-5"><span>Accompanying Person:</span><span
+              <div class="d-flex justify-content-between fs-4"><span>Accompanying Person:</span><span
                   class="fw-bold">50$</span></div>
             </div>
             <div style="background-color: #f0f0f0;padding:15px 50px;">
-              <div class="d-flex justify-content-between fs-5"><span>UN/INGOs:</span><span class="fw-bold">80$</span>
+              <div class="d-flex justify-content-between fs-4"><span>UN/INGOs:</span><span class="fw-bold">80$</span>
               </div>
             </div>
             <div style="padding:15px 50px;">
@@ -499,13 +479,13 @@
       <div class="text-italic text-center p-0">
         <div class="card pt-4 pb-4 " style="border: 1px solid #d1e7dd;">
           <i class="fa-regular fa-hourglass-clock  fs-3" style="color: #00058a;"></i>
-          <div class="pt-2 fs-5">Early registration</div>
-          <div class="date-regis fs-4 fw-bolder pb-2">30th April 2024</div>
+          <div class="pt-2 fs-4">Early registration</div>
+          <div class="date-regis fs-3 fw-bolder pb-2">30th April 2024</div>
         </div>
         <div class="card pt-4 pb-4 " style="border: 1px solid #d1e7dd;">
           <i class="fa-regular fa-alarm-exclamation  fs-3 " style="color: #ff0000;"></i>
-          <div class="pt-2 fs-5">Late registration</div>
-          <div class="date-regis fs-4 fw-bolder pb-2">Before 31 May, 2024</div>
+          <div class="pt-2 fs-4">Late registration</div>
+          <div class="date-regis fs-3 fw-bolder pb-2">Before 31 May, 2024</div>
         </div>
 
       </div>

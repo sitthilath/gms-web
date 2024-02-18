@@ -34,9 +34,9 @@
 
         header {
             color: #fff;
-            /* text-align: center; */
-            height: 400px;
-            background-image: linear-gradient(rgba(16, 46, 75, 0.95), rgba(10, 29, 46, 0.7)), url(./assets/img/pullman_hotel_lp.jpeg);
+            height: 100vh;     
+            background-image:url(./assets/img/Pullman-Luang-Prabang.jpg);    
+            /* background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(10, 29, 46, 0.1)), url(./assets/img/pullman_hotel_lp.jpeg); */
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -48,15 +48,22 @@
             padding: 50px 0;
             opacity: 0.95;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            /* text-shadow: 3px 3px #000; */
+        }
+
+        .header-content {
+            /* background-color: rgba(60, 101, 233); */
+            -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+            padding: 20px;
+            border-radius: 50%;
+            /* text-shadow: 2px 2px 2px #000000; */
+            color:#f00b0b;
         }
 
         section {
-            max-width: 800px;
             margin: 20px auto;
             padding: 20px;
             background-color: #fff;
-            border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
@@ -109,14 +116,14 @@
 
         .conference-img-items img {
             width: 100%;
-            height: 200px;
+            height: 300px;
             object-fit: cover;
             border-radius: 5px;
             border: 5px solid #e2e2e2;
         }
 
         .conference-img-items img:hover {
-            box-shadow: 3px 3px rgb(103, 40, 161);
+            border: 4px solid blue;
         }
 
         ul li {
@@ -153,8 +160,8 @@
         }
 
         ul li span img {
-            width: 5rem;
-            height: 5rem;
+            width: 8rem;
+            height: 8rem;
             border-radius: 100%;
             border: 4px solid lightblue;
         }
@@ -193,11 +200,11 @@
             list-style: none;
             font-weight: bold;
             font-size: 20px;
-            color: #000000;
+            color: darkblue;
         }
         .conference-span{
             font-size: 20px;
-            color: #333;
+            color: red;
         }
         @media screen and (max-width:768px) {
             .conference-img-items {
@@ -243,13 +250,13 @@
             <?php include_once("./components/navbar.html")?>
         </div>
         <br><br>
-        <div class="header-content">Venue</div>
+        <div class="header-content"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;<span style="color:blue;">Conference Venue</span></div>
     </header>
 
-    <section>
+    <section class="container">
         <div class="conference">
             <div class="conference-details">
-                <h2 class="title">Conference Hotel Location</h2>
+                <h2 class="title text-center py-2"><i class="fa fa-location-arrow" aria-hidden="true"></i><br>Conference Hotel Location</h2>
                 <table class="table table-striped">
                     <tr>
                       <td><li class="conference-title">Date:</li></td>
@@ -308,7 +315,7 @@
             </div>
         </div><br>
         <hr>
-        <h2 class="title">Alternative Accommodations</h2>
+        <h2 class="title text-center py-2"><i class="fa fa-bed" aria-hidden="true"></i><br>Alternative Accommodations</h2>
         <p style="font-size: 20px;">Suggestion List Of The Guesthouse/Hotel in Luangprabang:
         <ul>
             <li>
@@ -535,10 +542,10 @@
 
     </section>
 
-    <section class="transportation">
+    <section class="container transportation">
 
            <!-- flight Transportation -->
-        <h2 class="title">Transportation from Vientiane to LPB </h2>
+        <h2 class="title text-center py-2"><i class="fa fa-plane" aria-hidden="true"></i><br>Transportation from Vientiane to LPB </h2>
 
         <div class="fs-5 pt-4"><b>1. Flight from Wattay International Airport (VTE):</b></div><br>
 

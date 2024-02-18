@@ -28,34 +28,29 @@
         }
 
         header {
-
-
-            background-image: linear-gradient(rgba(16, 46, 75, 0.7), rgba(16, 46, 75, 0.7)), url(./assets/img/gms_pro_bg.jpeg);
-
+            /* background-image: url(./assets/img/meeting.jpg); */
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(./assets/img/meeting.jpg); 
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
-
-
-
             color: #ffffff;
             padding: 20px;
             text-align: center;
             height: 400px;
-
             justify-content: center;
             align-items: center;
-
             display: flex;
             flex-direction: column;
-
         }
 
         .header-content {
-
-            color: white;
-            text-shadow: 3px 3px #000;
-            font-size: 48px;
+            background-color: rgba(236, 12, 12, 0.7);
+            /* background-color: #d62828; */
+            -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+            padding: 10px 15px;
+            color: #f5f5f5;
+            font-size: 45px;
         }
 
         body {
@@ -107,9 +102,13 @@
             /* Adjust as needed for three columns */
         }
 
-        .conference-program,
+        .conference-program{
+            height: auto;
+            background-color: #da2c38;
+        }
         .keynote-speaker {
             height: 300px;
+            background-color: #f1de9e;
         }
         .card-header-img {
             width: 200px;
@@ -186,13 +185,13 @@
         <div class="header-content fw-bolder">Conference Program</div>
     </header>
 
-    <section class="pre-conference">
+    <section class="pre-conference" style="background-color: #fefae0;">
         <div class="container">
-            <i class="fa-regular fa-calendar-clock w-100 text-center pt-5" style="font-size: 60px;"></i>
+            <i class="fa-regular fa-clock w-100 text-center pt-5" style="font-size: 60px;"></i>
             <div class="fs-1 fw-bolder text-center pt-2 pb-4">Program - Pre conference workshops</div>
             <!-- first table -->
             <div class="table-responsive">
-                <table class="table table-striped-orange table-bordered border-white">
+                <table class="table table-striped-orange table-bordered border-black">
                     <thead class="thead-orange">
                         <tr>
                             <th class="day-title">Day 0 – 27th June, 2024</th>
@@ -346,12 +345,72 @@
                                 </span>
                             </td>
                         </tr>
-
-
                     </tbody>
                 </table>
             </div>
+        </div><br><br>
+    </section>
 
+    <!-- <section class="workshop">
+        <div class="container">
+            <hr>
+            <i class="fa-duotone fa-bookmark w-100 text-center pt-5" style="font-size: 60px;color: #2ae4c5;"></i>
+            <div class="fs-1 fw-bolder text-center pt-2 pb-4" style="color: #10bc9f;">Workshop 3 :</div>
+            <div class="fs-2 fw-bolder text-center pt-2 pb-4 fst-italic">“Learning Health Public Systems: an example of
+                Laos immunization program”</div>
+            <div class="workshop-professor row justify-content-center">
+                <div class="card col-3 shadow">
+                    <div class="card-header-img pt-4">
+                        <img src="./assets/img/program/woman.png" alt="woman" class="img-thumbnail"
+                            style="border-radius: 50%;">
+                    </div>
+                    <br>
+                    <div class="card-content" style="text-align: justify;">
+                        <div class="text-center fs-4 pb-3"><b>Professor Fiona Russell</b></div>
+                        <div class="text-secondary"> is a paediatrician, epidemiologist and vaccine researcher, Director
+                            of the Child and Adolescent Health PhD Program, University of Melbourne; and Group Leader
+                            for Asia-Pacific Health research, MCRI.</div>
+                        <br>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+                <div class="card col-3 shadow">
+                    <div class="card-header-img pt-4">
+                        <img src="./assets/img/program/man.png" alt="man" class="img-thumbnail"
+                            style="border-radius: 50%;">
+                    </div>
+                    <br>
+                    <div class="card-content" style="text-align: justify;">
+                        <div class="text-center fs-4 pb-3"><b>Professor Nigel Crawford</b></div>
+                        <div class="text-secondary">, BMBS, FRACP (Paediatrics), MPH (Distinction), PhD, Head of the
+                            immunization service at the Royal Children’s Hospital; Chair of he Australian Technical
+                            Advisory Group on immunization (ATAGI)</div>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <div style="text-align: justify;font-size: larger;">
+                <b class="fst-italic">“Learning Health Public Systems: an example of Laos immunization program”</b> This
+                workshop will focus on the importance of learning public health systems using immunization policy as an
+                example. We will provide an overview of the WHO Global NITAG Network resources for evidence-based
+                immunization policy recommendations, and discuss how to translate immunization research to help inform
+                immunization policy and practice. We will provide a practical session on how to write policy briefs and
+                discuss other advocacy materials.<br><br>To whom: Senior Academics, PhD Students, Post Graduate
+                Students, Freelance Researchers, Individuals involved or interested in public health research, public
+                health and immunization policy makers, those interested in immunization research for policy making.
+            </div>
+        </div>
+        <br>
+    </section> -->
+    
+    <section class="conference-program" style="background-color: white;">
+        <div class="container">
+            <i class="fa-regular fa-table w-100 text-center pt-5" style="font-size: 60px;color: rgb(60, 0, 255);"></i>
+            <div class="fs-1 fw-bolder text-center pt-2 pb-4" style="color: rgb(49, 5, 195);">Conference Program</div>
+            <!-- <div class="fs-4">Coming soon...</div> -->
             <!-- second table -->
             <div class="table-responsive">
                 <table class="table table-striped-green table-bordered border-white">
@@ -462,6 +521,7 @@
                         <tr>
                             <th>10:00-10:15</th>
                             <td>Coffee break & Poster View</td>
+                            <td></td>
                         </tr>
 
                         <tr>
@@ -505,86 +565,16 @@
                     </tbody>
                 </table>
             </div>
-        </div>
-
+        </div><br><br>
     </section>
 
-    <section class="workshop">
-        <div class="container">
-            <hr>
-            <i class="fa-duotone fa-bookmark w-100 text-center pt-5" style="font-size: 60px;color: #2ae4c5;"></i>
-            <div class="fs-1 fw-bolder text-center pt-2 pb-4" style="color: #10bc9f;">Workshop 3 :</div>
-            <div class="fs-2 fw-bolder text-center pt-2 pb-4 fst-italic">“Learning Health Public Systems: an example of
-                Laos immunization program”</div>
-            <div class="workshop-professor row justify-content-center">
-                <div class="card col-3 shadow">
-                    <div class="card-header-img pt-4">
-                        <img src="./assets/img/program/woman.png" alt="woman" class="img-thumbnail"
-                            style="border-radius: 50%;">
-                    </div>
-                    <br>
-                    <div class="card-content" style="text-align: justify;">
-                        <div class="text-center fs-4 pb-3"><b>Professor Fiona Russell</b></div>
-                        <div class="text-secondary"> is a paediatrician, epidemiologist and vaccine researcher, Director
-                            of the Child and Adolescent Health PhD Program, University of Melbourne; and Group Leader
-                            for Asia-Pacific Health research, MCRI.</div>
-                        <br>
-                    </div>
-                </div>
-                <div class="col-1"></div>
-                <div class="card col-3 shadow">
-                    <div class="card-header-img pt-4">
-                        <img src="./assets/img/program/man.png" alt="man" class="img-thumbnail"
-                            style="border-radius: 50%;">
-                    </div>
-                    <br>
-                    <div class="card-content" style="text-align: justify;">
-                        <div class="text-center fs-4 pb-3"><b>Professor Nigel Crawford</b></div>
-                        <div class="text-secondary">, BMBS, FRACP (Paediatrics), MPH (Distinction), PhD, Head of the
-                            immunization service at the Royal Children’s Hospital; Chair of he Australian Technical
-                            Advisory Group on immunization (ATAGI)</div>
-                        <br>
-                    </div>
-                </div>
-            </div>
-
-            <br>
-            <br>
-            <div style="text-align: justify;font-size: larger;">
-                <b class="fst-italic">“Learning Health Public Systems: an example of Laos immunization program”</b> This
-                workshop will focus on the importance of learning public health systems using immunization policy as an
-                example. We will provide an overview of the WHO Global NITAG Network resources for evidence-based
-                immunization policy recommendations, and discuss how to translate immunization research to help inform
-                immunization policy and practice. We will provide a practical session on how to write policy briefs and
-                discuss other advocacy materials.<br><br>To whom: Senior Academics, PhD Students, Post Graduate
-                Students, Freelance Researchers, Individuals involved or interested in public health research, public
-                health and immunization policy makers, those interested in immunization research for policy making.
-            </div>
-        </div>
-        <br>
-    </section>
-
-    <section class="conference-program">
-        <div class="container">
-            <hr>
-            <i class="fa-regular fa-table w-100 text-center pt-5" style="font-size: 60px;color: rgb(60, 0, 255);"></i>
-            <div class="fs-1 fw-bolder text-center pt-2 pb-4" style="color: rgb(49, 5, 195);">Conference program</div>
-            <div class="fs-4">Coming soon...</div>
-
-        </div>
-
-    </section>
-
+    <!-- Keynote-speaker-here!!! -->
     <section class="keynote-speaker">
         <div class="container">
-            <hr>
             <i class="fa-regular fa-keynote w-100 text-center pt-5" style="font-size: 60px;color: #2ebbef;;"></i>
-
             <div class="fs-1 fw-bolder text-center pt-2 pb-4" style="color: #2ab0e1;">Key note speakers</div>
             <div class="fs-4">Coming soon...</div>
-
         </div>
-
     </section>
 
     <section class="gala-dinner">
@@ -599,7 +589,7 @@
             <hr class="gala-dinner-divier pb-4">
 
             <div class="d-flex justify-content-center">
-                <img src="./assets/img/gala_dinner.jpeg" alt="gala_dinner" class="img-fluid" width="75%">
+                <img src="./assets/img/gala_dinner.jpeg" alt="gala_dinner" class="img-fluid rounded" width="75%">
             </div>
         </div>
     </section>

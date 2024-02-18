@@ -35,7 +35,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-    height: auto;
+    height: 100vh;
     padding: 0 20px;
 }
 

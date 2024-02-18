@@ -39,18 +39,15 @@
     }
 
     header {
-      background-image: linear-gradient(rgba(16, 46, 75, 0.95), rgba(10, 29, 46, 0.7)), url(./assets/img/kuang_si_fall.jpeg);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(9, 28, 45, 0.7)), url(./assets/img/meeting1.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: 15% 85%;
-
-
       color: #ffffff;
       padding: 20px;
       text-align: center;
-      height: 400px;
+      height: 100vh;
       justify-content: center;
-
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -66,20 +63,22 @@
     .header-title {
 
       font-size: 48px;
-      text-shadow: 3px 3px #000;
+      text-shadow: 2px 2px #000;
       font-weight: 900;
     }
 
-    .header-border{
-      border: 1px solid #e2e2e2;
+    .header-border {
+      /* border: 1px solid #e2e2e2; */
       border-radius: 5px;
-      padding: 20px 0;
+      padding: 15px 0;
       height: auto;
+      background-image: linear-gradient(rgba(14, 84, 233, 0.9), rgba(14, 84, 233, 0.9));
+      -webkit-backdrop-filter: blur(5px);
+      backdrop-filter: blur(5px);
     }
 
     .header-content {
-      padding: 0 60px;
-      text-shadow: 3px 3px #000;
+      padding: 0 20px;
     }
 
     .registration-link {
@@ -90,13 +89,10 @@
       padding: 30px 30px;
       display: flex;
       justify-content: center;
-      background-color: white;
+      background-color: #caf0f8;
     }
 
-
-
     .box-800w {
-
       max-width: 800px;
     }
 
@@ -121,6 +117,8 @@
       font-weight: bold;
       text-decoration: none;
       color: #fff;
+      border: none;
+      padding: 10px;
       text-shadow: 2px 2px 2px #000;
     }
 
@@ -142,7 +140,7 @@
       padding: 30px 30px;
       display: flex;
       justify-content: center;
-      background-color: #365486
+      background-color: #DECE9C;
     }
 
     .abstract-guideline-icon-header {
@@ -170,26 +168,23 @@
       box-shadow: 5px 5px #333;
       width: 100%;
       height: auto;
-
-
     }
 
     .abstract-guideline-content {
       padding-left: 20px;
-      color: white;
-    }
-
-    .abstract-template-link {
-      text-decoration: none;
-      color: #0d6efd;
-
+      color: #000;
     }
 
     .abstract-guideline-list {
       font-size: 20px;
       padding-left: 60px;
       padding-bottom: 20px;
-      color: white;
+      color: #000;
+    }
+
+    .abstract-template-link {
+      text-decoration: none;
+      color: #0d6efd;
     }
 
     p {
@@ -200,24 +195,21 @@
       margin-left: 20px;
     }
 
-
-
-
     .section-abstract-template {
       padding: 30px 30px;
       display: flex;
       justify-content: center;
-      background-color: #E0CCBE;
+      background-color: #17B794;
       text-align: center;
     }
 
     .abstract-template-icon-header {
       font-size: 60px;
-      color: #12499b;
+      color: #fff;
     }
 
     .abstract-template-title {
-      color: #12499b;
+      color: #fff;
       font-size: 36px;
       font-weight: 900;
       line-height: 2em;
@@ -225,6 +217,7 @@
 
     .section-option-presenter {
       background-color: #E0CCBE;
+      padding-top: 30px;
     }
 
     .option-presenter-title {
@@ -234,8 +227,6 @@
       line-height: 2em;
       color: #12499b;
     }
-
-
 
     .group-card {
       display: grid;
@@ -275,12 +266,20 @@
       color: #000;
     }
 
+    tr:nth-child(even)>td{
+      background-color: #fff;
+    }
+
+    tr:nth-child(odd)>td{
+      background-color: #b9f5d8;
+    }
 
 
     @media screen and (max-width: 962px) {
       .header-content {
         padding: 0 30px;
       }
+
       .header-title {
         font-size: 30px;
       }
@@ -290,36 +289,46 @@
       .header-content {
         padding: 0 10px;
       }
+
       .header-title {
         font-size: 30px;
       }
+
       .submission-btn {
-      width: auto;
-      height: auto;
-      font-size: 25px;
-    }
-    .group-card {
-      display: grid;
-      grid-template-columns: none;
-    }
+        width: auto;
+        height: auto;
+        font-size: 25px;
+      }
+
+      .group-card {
+        display: grid;
+        grid-template-columns: none;
+      }
+
+      header {
+        height: 100vh;
+      }
     }
 
     @media screen and (max-width: 480px) {
       .header-content {
         padding: 0;
       }
+
       .header-title {
         font-size: 30px;
       }
+
       .submission-btn {
-      width: auto;
-      height: auto;
-      font-size: 25px;
-    }
-    .group-card {
-      display: grid;
-      grid-template-columns: none;
-    }
+        width: auto;
+        height: auto;
+        font-size: 25px;
+      }
+
+      .group-card {
+        display: grid;
+        grid-template-columns: none;
+      }
     }
   </style>
 </head>
@@ -329,7 +338,7 @@
   <header>
     <div id="heder-naviagation">
       <?php include_once("./components/navbar.html")?>
-    </div><br><br>
+    </div><br><br><br>
     <div class="panel-header">
       <h1 class="header-title">Call for Abstracts</h1><br>
       <div class="header-border">
@@ -338,11 +347,13 @@
           Registration Page
         </h3>
         <br>
-        <a href="https://forms.gle/wSHVcLn7T34NXi2e8" target="_blank">
+        <!-- <a href="https://forms.gle/wSHVcLn7T34NXi2e8" target="_blank">
           <button type="submit" class="submission-btn">Submission Abstracts</button>
-        </a>
-      </div>
-
+        </a> -->
+      </div><br>
+      <a href="https://forms.gle/wSHVcLn7T34NXi2e8" target="_blank">
+        <button type="submit" class="submission-btn">Submission Abstracts</button>
+      </a>
     </div>
   </header>
 
@@ -353,7 +364,7 @@
         <i class="fa-regular fa-calendar-days"></i>
       </div>
       <h3 class="submission-details-title text-center pb-3">Submission Deadline</h3>
-      <table class="table table-striped">
+      <table class="table table-striped" style="box-shadow: 5px 5px 5px #333;">
         <tr>
           <td class="fs-4 fw-lighter">
             <li>Call and submission of Abstract deadline:</li>
@@ -385,21 +396,19 @@
           <td><span class="submission-span">5<sup>th</sup> June 2024</span></td>
         </tr>
       </table>
-
-      <hr>
     </div>
   </section>
 
   <section class="section-abstract-guideline ">
     <!-- Abstract Guidelines -->
     <div class="box-800w">
-      <div class="abstract-guideline-icon-header text-center text-white"><i class="fa-regular fa-ballot-check"></i>
+      <div class="abstract-guideline-icon-header text-center text-black"><i class="fa-regular fa-ballot-check"></i>
       </div>
-      <h3 class="abstract-guideline-title text-center pb-3 text-white">Abstract Guidelines</h3>
+      <h3 class="abstract-guideline-title text-center pb-3 text-black">Abstract Guidelines</h3>
       <p class="abstract-guideline-content">Abstract submission should be in English: maximum <b><span
-            style="color: rgb(255, 111, 0);">300 words</span></b>, Font: <b><span style="color: rgb(255, 111, 0);">Times
-            New Roman</span></b>, font size of <b><span style="color: rgb(255, 111, 0);">title is 14
-            (Capital, centered, and bold)</span></b>, font size of <b><span style="color: rgb(255, 111, 0);">contents is
+            style="color: red;">300 words</span></b>, Font: <b><span style="color: red;">Times
+            New Roman</span></b>, font size of <b><span style="color: red;">title is 14
+            (Capital, centered, and bold)</span></b>, font size of <b><span style="color: red;">contents is
             12</span></b>, including:<br>
       </p>
 
@@ -416,7 +425,8 @@
       </ul>
 
       <div class="abstracts-guideline-link">All abstracts will be submitted to
-          <b>"abstractgms14@gmail.com"</b></div>
+        <b>"abstractgms14@gmail.com"</b>
+      </div>
       <hr>
 
     </div>
@@ -437,10 +447,10 @@
         </ul>
         <br>
         <a class="abstract-template-link" href="./assets/pdf/abstracts_template.pdf" download="abstract-template">
-          <button type="button " class="btn btn-dark btn-lg">Download File</button></a>
+          <button type="button " class="btn btn-dark btn-lg"><i class="fa fa-download"
+              aria-hidden="true"></i>&nbsp;&nbsp;Download File</button></a>
       </div>
       <br><br><br>
-      <hr>
     </div>
   </section>
 
