@@ -51,13 +51,15 @@
         }
 
         .header-content {
-            /* background-color: rgba(60, 101, 233); */
+            background-color: rgba(60, 101, 233);
+            border-radius: 5px;
             -webkit-backdrop-filter: blur(5px);
             backdrop-filter: blur(5px);
-            padding: 20px;
-            border-radius: 50%;
-            /* text-shadow: 2px 2px 2px #000000; */
+            padding: 5px;
             color:#f00b0b;
+            text-shadow: 3px 3px 3px #000;
+            font-size: 60px;
+            font-weight: 700;
         }
 
         section {
@@ -224,8 +226,14 @@
                 display: flex;
                 flex-direction: column;
             }
+        }
 
-
+        @media screen and (max-width:451px) {
+            
+            .header-content {
+                font-size: 30px;
+                font-weight: bolder;
+            }
         }
 
         @media screen and (max-width:320px) {
@@ -234,11 +242,6 @@
             flex-direction: column;
         }
             
-        }
-
-        .header-content {
-            font-size: 48px;
-            font-weight: bolder;
         }
     </style>
 </head>
@@ -250,7 +253,7 @@
             <?php include_once("./components/navbar.html")?>
         </div>
         <br><br>
-        <div class="header-content"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;<span style="color:blue;">Conference Venue</span></div>
+        <div class="header-content"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;<span style="color:#63FA05;">Conference Venue</span></div>
     </header>
 
     <section class="container">
@@ -297,8 +300,16 @@
             </div>
             <div class="conference-img">
                 <div class="conference-img-items">
+                    <a href="./assets/img/venue/conference_room_5.jpeg" target="_blank">
+                        <img src="./assets/img/venue/conference_room_5.jpeg" alt="room">
+                    </a>
                     <a href="./assets/img/venue/conference_room_1.jpeg" target="_blank">
                         <img src="./assets/img/venue/conference_room_1.jpeg" alt="room">
+                    </a>
+                </div>
+                <div class="conference-img-items">
+                    <a href="./assets/img/venue/conference_room_6.jpeg" target="_blank">
+                        <img src="./assets/img/venue/conference_room_6.jpeg" alt="room">
                     </a>
                     <a href="./assets/img/venue/conference_room_2.jpeg" target="_blank">
                         <img src="./assets/img/venue/conference_room_2.jpeg" alt="room">

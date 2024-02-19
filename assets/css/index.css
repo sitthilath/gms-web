@@ -18,6 +18,7 @@ body {
 header {
     color: #fff;
     text-align: center;
+    height: auto;
 }
 
 .heder-naviagation {
@@ -31,7 +32,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgb(255, 255, 255), rgba(255, 255, 255, 0.3)), url(../img/index/index_bg_header.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(255,255,255,0.8),rgba(255, 255, 255, 0.1)), url(../img/index/index_bg_header.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -340,6 +341,9 @@ header {
 
     h2 {
         font-size: 24px;
+    }
+    header {
+        height: auto;
     }
 
 }
