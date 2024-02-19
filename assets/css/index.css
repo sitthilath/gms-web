@@ -345,7 +345,11 @@ header {
     header {
         height: auto;
     }
-
+    .section-speech-rector-header {
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    
 }
 
 @media screen and (max-width: 480px) {
