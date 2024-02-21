@@ -34,8 +34,8 @@
 
         header {
             color: #fff;
-            height: 100vh;     
-            background-image:url(./assets/img/Pullman-Luang-Prabang.jpg);    
+            height: 100vh;
+            background-image: url(./assets/img/Pullman-Luang-Prabang.jpg);
             /* background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(10, 29, 46, 0.1)), url(./assets/img/pullman_hotel_lp.jpeg); */
             background-repeat: no-repeat;
             background-size: cover;
@@ -56,7 +56,7 @@
             -webkit-backdrop-filter: blur(5px);
             backdrop-filter: blur(5px);
             padding: 5px;
-            color:#f00b0b;
+            color: #f00b0b;
             text-shadow: 3px 3px 3px #000;
             font-size: 60px;
             font-weight: 700;
@@ -198,16 +198,19 @@
         .hotel-title {
             font-weight: bolder;
         }
-        .conference-title{
+
+        .conference-title {
             list-style: none;
             font-weight: bold;
-            font-size: 20px;
+            font-size: 22px;
             color: darkblue;
         }
-        .conference-span{
-            font-size: 20px;
-            color: red;
+
+        .conference-span {
+            font-size: 22px;
+            color: blue;
         }
+
         @media screen and (max-width:768px) {
             .conference-img-items {
                 display: flex;
@@ -229,7 +232,7 @@
         }
 
         @media screen and (max-width:451px) {
-            
+
             .header-content {
                 font-size: 30px;
                 font-weight: bolder;
@@ -238,10 +241,10 @@
 
         @media screen and (max-width:320px) {
             ul li span {
-            display: flex;
-            flex-direction: column;
-        }
-            
+                display: flex;
+                flex-direction: column;
+            }
+
         }
     </style>
 </head>
@@ -253,41 +256,66 @@
             <?php include_once("./components/navbar.html")?>
         </div>
         <br><br>
-        <div class="header-content"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;<span style="color:#63FA05;">Conference Venue</span></div>
+        <div class="header-content"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;<span
+                style="color:#63FA05;">Conference Venue</span></div>
     </header>
 
     <section class="container">
         <div class="conference">
             <div class="conference-details">
-                <h2 class="title text-center py-2"><i class="fa fa-location-arrow" aria-hidden="true"></i><br>Conference Hotel Location</h2>
+                <h2 class="title text-center py-2"><i class="fa fa-location-arrow" aria-hidden="true"></i><br>Conference
+                    Hotel Location</h2>
                 <table class="table table-striped">
                     <tr>
-                      <td><li class="conference-title">Date:</li></td>
-                      <td><span class="conference-span">27<sup>th</sup> - 29<sup>th</sup> June, 2024<br>
+                        <td>
+                            <li class="conference-title">Date:</li>
+                        </td>
+                        <td>
+                            <!-- <span class="conference-span">27<sup>th</sup> - 29<sup>th</sup> June, 2024<br>
                         The pre-conference workshop will be on 27<sup>th</sup> June, 2024<br>
-                        The conference days will be on 28<sup>th</sup> - 29<sup>th</sup> June, 2024<br><br></span></td>
-                    </tr> 
-                    <tr>
-                      <td><li class="conference-title">Venue:</li> </td>
-                      <td><span class="conference-span">Pullman Hotel, Luangprabang City, Lao PDR</span></td>
+                        The conference days will be on 28<sup>th</sup> - 29<sup>th</sup> June, 2024<br><br></span> -->
+                            <span class="conference-span">
+                                2 days Conference: 28-29 June, 2024<br>
+                                One day Preconference, 27 June, 2024                     
+                            </span>
+                        </td>
                     </tr>
                     <tr>
-                      <td><li class="conference-title">Address:</li></td>
-                      <td><span class="conference-span">Ban Pong Wanh, Luangprabang, Laos.</span></td>
+                        <td>
+                            <li class="conference-title">Venue:</li>
+                        </td>
+                        <td><span class="conference-span">Pullman Hotel, Luangprabang, Lao PDR</span></td>
                     </tr>
                     <tr>
-                      <td><li class="conference-title">Website:</li> </td>
-                      <td><span class="conference-span">https://www.Pullman-luangprabang.com</span></td>
+                        <td>
+                            <li class="conference-title">Address:</li>
+                        </td>
+                        <td><span class="conference-span">Ban Phong Wanh, 06000 Luangprabang District,
+                                <br>Tel: +856 71 211112
+                            </span></td>
                     </tr>
+
                     <tr>
-                      <td><li class="conference-title">Email:</li></td>
-                      <td><span class="conference-span">h9112@accor.com</span></td>
+                        <td>
+                            <li class="conference-title">Email:</li>
+                        </td>
+                        <td><span class="conference-span">h9112@accor.com</span></td>
                     </tr>
+
                     <tr>
-                        <td><li class="conference-title">Language:</li> </td>
+                        <td>
+                            <li class="conference-title">Website:</li>
+                        </td>
+                        <td><span class="conference-span">https://www.Pullman-luangprabang.com</span></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <li class="conference-title">Language:</li>
+                        </td>
                         <td><span class="conference-span">The official language of the conference is English</span></td>
-                      </tr>
-                  </table>
+                    </tr>
+                </table>
                 <!-- <p style="font-size: 20px;"><b>Date:</b> 27<sup>th</sup> - 29<sup>th</sup> June, 2024<br>
                     The pre-conference workshop will be on 27<sup>th</sup> June, 2024<br>
                     The conference days will be on 28<sup>th</sup> - 29<sup>th</sup> June, 2024<br><br>
@@ -326,7 +354,8 @@
             </div>
         </div><br>
         <hr>
-        <h2 class="title text-center py-2"><i class="fa fa-bed" aria-hidden="true"></i><br>Alternative Accommodations</h2>
+        <h2 class="title text-center py-2"><i class="fa fa-bed" aria-hidden="true"></i><br>Alternative Accommodations
+        </h2>
         <p style="font-size: 20px;">Suggestion List Of The Guesthouse/Hotel in Luangprabang:
         <ul>
             <li>
@@ -555,8 +584,9 @@
 
     <section class="container transportation">
 
-           <!-- flight Transportation -->
-        <h2 class="title text-center py-2"><i class="fa fa-plane" aria-hidden="true"></i><br>Transportation from Vientiane to LPB </h2>
+        <!-- flight Transportation -->
+        <h2 class="title text-center py-2"><i class="fa fa-plane" aria-hidden="true"></i><br>Transportation from
+            Vientiane to LPB </h2>
 
         <div class="fs-5 pt-4"><b>1. Flight from Wattay International Airport (VTE):</b></div><br>
 
@@ -617,8 +647,8 @@
     </footer>
     <!-- JavaScript Is Here!!! -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-    crossorigin="anonymous"></script>
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/scrolltotop.js"></script>
 </body>

@@ -32,11 +32,11 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(255,255,255,0.8),rgba(255, 255, 255, 0.1)), url(../img/index/index_bg_header.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1)), url(../img/index/index_bg_header.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-    height: 100vh;
+    height: auto;
     padding: 0 20px;
 }
 
@@ -163,7 +163,7 @@ header {
     text-align: center;
     font-size: 40px;
     font-weight: bolder;
-    color: #cc4609;;
+    color: #cc4609;
     padding: 50px 0;
 }
 
@@ -195,20 +195,20 @@ header {
 
 /* speech of rector here !!! */
 .section-speech-rector-bg {
-    background-color: #0D9276;
+    background-color: #81fbff;
 }
 
 .section-speech-rector-header {
     text-align: center;
     font-size: 40px;
     font-weight: bolder;
-    color: #fff;
+    color: #11009E;
     padding: 50px 0;
 }
 
 /* speech of deans here !!! */
 .section-speech-deans-bg {
-    background-color: #B67352;
+    background-color: #EBD9B4;
     padding: 50px 0;
 }
 
@@ -216,7 +216,7 @@ header {
     text-align: center;
     font-size: 40px;
     font-weight: bolder;
-    color: #00008B;
+    color: #054b4e;
 }
 
 .section-speech-deans-body {
@@ -342,14 +342,16 @@ header {
     h2 {
         font-size: 24px;
     }
+
     header {
         height: auto;
     }
-    .section-speech-rector-header {
+
+    .section-speech-rector-header, .section-speech-deans-header {
         font-size: 30px;
         font-weight: bolder;
     }
-    
+
 }
 
 @media screen and (max-width: 480px) {
@@ -394,6 +396,10 @@ header {
     .full-org-name h1 {
         font-size: 30px;
     }
+
+    header {
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -418,13 +424,19 @@ header {
     h2 {
         font-size: 20px;
     }
+
     .venue {
         width: 100%;
     }
-        /* Header-Topic-Here!!! */
-        .full-org-name h1 {
-            font-size: 25px;
-        }
+
+    /* Header-Topic-Here!!! */
+    .full-org-name h1 {
+        font-size: 25px;
+    }
+
+    header {
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 260px) {
@@ -451,7 +463,12 @@ header {
     h2 {
         font-size: 18px;
     }
+
     .venue {
         width: 100%;
+    }
+
+    header {
+        height: auto;
     }
 }
