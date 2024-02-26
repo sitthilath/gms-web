@@ -19,11 +19,11 @@
 </style>
 
 <body>
-    <?php include_once("./components/scrolltotop.html")?>
+    <?php include_once("./components/scrolltotop.php")?>
     <header>
         <div class="header-background">
             <div id="heder-naviagation">
-                <?php include_once("./components/navbar.html")?>
+                <?php include_once("./components/navbar.php")?>
             </div><br><br>
             <div class="header-background-area">
                 <div class="situation-logos">
@@ -90,7 +90,7 @@
                     Steering Committee
                 </div>
                 <div class="section-steering-committee-body">
-                    <?php include('./components/steering.html')?>
+                    <?php include('./components/steering.php')?>
                 </div><br><br>
             </div>
         </div>
@@ -103,7 +103,7 @@
                     Organizing Committee
                 </div>
                 <div class="section-committee-body">
-                    <?php include('./components/committee.html')?>
+                    <?php include('./components/committee.php')?>
                 </div><br><br>
             </div>
         </div>
@@ -116,7 +116,7 @@
                     Scientific Committee
                 </div>
                 <div class="section-scientific-committee-body">
-                    <?php include('./components/scientific.html')?>
+                    <?php include('./components/scientific.php')?>
                 </div><br><br>
             </div>
         </div>
@@ -129,7 +129,7 @@
                     Welcome Speech of President of University<br> of Health Sciences, Lao PDR
                 </div>
                 <div class="section-speech-rector-body">
-                    <?php include('./components/rector.html')?>
+                    <?php include('./components/rector.php')?>
                 </div><br><br>
             </div>
         </div>
@@ -142,7 +142,7 @@
                     Welcome Speech of Deans
                 </div><br><br>
                 <div class="section-speech-deans-body">
-                    <?php include('./components/deans.html')?>
+                    <?php include('./components/deans.php')?>
                 </div><br><br>
             </div>
         </div>
@@ -155,7 +155,7 @@
                     Conference Partners
                 </div>
                 <div class="section-partner-body">
-                    <?php include('./components/partner.html')?>
+                    <?php include('./components/partner.php')?>
                 </div>
             </div>
         </div>

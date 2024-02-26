@@ -335,10 +335,10 @@
 </head>
 
 <body>
-  <?php include_once("./components/scrolltotop.html")?>
+  <?php include_once("./components/scrolltotop.php")?>
   <header>
     <div id="heder-naviagation">
-      <?php include_once("./components/navbar.html")?>
+      <?php include_once("./components/navbar.php")?>
     </div><br><br><br>
     <div class="panel-header">
       <h1 class="header-title">Call for Abstracts</h1><br>

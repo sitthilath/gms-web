@@ -197,10 +197,10 @@
 </head>
 
 <body>
-    <?php include_once("./components/scrolltotop.html")?>
+    <?php include_once("./components/scrolltotop.php")?>
     <header>
         <div id="heder-naviagation">
-            <?php include_once("./components/navbar.html")?>
+            <?php include_once("./components/navbar.php")?>
         </div><br><br>
         <div class="header-content fw-bolder" style="font-size: 30px;text-shadow: 2px 2px 2px #000;"><span
                 style="font-size: 45px;">Conference Program</span><br>The 14<sup>th</sup> International Public Health Conference among<br> Greater Mekong Sub-regional Countries</div>
@@ -390,7 +390,7 @@
         <div class="container">
             <i class="fa-duotone fa-bookmark w-100 text-center pt-5" style="font-size: 60px;color: #0026ff;"></i>
             <div class="fs-1 fw-bolder text-center pt-2 pb-4" style="color: #0026ff;">Workshop</div>
-        <?php include_once("./components/workshop.html");?>
+        <?php include_once("./components/workshop.php");?>
         </div>
         <br>
     </section>

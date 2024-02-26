@@ -250,10 +250,10 @@
 </head>
 
 <body>
-    <?php include_once("./components/scrolltotop.html")?>
+    <?php include_once("./components/scrolltotop.php")?>
     <header>
         <div id="heder-naviagation">
-            <?php include_once("./components/navbar.html")?>
+            <?php include_once("./components/navbar.php")?>
         </div>
         <br><br>
         <div class="header-content"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;<span
@@ -652,5 +652,4 @@
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/scrolltotop.js"></script>
 </body>
-
 </html>
