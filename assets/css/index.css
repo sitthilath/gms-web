@@ -252,7 +252,7 @@ header {
     text-align: center;
     font-style: italic;
     padding-top: 20px;
-    font-size: 45px;
+    font-size: 35px;
 }
 
 .sponsor-logos {
@@ -266,31 +266,35 @@ header {
 }
 
 .sponsor-logo-one {
-    width: 50px;
+    width: 80px;
 }
 
 .sponsor-logo-two {
-    width: 150px;
+    width: 180px;
 }
 
 .sponsor-logo-three {
-    width: 80px;
+    width: 110px;
 }
 
 .sponsor-logo-four {
-    width: 120px;
-}
-
-.sponsor-logo-five {
     width: 150px;
 }
 
+.sponsor-logo-five {
+    width: 180px;
+}
+
 .sponsor-logo-six {
-    width: 60px;
+    width: 80px;
 }
 
 .sponsor-logo-seven {
-    width: 80px;
+    width: 110px;
+}
+
+.sponsor-logo-eight {
+    width: 150px;
 }
 
 
