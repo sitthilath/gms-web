@@ -3,8 +3,6 @@
         font-size: 22px;
         font-weight: bold;
         color: darkblue;
-        /* background-color:bisque; */
-        /* border-bottom:1px solid blue; */
     }
 
     .position {

@@ -36,7 +36,6 @@
             color: #fff;
             height: 100vh;
             background-image: url(./assets/img/Pullman-Luang-Prabang.jpg);
-            /* background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(10, 29, 46, 0.1)), url(./assets/img/pullman_hotel_lp.jpeg); */
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -132,8 +131,6 @@
             display: flex;
             gap: 20px;
             justify-content: space-evenly;
-            align-items: center;
-
         }
 
         ul li span {
@@ -251,10 +248,13 @@
 
 <body>
     <?php include_once("./components/scrolltotop.php")?>
+    <div class="bg-danger h-25">
+        <?php include_once("./components/navbar.php")?>
+    </div>
     <header>
-        <div id="heder-naviagation">
-            <?php include_once("./components/navbar.php")?>
-        </div>
+        <!-- <div id="heder-naviagation">
+           
+        </div> -->
         <br><br>
         <div class="header-content"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;<span
                 style="color:#63FA05;">Conference Venue</span></div>

@@ -94,7 +94,7 @@
     }
 
     .box-800w {
-      max-width: 800px;
+      max-width: 1000px;
     }
 
     .submission-details-icon-header {
@@ -133,7 +133,7 @@
       font-weight: 900;
       font-style: italic;
       font-size: 22px;
-      padding-left: 10px;
+      padding:0 10px;
       color: #D60000;
     }
 
@@ -185,7 +185,8 @@
 
     .abstract-template-link {
       text-decoration: none;
-      color: #0d6efd;
+      color: #D2001A;
+      font-weight:bold;
     }
 
     p {
@@ -214,6 +215,12 @@
       font-size: 36px;
       font-weight: 900;
       line-height: 2em;
+    }
+    .abstract-template-box{
+      background-color:#54B4D3;
+      box-shadow: 5px 5px 5px #333;
+      border-radius:4px;
+      padding:20px;
     }
 
     .section-option-presenter {
@@ -275,6 +282,39 @@
       background-color: #b9f5d8;
     }
 
+    .blink_me {
+      word-wrap: break-word;
+      text-decoration:none;
+      color:orangered;
+      animation: blinker 5s linear infinite;
+    }
+
+    .blink_me:hover {
+      text-decoration:underline;
+    }
+
+    @keyframes blinker {
+      50% {
+        color:green;
+        /* opacity: 0; */
+      }
+    }
+
+    .journal-link-area {
+      padding: 20px;
+      font-size:22px;
+    }
+    .journal-link-area h5 {
+      text-align:justify;
+      font-size:22px;
+    }
+    .journal-link-area ul {
+      padding:0; 
+    }
+    .journal-link-area ul li {
+      display:flex;
+      flex-direction:row;
+    }
 
     @media screen and (max-width: 962px) {
       .header-content {
@@ -309,6 +349,10 @@
       header {
         height: 100vh;
       }
+
+      .journal-link-area ul li {
+      flex-direction:column;
+    }
     }
 
     @media screen and (max-width: 480px) {
@@ -440,15 +484,15 @@
       <div class="abstract-template-icon-header text-center"><i class="fa-light fa-file-lines"></i></div>
       <h3 class="abstract-template-title text-center">Abstract Template</h3>
       <br>
-      <div class="shadow-lg p-4 mb-5 bg-body rounded">
+      <div class="abstract-template-box">
         <ul>
-          <li class="fs-5 fw-2">For more <a class="abstract-template-link" href="./assets/pdf/abstracts_template.pdf"
+          <li class="fs-4 fw-2" style="list-style:none;">For more <a class="abstract-template-link" href="./assets/pdf/abstracts_template.pdf"
               download="abstract-template">detailed information of abstracts template</a>, please refer to the
             attached PDF file.</li>
         </ul>
         <br>
         <a class="abstract-template-link" href="./assets/pdf/abstracts_template.pdf" download="abstract-template">
-          <button type="button " class="btn btn-dark btn-lg"><i class="fa fa-download"
+          <button type="button " class="btn btn-danger btn-lg fs-4"><i class="fa fa-download"
               aria-hidden="true"></i>&nbsp;&nbsp;Download File</button></a>
       </div>
       <br><br><br>
@@ -457,10 +501,11 @@
 
   <section class="section-option-presenter">
     <h3 class="option-presenter-title">Join the 14th ICPH-GMS 2024</h3>
-    <p class="text-center pe-md-5 ps-md-5 ">Participants at the 14th ICPH-GMS 2024 will have the opportunity to take
+    <p class="pe-md-4 ps-md-4 px-4" style="font-size:22px; text-align:justify;">Participants at the 14th ICPH-GMS 2024 will have the opportunity to take
       part in one of the most dynamic conference experiences in the field, with many opportunities specially designed by
       the Conference Committee Members. All conference sessions are designed to deliver the high quality service to
-      participants while ensuring their objectives are met with the higher level of academic praxis.</p>
+      participants while ensuring their objectives are met with the higher level of academic praxis.
+    </p>
     <div class="group-card" style="width: auto;">
       <div class="card-oral rounded-2" style="width: auto; border: solid #102e4b;background-color: #e2e2e2;">
         <div class="card-header">
@@ -470,18 +515,15 @@
         <div class="card-content">
           <ul>
             <li>Presentation slot (12 Minutes Presentation and 03 Minutes Q&A)</li>
-
             <li>Abstract Book (Soft Copy)</li>
             <li>Copy of Conference Proceedings (Soft Copy)</li>
             <li>Endorsed Certificate</li>
             <li>Conference Program Book (Soft Copy)</li>
             <li>An opportunity to publish in conference proceedings.</li>
-
           </ul>
-
         </div>
-
       </div>
+
       <div class="card-poster rounded-2" style="border: solid #102e4b;background-color: #e2e2e2;">
         <div class="card-header">
           <div class="card-icon-header"><i class="fa-regular fa-square-kanban fa-flip-vertical"></i></div>
@@ -495,10 +537,8 @@
             <li>Endorsed Certificate</li>
             <li>Conference Program Book (Soft Copy)</li>
             <li>An opportunity to publish in conference proceedings.</li>
-
           </ul>
         </div>
-
       </div>
       <div class="card-attendee rounded-2" style="border: solid #102e4b;background-color: #e2e2e2;">
         <div class="card-header">
@@ -514,7 +554,14 @@
         </div>
       </div>
     </div>
-    <br><br><br>
+    <!-- Journal Link -->
+    <div class="journal-link-area">
+      <h5>Participants presenting oral or poster presentations at the conference will have the opportunity to submit their full manuscripts following our template and undergo peer review for potential publication in our journal. We kindly request your consideration of this proposal. Kindly visit the journal website for further information:</h5>
+      <ul>
+        <li><b>Link 1:&nbsp;</b><a class="blink_me" href="https://www.ph.mahidol.ac.th/thjph/about/">https://www.ph.mahidol.ac.th/thjph/about/</a></li>
+        <li><b>Link 2:&nbsp;</b><a class="blink_me" href="https://ijphap.com/index.php/home/about/submissions">https://ijphap.com/index.php/home/about/submissions</a></listyle=>
+      </ul>
+    </div>
   </section>
 
   <!-- js_script_here -->

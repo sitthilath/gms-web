@@ -174,6 +174,8 @@
             <img class="sponsor-logo-six" src="./assets/img/index/bottom-6.png" alt="Sponsor 6">
             <img class="sponsor-logo-seven" src="./assets/img/index/bottom-7.png" alt="Sponsor 7">
             <img class="sponsor-logo-eight" src="./assets/img/index/bottom-8.jpeg" alt="Sponsor 8">
+            <img class="sponsor-logo-nine" src="./assets/img/index/bottom-9.jpeg" alt="Sponsor 9">
+            <img class="sponsor-logo-ten" src="./assets/img/index/bottom-10.jpeg" alt="Sponsor 10">
             <!-- Add more sponsor logos as needed -->
         </div>
     </div>

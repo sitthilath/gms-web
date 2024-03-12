@@ -260,9 +260,9 @@ header {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin: 20px 0px;
     gap: 20px;
-    padding: 0 30px;
+    /* padding: 30px 30px; */
 }
 
 .sponsor-logo-one {
@@ -270,31 +270,37 @@ header {
 }
 
 .sponsor-logo-two {
-    width: 180px;
+    width: 220px;
 }
 
 .sponsor-logo-three {
-    width: 110px;
+    width: 140px;
 }
 
 .sponsor-logo-four {
-    width: 150px;
-}
-
-.sponsor-logo-five {
     width: 180px;
 }
 
-.sponsor-logo-six {
-    width: 80px;
+.sponsor-logo-five {
+    width: 240px;
 }
 
-.sponsor-logo-seven {
+.sponsor-logo-six {
     width: 110px;
 }
 
+.sponsor-logo-seven {
+    width: 140px;
+}
+
 .sponsor-logo-eight {
-    width: 150px;
+    width: 120px;
+}
+.sponsor-logo-nine {
+    width: 100px;
+}
+.sponsor-logo-ten {
+    width: 140px;
 }
 
 
