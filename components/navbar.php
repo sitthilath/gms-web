@@ -89,7 +89,7 @@
 <!-- navbar here! -->
 <nav id="navbar" class="navbar fixed-top navbar-expand-lg">
   <div class="container-fluid">
-    <a class="navbar-brand" href="./gms14_home.php"><img class="nav-logo" alt="nav_logo"
+    <a class="navbar-brand" href="./14gms_home.php"><img class="nav-logo" alt="nav_logo"
         src="./assets/img/index/index_head2.png">&nbsp;ICPH-GMS</a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
@@ -99,27 +99,27 @@
 
     <ul class="navbar-nav justify-content-end collapse navbar-collapse">
       <li class="nav-item">
-        <a class="nav-link" aria-current="page" href="./gms14_home.php"><i class="fa fa-university"
+        <a class="nav-link" aria-current="page" href="./14gms_home.php"><i class="fa fa-university"
             aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="./gms14_about.php"><i class="fa fa-info-circle"
+        <a class="nav-link" href="./14gms_about.php"><i class="fa fa-info-circle"
             aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="./gms14_pro.php"><i class="fa fa-table"
+        <a class="nav-link" href="./14gms_pro.php"><i class="fa fa-table"
             aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Conference Program</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="./gms14_call.php"><i class="fa fa-address-card"
+        <a class="nav-link" href="./14gms_call.php"><i class="fa fa-address-card"
             aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Call For Abstracts</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="./gms14_reg.php"><i class="fa fa-registered"
+        <a class="nav-link" href="./14gms_reg.php"><i class="fa fa-registered"
             aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Registration</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="./gms14_venue.php"><i class="fa fa-map"
+        <a class="nav-link" href="./14gms_venue.php"><i class="fa fa-map"
             aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Venue</a>
       </li>
     </ul>
@@ -141,24 +141,24 @@
     <div>
       <ul class="offcanvas-ul">
         <li>
-          <a href="./gms14_home.php"><i class="fa fa-university" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Home</a>
+          <a href="./14gms_home.php"><i class="fa fa-university" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Home</a>
         </li>
         <li>
-          <a href="./gms14_about.php"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;About</a>
+          <a href="./14gms_about.php"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;About</a>
         </li>
         <li>
-          <a href="./gms14_pro.php"><i class="fa fa-table" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Conference
+          <a href="./14gms_pro.php"><i class="fa fa-table" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Conference
             Program</a>
         </li>
         <li>
-          <a href="./gms14_call.php"><i class="fa fa-address-card" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Call For
+          <a href="./14gms_call.php"><i class="fa fa-address-card" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Call For
             Abstracts</a>
         </li>
         <li>
-          <a href="./gms14_reg.php"><i class="fa fa-registered" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Registration</a>
+          <a href="./14gms_reg.php"><i class="fa fa-registered" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Registration</a>
         </li>
         <li>
-          <a href="./gms14_venue.php"><i class="fa fa-map" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Venue</a>
+          <a href="./14gms_venue.php"><i class="fa fa-map" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Venue</a>
         </li>
       </ul>
     </div>

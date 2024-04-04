@@ -200,4 +200,12 @@
           </div>
         </div>
       </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/img/partner/image024.jpeg" class="card-img-partner card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-partner-h5 card-title">Faculty of Public Health, Ramkhamhaeng University</h5>
+          </div>
+        </div>
+      </div>
   </div>

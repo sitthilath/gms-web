@@ -39,7 +39,7 @@
             position: relative;
             color: #ffffff;
             text-align: center;
-            height: 70vh;
+            height: auto;
             background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url(./assets/img/meeting1.jpg);
             /* background-image: url(./assets/img/meeting2.jpg); */
             background-repeat: no-repeat;
