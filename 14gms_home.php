@@ -129,7 +129,7 @@
                     Welcome Speech of President of University<br> of Health Sciences, Lao PDR
                 </div>
                 <div class="section-speech-rector-body">
-                    <?php include('./components/rector.php')?>
+                    <?php include('./components/president.php')?>
                 </div><br><br>
             </div>
         </div>
@@ -143,6 +143,7 @@
                 </div><br><br>
                 <div class="section-speech-deans-body">
                     <?php include('./components/deans.php')?>
+                    <?php include('./components/modal_deans.php')?>
                 </div><br><br>
             </div>
         </div>

@@ -46,7 +46,7 @@
 </style>
     <div class="rector">
       <div class="rector-box">
-        <img class="rector-img" src="./assets/img/rectors_deans/image001.png">
+        <img class="rector-img" src="./assets/img/president/image001.png">
         <p><b>Dear Esteemed Colleagues and Participants</b>,</p>
 
         <p>On behalf of the organizing committee, it is our great pleasure to extend a warm welcome to the 14th International Conference on Public Health among Greater Mekong Sub-Regional countries. The conference, themed “Meeting the Sustainable Development Goals through Improved Nutrition, Health Equity, and Climate Change Adaptation,” will be held in the picturesque city of Luangprabang from 27-29 June 2024.</p>

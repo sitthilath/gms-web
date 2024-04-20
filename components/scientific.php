@@ -110,10 +110,10 @@
         </div>
     </div>
     <div class="committee-box-area">
-        <!-- Prof. Dang Thi Anh Thu -->
+        <!-- Dr. Dang Thi Anh Thu -->
         <div class="committee-box-scientific">
             <!-- <img src="./assets/img/avatar/avatar-person.svg" style="border-radius: 50%; padding: 20px;"> -->
-            <h5>Prof. Dang Thi Anh Thu</h5>
+            <h5>Dr. Dang Thi Anh Thu</h5>
             <p>Dean of Hue University of Medicine and Pharmacy, Vietnam</p>
         </div>
 
