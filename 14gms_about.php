@@ -227,7 +227,7 @@
             <h2 class="header-content">
                 <p style="margin-bottom: 25px;">The Greater Mekong Sub-regional (GMS) Public Health Academic Network</p>
                 
-                <p>The 14<sup>th</sup> International Public Health Conference among<br> Greater Mekong Sub-regional Countries in
+                <p>14<sup>th</sup> International Conference on Public Health among<br> Greater Mekong Sub-Regional Countries in
                     Luangprabang province,
                     <br>27 - 29<sup>th</sup> June, 2024</p>
             </h2>

@@ -24,225 +24,225 @@
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css">
 
     <style>
-        body {
-            font-family: 'Times New Roman', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-            color: #333;
-        }
+    body {
+        font-family: 'Times New Roman', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+        color: #333;
+    }
 
-        header {
-            color: #fff;
-            height: 100vh;
-            background-image: url(./assets/img/Pullman-Luang-Prabang.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-            display: flex;
-            flex-direction: column;
-            /* Set the flex direction to column for a vertical layout */
-            justify-content: center;
-            align-items: center;
-            padding: 50px 0;
-            opacity: 0.95;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        }
+    header {
+        color: #fff;
+        height: 100vh;
+        background-image: url(./assets/img/Pullman-Luang-Prabang.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        /* Set the flex direction to column for a vertical layout */
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+        opacity: 0.95;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
 
-        .header-content {
-            background-color: rgba(60, 101, 233);
-            border-radius: 5px;
-            -webkit-backdrop-filter: blur(5px);
-            backdrop-filter: blur(5px);
-            padding: 5px;
-            color: #f00b0b;
-            text-shadow: 3px 3px 3px #000;
-            font-size: 60px;
-            font-weight: 700;
-        }
+    .header-content {
+        background-color: rgba(60, 101, 233);
+        border-radius: 5px;
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
+        padding: 5px;
+        color: #f00b0b;
+        text-shadow: 3px 3px 3px #000;
+        font-size: 60px;
+        font-weight: 700;
+    }
 
-        section {
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
+    section {
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
 
-        a {
-            color: rgba(68, 8, 125, 1);
-            text-decoration: none;
-            font-weight: bold;
-        }
+    a {
+        color: rgba(68, 8, 125, 1);
+        text-decoration: none;
+        font-weight: bold;
+    }
 
-        ul {
-            list-style: none;
-            padding: 0;
-        }
+    ul {
+        list-style: none;
+        padding: 0;
+    }
 
-        li {
-            margin-bottom: 8px;
-        }
+    li {
+        margin-bottom: 8px;
+    }
 
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: rgba(16, 46, 75, 0.95);
-            color: #fff;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: rgba(16, 46, 75, 0.95);
+        color: #fff;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
 
-        .conference {
-            line-height: 1.5;
-        }
+    .conference {
+        line-height: 1.5;
+    }
 
-        .conference-img {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
+    .conference-img {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
 
+    .conference-img-items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+
+    .conference-img-items a {
+        width: 100%;
+        height: 100%;
+    }
+
+    .conference-img-items img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 5px;
+        border: 5px solid #e2e2e2;
+    }
+
+    .conference-img-items img:hover {
+        border: 4px solid blue;
+    }
+
+    ul li {
+        display: flex;
+        gap: 20px;
+        justify-content: space-evenly;
+    }
+
+    ul li span {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        text-align: center;
+        background-color: #eee;
+        border-radius: 5px;
+        padding: 10px 10px 20px 10px;
+        width: 100%;
+        height: auto;
+        gap: 35px;
+    }
+
+    ul li span a {
+        border: 1px solid lightgrey;
+        border-radius: 10px;
+        padding: 8px 20px;
+        color: blue;
+    }
+
+    ul li span a:hover {
+        border: 1px solid lightblue;
+        background-color: lightblue;
+    }
+
+    ul li span img {
+        width: 8rem;
+        height: 8rem;
+        border-radius: 100%;
+        border: 4px solid lightblue;
+    }
+
+    ul li span div {
+        width: 100%;
+        text-align: center;
+    }
+
+    ul li span div p {
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+
+    .i-address {
+        color: red;
+        font-size: 20px;
+    }
+
+    .i-website {
+        color: blue;
+        font-size: 20px;
+    }
+
+    .title {
+        font-size: 36px;
+        font-weight: bolder;
+        /* color: rgba(16, 46, 75, 0.95); */
+        color: darkblue;
+    }
+
+    .hotel-title {
+        font-weight: bolder;
+    }
+
+    .conference-title {
+        list-style: none;
+        font-weight: bold;
+        font-size: 22px;
+        color: darkblue;
+    }
+
+    .conference-span {
+        font-size: 22px;
+        color: blue;
+    }
+
+    @media screen and (max-width:768px) {
         .conference-img-items {
             display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
+            flex-direction: column;
+            justify-content: center;
             gap: 20px;
-        }
-
-        .conference-img-items a {
-            width: 100%;
-            height: 100%;
         }
 
         .conference-img-items img {
             width: 100%;
-            height: 300px;
+            height: 100%;
             object-fit: cover;
-            border-radius: 5px;
-            border: 5px solid #e2e2e2;
-        }
-
-        .conference-img-items img:hover {
-            border: 4px solid blue;
         }
 
         ul li {
             display: flex;
-            gap: 20px;
-            justify-content: space-evenly;
+            flex-direction: column;
         }
+    }
 
+    @media screen and (max-width:451px) {
+
+        .header-content {
+            font-size: 30px;
+            font-weight: bolder;
+        }
+    }
+
+    @media screen and (max-width:320px) {
         ul li span {
             display: flex;
-            justify-content: start;
-            align-items: center;
-            text-align: center;
-            background-color: #eee;
-            border-radius: 5px;
-            padding: 10px 10px 20px 10px;
-            width: 100%;
-            height: auto;
-            gap: 35px;
+            flex-direction: column;
         }
 
-        ul li span a {
-            border: 1px solid lightgrey;
-            border-radius: 10px;
-            padding: 8px 20px;
-            color: blue;
-        }
-
-        ul li span a:hover {
-            border: 1px solid lightblue;
-            background-color: lightblue;
-        }
-
-        ul li span img {
-            width: 8rem;
-            height: 8rem;
-            border-radius: 100%;
-            border: 4px solid lightblue;
-        }
-
-        ul li span div {
-            width: 100%;
-            text-align: center;
-        }
-
-        ul li span div p {
-            font-size: 12px;
-            padding-bottom: 10px;
-        }
-
-        .i-address {
-            color: red;
-            font-size: 20px;
-        }
-
-        .i-website {
-            color: blue;
-            font-size: 20px;
-        }
-
-        .title {
-            font-size: 36px;
-            font-weight: bolder;
-            /* color: rgba(16, 46, 75, 0.95); */
-            color: darkblue;
-        }
-
-        .hotel-title {
-            font-weight: bolder;
-        }
-
-        .conference-title {
-            list-style: none;
-            font-weight: bold;
-            font-size: 22px;
-            color: darkblue;
-        }
-
-        .conference-span {
-            font-size: 22px;
-            color: blue;
-        }
-
-        @media screen and (max-width:768px) {
-            .conference-img-items {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                gap: 20px;
-            }
-
-            .conference-img-items img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
-
-            ul li {
-                display: flex;
-                flex-direction: column;
-            }
-        }
-
-        @media screen and (max-width:451px) {
-
-            .header-content {
-                font-size: 30px;
-                font-weight: bolder;
-            }
-        }
-
-        @media screen and (max-width:320px) {
-            ul li span {
-                display: flex;
-                flex-direction: column;
-            }
-
-        }
+    }
     </style>
 </head>
 
@@ -271,12 +271,9 @@
                             <li class="conference-title">Date:</li>
                         </td>
                         <td>
-                            <!-- <span class="conference-span">27<sup>th</sup> - 29<sup>th</sup> June, 2024<br>
-                        The pre-conference workshop will be on 27<sup>th</sup> June, 2024<br>
-                        The conference days will be on 28<sup>th</sup> - 29<sup>th</sup> June, 2024<br><br></span> -->
                             <span class="conference-span">
                                 2 days Conference: 28-29 June, 2024<br>
-                                One day Preconference, 27 June, 2024                     
+                                One day Preconference, 27 June, 2024
                             </span>
                         </td>
                     </tr>
@@ -284,14 +281,15 @@
                         <td>
                             <li class="conference-title">Venue:</li>
                         </td>
-                        <td><span class="conference-span">Pullman Hotel, Luangprabang, Lao PDR</span></td>
+                        <td><span class="conference-span">Pullman Hotel, Luangprabang City, Lao PDR</span></td>
                     </tr>
                     <tr>
                         <td>
                             <li class="conference-title">Address:</li>
                         </td>
-                        <td><span class="conference-span">Ban Phong Wanh, 06000 Luangprabang District,
-                                <br>Tel: +856 71 211112
+                        <td><span class="conference-span">Ban Phong Wanh, Luangprabang District, 06000<br>
+                                Vientiane Capital, Lao PDR.<br>Tel: +856 71
+                                211112
                             </span></td>
                     </tr>
 
@@ -308,7 +306,7 @@
                         </td>
                         <td><span class="conference-span">https://www.Pullman-luangprabang.com</span></td>
                     </tr>
-                    
+
                     <tr>
                         <td>
                             <li class="conference-title">Language:</li>
@@ -647,9 +645,10 @@
     </footer>
     <!-- JavaScript Is Here!!! -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+    </script>
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/scrolltotop.js"></script>
 </body>
+
 </html>

@@ -203,7 +203,7 @@
             <?php include_once("./components/navbar.php")?>
         </div><br><br>
         <div class="header-content fw-bolder" style="font-size: 30px;text-shadow: 2px 2px 2px #000;"><span
-                style="font-size: 45px;">Conference Program</span><br>The 14<sup>th</sup> International Public Health Conference among<br> Greater Mekong Sub-regional Countries</div>
+                style="font-size: 45px;">Conference Program</span><br>14<sup>th</sup> International Conference on Public Health among<br> Greater Mekong Sub-Regional Countries</div>
     </header>
 
     <section class="pre-conference" style="background-color: #fefae0;">
@@ -427,7 +427,7 @@
                                 <b>Speaker 1:</b> “Food safety and Food Environment” - Prof. Dr. Gerald E. Shively<br>
                                 <b>Speaker 2:</b> “Chances and challenges of large scale food fortificatiob (LSFF)” - Prof. Florian Schweigert
                             </td>
-                            <td class="fw-bolder">Namkhong Hall</td>
+                            <td class="fw-bolder">Big Hall</td>
                         </tr>
 
                         <tr>
@@ -442,7 +442,7 @@
                                 <b>Speaker 3:</b> Climate change and Adaptation- Tentative Regional WHO<br>
                                 <b>Speaker 4:</b> Climate and Nutrition
                             </td>
-                            <td class="fw-bolder">Namkhong Hall </td>
+                            <td class="fw-bolder">Big Hall</td>
                         </tr>
 
                         <tr>
@@ -500,7 +500,7 @@
                                 <b>Speaker 5:</b> SDGs linked to Health, Nutrition and Climate Change- WHO<br>
                                 <b>Speaker 6:</b> Health Equity to Health and UHC- Prof. Natasha- from NUS
                             </td>
-                            <td class="fw-bolder">Namkhong Hall </td>
+                            <td class="fw-bolder">Big Hall</td>
                         </tr>
 
                         <tr>
@@ -515,7 +515,7 @@
                                 Need to discuss about topic<br>
                                 Panellists will be 6 Deans of FPH among GMS countries
                                 Moderator: </td>
-                            <td class="fw-bolder">Namkhong Hall</td>
+                            <td class="fw-bolder">Big Hall</td>
                         </tr>
 
                         <tr>
@@ -545,7 +545,7 @@
                         <tr>
                             <th>15:30-16:00</th>
                             <td class="fw-bolder">Closing</td>
-                            <td class="fw-bolder">Namkhong Hall </td>
+                            <td class="fw-bolder">Big Hall</td>
                         </tr>
                     </tbody>
                 </table>

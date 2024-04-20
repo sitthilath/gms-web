@@ -33,7 +33,7 @@
                 </div>
                 <div class="full-org-name">
                     <h1 style="color:#7e00b2">
-                        The <b>14<sup>th</sup></b> International Public Health Conference among<br> Greater Mekong Sub-regional Countries
+                        <b>14<sup>th</sup></b> International Conference on Public Health among<br> Greater Mekong Sub-Regional Countries
                     </h1>
                 </div><br>
                 <div class="section-venue">
@@ -63,8 +63,7 @@
             </div>
             <div class="paragraph">
                 <p>
-                    Welcome to <span class="text-dark">the <span class="text-dark">14<sup>th</sup></span> International
-                        Public Health Conference among Greater Mekong Sub-regional
+                    Welcome to <span class="text-dark"><span class="text-dark">14<sup>th</sup></span> International Conference on Public Health among Greater Mekong Sub-regional
                         Countries in
                         LuangPrabang from <span class="text-dark">27-29<sup>th</sup></span> June <span
                             class="text-dark">2024</span></span> where experts from various fields gathers to discus and
