@@ -250,7 +250,11 @@
             <h5>Asst. Prof. Dr. Kitti Laosupap</h5>
             <p>College of Medicine and Public Health, UbonRachathani University, Thailand</p>
         </div>
+          <!-- Dr. saroj nakju -->
+          <div class="committee-box-scientific">
+            <!-- <img src="./assets/img/avatar/avatar-person.svg" style="border-radius: 50%; padding: 20px;"> -->
+            <h5>Dr. Saroj Nakju</h5>
+            <p>Dean of the Faculty of Public Health, Rhamkhamheang University, Thailand</p>
+        </div>
     </div>
-   
-
 </div>

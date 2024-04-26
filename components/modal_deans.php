@@ -49,7 +49,7 @@
                             conference
                             will be successful and productive and will encourage ongoing cooperation between the Deans
                             of
-                            the Faculty of Public Health among GMS countries.<br>
+                            the Faculty of Public Health among GMS countries.<br><br>
                             <b>Dr. Vanphanom Sychareun<br>
                                 Dean of the Faculty of Public Health, University of Health Sciences, Lao PDR</b>
 
