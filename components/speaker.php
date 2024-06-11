@@ -42,6 +42,10 @@
         box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
     }
 }
+#card_id{
+        
+    
+    }
 </style>
 <div class="deans">
     <div class="row row-cols-1 row-cols-md-3 g-4 d-flex justify-content-center">
