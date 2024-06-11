@@ -414,7 +414,7 @@
           <td class="fs-4 fw-lighter">
             <ul><li>Call and submission of Abstract deadline:</li></ul>
           </td>
-          <td><span class="submission-span">15<sup>th</sup> January 2024 to 15<sup>th</sup> May 2024</span></td>
+          <td><span class="submission-span">15<sup>th</sup> January 2024 to 30<sup>th</sup> May 2024</span></td>
         </tr>
         <tr>
           <td>
@@ -537,6 +537,9 @@
             <li>Endorsed Certificate</li>
             <li>Conference Program Book (Soft Copy)</li>
             <li>An opportunity to publish in conference proceedings.</li>
+          </ul>
+          <ul class="text-center">
+            <a class="btn btn-primary fs-5" href="./assets/img/abstract/poster_guidelines.jpeg">Click here for poster presentation details</a>
           </ul>
         </div>
       </div>

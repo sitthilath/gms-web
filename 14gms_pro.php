@@ -558,31 +558,8 @@
         <div class="container">
             <i class="fa-regular fa-keynote w-100 text-center pt-5" style="font-size: 60px;color: #ffffff;text-shadow: 2px 2px 2px #333;"></i>
             <div class="fw-bolder text-center pt-2 pb-4" style="color: #ffffff; font-size:45px; text-shadow: 2px 2px 2px #333;">Key Note Speakers</div>
-            <br><br><br>
-            <div class="text-center text-white fs-2">Comming Soon...</div>
-            <br><br><br>
-            <!-- <div class="row row-cols-1 row-cols-md-3 g-4 d-flex justify-content-center py-5">
-                <div class="col">
-                    <div class="card h-100 shadow pt-3">
-                        <img src="./assets/img/avatar/avatar-person.svg" class="card-img-top" alt="..."
-                            style="width: 180px;height: 180px; border-radius: 50%; border: 5px solid #e2e2e2;box-shadow: 3px 3px 3px #00c3ff;">
-                        
-                            <div class="card-body mt-1">
-                            <h5 class="card-title text-center fs-4 pb-0"><b>Prof. Florian Schweigert
-                                </b></h5>
-                            <p class="position card-text">Associate Professor of Public Health</p>
-                        </div>
-
-                        <div class="card-body">
-                            <h5 class="card-title text-center fs-4 pb-2 text-primary">
-                                <b>“Chances and challenges of large scale food fortification (LSFF)”</b>
-                            </div>
-                        <div class="card-footer w-100 bg-danger">
-                            <small class="text-white fs-3">Day 1 – 28<sup>th</sup> June, 2024</small>
-                          </div>
-                    </div>
-                </div>
-            </div> -->
+        <?php include_once("./components/speaker.php");?>
+        <?php include_once("./components/modal_speaker.php");?>
         </div>
     </section>
 

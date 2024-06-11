@@ -122,24 +122,25 @@
 
     .submission-btn {
       border-radius: 10px;
-      background-color: rgb(253, 128, 32);
+      /* background-color: rgb(253, 128, 32); */
+      background-color:lightgrey;
       width: 255px;
       height: 50px;
       text-decoration: underline;
       text-align: center;
       text-decoration: none;
-      text-shadow: 2px 2px 2px #000;
+      /* text-shadow: 2px 2px 2px #000; */
       font-size: 24px;
       font-weight: bold;
       color: #fff;
       border: #000;
     }
 
-    .submission-btn:hover {
+    /*.submission-btn:hover {
       background-color: white;
       text-shadow: none;
       color: black;
-    }
+    }*/
 
 
     .how-to-play-container {
@@ -378,10 +379,10 @@
         <h4 class="header-sub-content pb-2" style="color: blue;font-weight: bold;">Click the following link to access the Google form for registration :</h4>
         <div class="header-btn-reg">
           <a target="_blank" href="https://forms.gle/jjuAxDEMu6R93mC16">
-            <button class="submission-btn" title="participants">Participants</button>
+            <button class="submission-btn" title="participants" disabled>Participants</button>
           </a>
           <a target="_blank" href="https://forms.gle/6nKURiBbp4UAHp5YA">
-            <button class="submission-btn" title="Pre-Workshops">Pre-Workshops</button>
+            <button class="submission-btn" title="Pre-Workshops" disabled>Pre-Workshops</button>
           </a>
         </div>
       </div>

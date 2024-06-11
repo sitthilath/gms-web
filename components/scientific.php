@@ -213,10 +213,10 @@
             <p>Dean, School of Public Health, University of Phayao, Thailand</p>
         </div>
 
-        <!-- Assoc. Prof. Dr. Araya Prasertchai -->
+        <!-- Assoc. Prof. Dr. warangkana chankong -->
         <div class="committee-box-scientific">
             <!-- <img src="./assets/img/avatar/avatar-person.svg" style="border-radius: 50%; padding: 20px;"> -->
-            <h5>Assoc. Prof. Dr. Araya Prasertchai</h5>
+            <h5>Assoc. Prof. Dr. Warangkana Chankong</h5>
             <p>Dean, School of Health Sciences, Sukhothai Thammathirat Open University, Thailand</p>
         </div>
     </div>
@@ -251,10 +251,16 @@
             <p>College of Medicine and Public Health, UbonRachathani University, Thailand</p>
         </div>
           <!-- Dr. saroj nakju -->
-          <div class="committee-box-scientific">
+        <div class="committee-box-scientific">
             <!-- <img src="./assets/img/avatar/avatar-person.svg" style="border-radius: 50%; padding: 20px;"> -->
             <h5>Dr. Saroj Nakju</h5>
             <p>Dean of the Faculty of Public Health, Rhamkhamheang University, Thailand</p>
+        </div>
+           <!-- Assoc.Prof.Narongsak Noosorn -->
+           <div class="committee-box-scientific">
+            <!-- <img src="./assets/img/avatar/avatar-person.svg" style="border-radius: 50%; padding: 20px;"> -->
+            <h5>Assoc. Prof. Narongsak Noosorn</h5>
+            <p>Dean of the Faculty of Public Health, Naresuan University, Thailand</p>
         </div>
     </div>
 </div>

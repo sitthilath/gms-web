@@ -82,7 +82,7 @@
         </div>
 
         <!-- Section STEERING COMMITTEE !!!-->
-        <div class="section-steering-committee-bg">
+        <div class="section-steering-committee-bg1">
             <div class="container section-steering-committee">
                 <div class="section-steering-committee-header">
                     <i class="fa fa-sitemap" aria-hidden="true"></i><br>
