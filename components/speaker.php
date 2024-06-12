@@ -53,8 +53,8 @@
             <div id="card_id" class="card h-100 bg-primary-subtle">
                 <img src="./assets/img/keynotespeaker/image002.png" class="card-img-top-deans" alt="...">
                 <div class="card-body bg-body">
-                    <h5 class="card-deans-h5 card-title fs-4">Assoc. Prof. Dr. Vanphanom Sychareun</h5>
-                    <p class="card-text fs-5">Dean Faculty of Public Health, University of Health Sciences, Lao PDR</p>
+                    <h5 class="card-deans-h5 card-title fs-4">Prof. Dr. Gerald Shively</h5>
+                    <p class="card-text fs-5">Nutrition Needs and a Changing Climate: Pathways, Evidence and Action</p>
                 </div>
                 <div class="card-footer w-100 bg-danger">
                     <button type="button" class="card-text btn btn-danger fs-4 w-100" data-bs-toggle="modal"
@@ -67,9 +67,8 @@
             <div class="card h-100">
                 <img src="./assets/img/keynotespeaker/image005.png" class="card-img-top-deans" alt="...">
                 <div class="card-body">
-                    <h5 class="card-deans-h5 card-title fs-4">Dr. Latsamy Siengsounthone </h5>
-                    <p class="card-text fs-5">Lao Tropical and Public Health Institute (LaoTPHI)
-                        Ministry of Health, Lao PDR</p>
+                    <h5 class="card-deans-h5 card-title fs-4">Prof. Dr. Florian J. Schweigert </h5>
+                    <p class="card-text fs-5">Opportunities and challenges of large-scale food fortification</p>
                 </div>
                 <div class="card-footer w-100 bg-primary">
                     <button type="button" class="card-text btn btn-primary fs-4 w-100" data-bs-toggle="modal"
@@ -82,8 +81,9 @@
             <div class="card h-100">
                 <img src="./assets/img/keynotespeaker/image008.png" class="card-img-top-deans" alt="...">
                 <div class="card-body">
-                    <h5 class="card-deans-h5 card-title fs-4">Prof. Dr. Wongsa Laohasiriwong</h5>
-                    <p class="card-text fs-5">Dean, Faculty of Public Health, KhonKaen University, Thailand</p>
+                    <h5 class="card-deans-h5 card-title fs-4">Oyuntogos Lkhasuren</h5>
+                    <p class="card-text fs-5">Lao PDR case study: Health Adaptation Plan (HNAP) developed, based on the
+                        WHO Operational Framework for Building Climate Resilient Health Systems</p>
                 </div>
                 <div class="card-footer w-100 bg-primary">
                     <button type="button" class="card-text btn btn-primary fs-4 w-100" data-bs-toggle="modal"
@@ -96,8 +96,9 @@
             <div class="card h-100">
                 <img src="./assets/img/keynotespeaker/image011.png" class="card-img-top-deans" alt="...">
                 <div class="card-body">
-                    <h5 class="card-deans-h5 card-title fs-4">Dr. Dang Thi Anh Thu</h5>
-                    <p class="card-text fs-5">Dean of Hue University of Medicine and Pharmacy, Vietnam</p>
+                    <h5 class="card-deans-h5 card-title fs-4">Dr. Yu Lee PARK</h5>
+                    <p class="card-text fs-5">Accelerating the progress of achieving the Sustainable Development Goals on
+                        health, nutrition and climate change: data-informed planning and innovation</p>
                 </div>
                 <div class="card-footer w-100 bg-primary">
                     <button type="button" class="card-text btn btn-primary fs-4 w-100" data-bs-toggle="modal"
@@ -110,8 +111,8 @@
             <div class="card h-100">
                 <img src="./assets/img/keynotespeaker/image014.png" class="card-img-top-deans" alt="...">
                 <div class="card-body">
-                    <h5 class="card-deans-h5 card-title fs-4">Prof. Dr. Cai Le</h5>
-                    <p class="card-text fs-5">Dean, Kunming Medical University, China</p>
+                    <h5 class="card-deans-h5 card-title fs-4">Prof. Dr. Wongsa Laohasiriwong</h5>
+                    <p class="card-text fs-5">Climate Change and Nutrition</p>
                 </div>
                 <div class="card-footer w-100 bg-primary">
                     <button type="button" class="card-text btn btn-primary fs-4 w-100" data-bs-toggle="modal"
@@ -124,9 +125,8 @@
             <div class="card h-100">
                 <img src="./assets/img/keynotespeaker/image016.png" class="card-img-top-deans" alt="...">
                 <div class="card-body">
-                    <h5 class="card-deans-h5 card-title fs-4">Prof. Chhea Chhorvann</h5>
-                    <p class="card-text fs-5">Dean, School of Public Health, National Institute of Public Health,
-                        Cambodia</p>
+                    <h5 class="card-deans-h5 card-title fs-4">Assoc. Prof. Natasha Howard</h5>
+                    <p class="card-text fs-5">Health Equity to Health and UHC</p>
                 </div>
                 <div class="card-footer w-100 bg-primary">
                     <button type="button" class="card-text btn btn-primary fs-4 w-100" data-bs-toggle="modal"

@@ -84,6 +84,8 @@
     border-radius: 10px;
     padding: 10px;
   }
+
+
 </style>
 
 <!-- navbar here! -->
@@ -124,7 +126,10 @@
       </li>
     </ul>
   </div>
+    <?php include_once("./components/announcement_bar.php")?>
 </nav>
+
+
 
 <!-- offcanvas here! -->
 <div class="offcanvas offcanvas-start text-black bg-info" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"

@@ -19,8 +19,10 @@
 </style>
 
 <body>
+
     <?php include_once("./components/scrolltotop.php")?>
     <header>
+
         <div class="header-background">
             <div id="heder-naviagation">
                 <?php include_once("./components/navbar.php")?>
@@ -56,6 +58,7 @@
     </header>
 
     <div class="conference-info">
+
         <div class="container">
             <div class="title-conference">
                 <!-- <h2 class="text-danger">Theme of Conference : </h2> -->
