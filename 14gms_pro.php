@@ -292,8 +292,8 @@
 
                         <tr>
                             <th>13:30-16:00 pm</th>
-                            <th>Workshop IV:<br><span>Applying for Graduate Study in the U.S.A</span></th>
-                            <td>Prof. Dr. Gerald E. ShivelyAssociate Dean and Director of International Programs in
+                            <th>Workshop IV:<br><span>Nutrition Needs and a Changing Climate: Pathways, Evidence and Action</span></th>
+                            <td>Prof. Dr. Gerald Shively Associate Dean and Director of International Programs in
                                 Agriculture, Purdue University.</td>
                         </tr>
 

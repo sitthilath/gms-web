@@ -224,8 +224,7 @@
             <div class="accordion-body">
                 <div class="workshop4">
                     <div class="fs-2 fw-bolder text-center pt-2 pb-1 text-danger">Workshop [4]: 13.30-16.00 PM</div>
-                    <div class="fs-3 fw-bolder text-center pt-2 pb-4 fst-italic text-success"> “Applying for Graduate
-                        Study in the U.S”</div>
+                    <div class="fs-3 fw-bolder text-center pt-2 pb-4 fst-italic text-success"> “Nutrition Needs and a Changing Climate: Pathways, Evidence and Action”</div>
                     <div class="workshop-professor row justify-content-center">
                         <div class="col-1"></div>
                         <div class="card col-3 shadow">
@@ -235,7 +234,7 @@
                             </div>
                             <br>
                             <div class="card-content" style="text-align: justify;">
-                                <div class="text-center fs-4 pb-3"><b>Gerald Shively
+                                <div class="text-center fs-4 pb-3"><b>Prof. Dr. Gerald Shively
 
                                     </b></div>
                                 <div class="position">
