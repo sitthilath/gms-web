@@ -111,7 +111,7 @@
 
     .submission-btn {
       border-radius: 10px;
-      background-color: rgb(255, 111, 0);
+      background-color: rgb(208, 208, 208);
       width: 310px;
       height: auto;
       font-size: 28px;
@@ -120,10 +120,30 @@
       color: #fff;
       border: none;
       padding: 10px;
-      text-shadow: 2px 2px 2px #000;
+      /*text-shadow: 2px 2px 2px #000;*/
     }
 
-    .submission-btn:hover {
+    .abstract-book-btn{
+        border-radius: 10px;
+        background-color: rgb(255, 106, 0);
+        width: 310px;
+        height: auto;
+        font-size: 28px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #fff;
+        border: 2px solid orangered;
+        padding: 10px;
+        text-shadow: 2px 2px 2px #000;
+    }
+
+    /*.submission-btn:hover {*/
+    /*  background-color: white;*/
+    /*  text-shadow: none;*/
+    /*  color: black;*/
+    /*}*/
+
+    .abstract-book-btn:hover {
       background-color: white;
       text-shadow: none;
       color: black;
@@ -340,6 +360,11 @@
         height: auto;
         font-size: 25px;
       }
+        .abstract-book-btn {
+        width: auto;
+        height: auto;
+        font-size: 25px;
+      }
 
       .group-card {
         display: grid;
@@ -365,6 +390,11 @@
       }
 
       .submission-btn {
+        width: auto;
+        height: auto;
+        font-size: 25px;
+      }
+        .abstract-book-btn {
         width: auto;
         height: auto;
         font-size: 25px;
@@ -396,9 +426,13 @@
           <button type="submit" class="submission-btn">Submission Abstracts</button>
         </a> -->
       </div><br>
-      <a href="https://forms.gle/wSHVcLn7T34NXi2e8" target="_blank">
-        <button type="submit" class="submission-btn">Submission Abstracts</button>
-      </a>
+
+        <button class="submission-btn" >Submission Abstracts</button>
+        <br><br>
+         <a href="./assets/pdf/Abstract_Book_14thGMS_ICPH.pdf"
+            download="abstract-book">
+             <button type="submit" class="abstract-book-btn"><i class="fas fa-download"></i> Abstracts Book</button>
+               </a>
     </div>
   </header>
 
@@ -562,7 +596,7 @@
       <h5>Participants presenting oral or poster presentations at the conference will have the opportunity to submit their full manuscripts following our template and undergo peer review for potential publication in our journal. We kindly request your consideration of this proposal. Kindly visit the journal website for further information:</h5>
       <ul>
         <li><b>Link 1:&nbsp;</b><a class="blink_me" href="https://www.ph.mahidol.ac.th/thjph/about/">https://www.ph.mahidol.ac.th/thjph/about/</a></li>
-        <li><b>Link 2:&nbsp;</b><a class="blink_me" href="https://ijphap.com/index.php/home/about/submissions">https://ijphap.com/index.php/home/about/submissions</a></listyle=>
+        <li><b>Link 2:&nbsp;</b><a class="blink_me" href="https://ijphap.com/index.php/home/about/submissions">https://ijphap.com/index.php/home/about/submissions</a></li>
       </ul>
     </div>
   </section>

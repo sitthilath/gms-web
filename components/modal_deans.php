@@ -41,7 +41,7 @@
                             research in public health.<br>
                             I would like to thank the Dean/Vice Deans for the fine arrangements and warm hospitality of
                             the
-                            participants of the 12th GMS Conference, especially Prof. Wongsa Laohasiriwong, Dean of the
+                            participants of the 14th GMS Conference, especially Prof. Wongsa Laohasiriwong, Dean of the
                             Faculty of Public Health, Khon Kaen University.<br>
                             I would like to express my deep appreciation for all the Deans’ long-standing support for
                             the
@@ -50,7 +50,7 @@
                             will be successful and productive and will encourage ongoing cooperation between the Deans
                             of
                             the Faculty of Public Health among GMS countries.<br><br>
-                            <b>Dr. Vanphanom Sychareun<br>
+                            <b>Assoc. Prof. Dr. Vanphanom Sychareun<br>
                                 Dean of the Faculty of Public Health, University of Health Sciences, Lao PDR</b>
 
                         </p>

@@ -16,6 +16,13 @@
     body {
         font-family: 'Times New Roman', Times, serif;
     }
+    .news-title{
+        color: #5b4a4a;
+    }
+    .video-section iframe{
+        width: 100%;
+        height: 485px;
+    }
 </style>
 
 <body>
@@ -81,6 +88,51 @@
                     professionals, and researchers to share knowledge and ideas. Save the date be part of this exciting
                     event!
                 </p>
+            </div>
+            <div class="image-link fs-5">
+                <ul>
+                    <li>
+                        Link Download Abstracts Book : <a href="./assets/pdf/Abstract_Book_14thGMS_ICPH.pdf"
+                                                 download="abstract-book"> Click here</a>
+                    </li>
+                    <li>
+                        Link Download Conference Program Book :  <a href="./assets/pdf/GMS14_Conference_Programs_Book.pdf"
+                                                           download="conference-book"> Click here</a>
+                    </li>
+                    <li>
+                        Link Photo for GMS14 on 27/06/2024 : <a href="https://drive.google.com/drive/folders/16mUKTYdaR3m0ks9YQktzXbL87ETZ-n6L?usp=drive_link" target="_blank"> Click here</a>
+                    </li>
+                    <li>
+                        Link Photo for GMS14 on 28/06/2024 : <a href="https://drive.google.com/drive/folders/1Cn6h9EV8myAWYcHxFFpdY6PeDigMorzp?usp=drive_link" target="_blank"> Click here</a>
+                    </li>
+                    <li>
+                        Link Photo for GMS14 on 29/06/2024 : <a href="https://drive.google.com/drive/folders/1eIg50F0oHaAuNPLwbSe9FuFz37ZEW4YQ?usp=drive_link" target="_blank"> Click here</a>
+                    </li>
+                    <li>
+                        Link for Gala dinner : <a href="https://drive.google.com/file/d/1PsmfnA85LkUSfUVrj4p4rUDW4DVpVjdv/view?usp=sharing" target="_blank"> Click here</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr class="me-5 ms-5">
+        <!--news-->
+        <div class="container">
+            <div class="news-title">
+                <i class="fa fa-globe w-100 text-center pt-4 pb-2" style="font-size: 60px;"></i>
+                <div class="video-title fw-bolder pb-4 text-center" style="font-size: 30px">
+                    NEWS
+                </div>
+            </div>
+             <div class="video-section row row-cols-1 row-cols-md-2">
+
+                 <div class="video-content col p-4">
+                     <iframe src="https://www.youtube.com/embed/ZoOgwoGQZvk?si=mq66fUTymElL7aM6" title="ຂ່າວພາກທ່ຽງ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                 </div>
+
+                <div class="video-content col p-4">
+                    <iframe src="https://www.youtube.com/embed/kJJxODc2ccY?si=c4LAkaQlUNyMWqeG&amp;start=1824" title="ຂ່າວພາກຄ່ຳ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+
             </div>
         </div>
 
